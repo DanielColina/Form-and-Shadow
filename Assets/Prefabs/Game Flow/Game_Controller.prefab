@@ -51,9 +51,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9dde7e5e65eb154fbae511905d0bb52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_DeathCrushAudioClip: {fileID: 8300000, guid: f50ce57a50fd08d4c88e0efc0c4721af,
+  m_DeathCrushAudioClip: {fileID: 8300000, guid: e46ec1ee9d5955742918476e4cd36c02,
     type: 3}
-  m_DeathDrownAudioClip: {fileID: 8300000, guid: beb31610d1dabeb4c8034a00165e2273,
+  m_DeathDrownAudioClip: {fileID: 8300000, guid: 12cdc081b1b9e254ea8efe3b290eefa0,
     type: 3}
-  m_DeathSpikesAudioClip: {fileID: 8300000, guid: c79f56b677529e744b1a099c1c511e42,
+  m_DeathSpikesAudioClip: {fileID: 8300000, guid: 1c908c78b4174134aa98796ae0c34322,
     type: 3}

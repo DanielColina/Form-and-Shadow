@@ -13,7 +13,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            SoundManager.m_Instance.PlaySound3DOneShot(transform.position, collectibleAudioClip, 0.5f, false, 0);
+            SoundManager.m_Instance.PlaySound3DOneShot(transform.position, collectibleAudioClip, 0.25f, false, 0);
             gameObject.SetActive(false);
         }
     }

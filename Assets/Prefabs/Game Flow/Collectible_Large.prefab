@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ScoreValue: 0
-  collectibleAudioClip: {fileID: 8300000, guid: f5f3283a1cfc1234797f253a208c61d7,
+  collectibleAudioClip: {fileID: 8300000, guid: 39b144631d17bce4687e5d52ee6c900c,
     type: 3}
 --- !u!114 &114953930058842894
 MonoBehaviour:

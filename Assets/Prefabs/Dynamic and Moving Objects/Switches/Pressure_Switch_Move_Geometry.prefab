@@ -1038,8 +1038,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PressedByPlayer: 0
-  m_PressedAudioClip: {fileID: 8300000, guid: d20380bbee1247049ac1f3cd710bca95, type: 3}
-  m_ReleasedAudioClip: {fileID: 8300000, guid: 7d8531128b2a8ff4f8a127cae676690d, type: 3}
+  m_PressedAudioClip: {fileID: 8300000, guid: 805a84cd156964c4eb76bc45649a9cff, type: 3}
+  m_ReleasedAudioClip: {fileID: 8300000, guid: fbbf3ef307dd0f64383766f932512ad5, type: 3}
   m_PressedByPushCube: 0
   m_TargetGeometry:
   - geometryGameObject: {fileID: 0}

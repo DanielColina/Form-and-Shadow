@@ -2755,8 +2755,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PressedByPlayer: 0
-  switchFlipAudioClip: {fileID: 8300000, guid: d47df3514ad6de14082d9090b3a26f62, type: 3}
-  m_LightSourceTurnAudioClip: {fileID: 8300000, guid: 5402299688984e04981f38f85112c4ba,
+  switchFlipAudioClip: {fileID: 8300000, guid: f269613ebafc08a4099dbbc1ab7a87a5, type: 3}
+  m_LightSourceTurnAudioClip: {fileID: 8300000, guid: 4cb56392f3339e043b38d3614e7db871,
     type: 3}
   m_TargetLightSource: {fileID: 0}
   m_TurnLightSourceClockwise: 0

@@ -7,13 +7,33 @@ public class ShadowCollider : MonoBehaviour
 	
     void Start()
     {
-        foreach(Transform child in GetComponentsInChildren<Transform>())
+        // DJC 11/12/2017 Made ShadowCollider objects strip out any non-collider children; this specifically
+        // deals with the new SM_ prefabs that have complex meshes due to the dual-mesh rendering system, 
+        // so multiple gameobjects as children is just unnecessary
+        for (int i = 0; i < transform.childCount; i++)
         {
-            child.gameObject.layer = LayerMask.NameToLayer("Shadow");
-            if (child.GetComponent<MeshRenderer>())
-                Destroy(child.GetComponent<MeshRenderer>());
-            if (child.GetComponent<Animator>())
-                Destroy(child.GetComponent<Animator>());
+            GameObject currentMasterChild = transform.GetChild(i).gameObject;
+            currentMasterChild.layer = LayerMask.NameToLayer("Shadow");
+            if (currentMasterChild.GetComponent<MeshRenderer>())
+                Destroy(currentMasterChild.GetComponent<MeshRenderer>());
+            if (currentMasterChild.GetComponent<Animator>())
+                Destroy(currentMasterChild.GetComponent<Animator>());
+            for(int j = 0; j < transform.GetChild(i).childCount; j++)
+            {
+                GameObject currentMeshMasterChild = transform.GetChild(i).transform.GetChild(j).gameObject;
+                if(currentMeshMasterChild.GetComponent<Collider>())
+                {
+                    currentMeshMasterChild.layer = LayerMask.NameToLayer("Shadow");
+                    if (currentMeshMasterChild.GetComponent<MeshRenderer>())
+                        Destroy(currentMeshMasterChild.GetComponent<MeshRenderer>());
+                    if (currentMeshMasterChild.GetComponent<Animator>())
+                        Destroy(currentMeshMasterChild.GetComponent<Animator>());
+                }
+                else
+                {
+                    Destroy(currentMeshMasterChild);
+                }
+            }
         }
     }
 

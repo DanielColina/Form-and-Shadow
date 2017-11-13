@@ -1799,7 +1799,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cc8f0fb52844e904d8602460c5a35a7d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 79ec2b411e310454c87f340708986de4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1
@@ -1899,7 +1899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PressedByPlayer: 0
-  m_TimerSwitchFlipAudioClip: {fileID: 8300000, guid: dbda61e687fb5044eb18748a0e31d934,
+  m_TimerSwitchFlipAudioClip: {fileID: 8300000, guid: 06c41598ce3a42349accdc8f34118989,
     type: 3}
   m_TimerDuration: 15
   m_TargetGeometry:

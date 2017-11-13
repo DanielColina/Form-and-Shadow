@@ -1017,7 +1017,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9c87ef48d490c6d48bdec61401eb2061, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bcbee8759c556b645af0ff2bf38bab15, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -1198,5 +1198,5 @@ MonoBehaviour:
   m_PlayerCanInteract: 0
   m_Grabbed: 0
   m_BaseCollider: {fileID: 65621805042192538}
-  grabAudioClip: {fileID: 8300000, guid: 77d8f5dc60524f840a1b65decf3a312a, type: 3}
-  releaseAudioClip: {fileID: 8300000, guid: ae986a71d49c52143a9958f281856507, type: 3}
+  grabAudioClip: {fileID: 8300000, guid: 1ab7d636cea18a447b2991caf7da3641, type: 3}
+  releaseAudioClip: {fileID: 8300000, guid: 3488006255b590240ae617e28aa3c8eb, type: 3}
