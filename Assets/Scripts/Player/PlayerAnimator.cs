@@ -13,6 +13,7 @@ public class PlayerAnimator : MonoBehaviour
 
     public static PlayerAnimator m_Instance;
     [HideInInspector] public Animator anim;
+    public Animator cloak_anim;
     [HideInInspector] public Transform m_RightHandIKTransform;
     [HideInInspector] public Transform m_LeftHandIKTransform;
     float deadZone = 0.1f;
@@ -67,6 +68,9 @@ public class PlayerAnimator : MonoBehaviour
             anim.SetBool("Grabbing", false);
         anim.SetFloat("Forward", Input.GetAxis("Vertical"), 0.1f, Time.deltaTime);
         anim.SetFloat("Sideways", Input.GetAxis("Horizontal"), 0.1f, Time.deltaTime);
+
+        cloak_anim.SetFloat("Forward", Input.GetAxis("Vertical"));
+        cloak_anim.SetFloat("Sideways", Input.GetAxis("Horizontal"));
     }
 
     void Update2DAnimationParameters()
@@ -95,6 +99,7 @@ public class PlayerAnimator : MonoBehaviour
     public void ToggleJump()
     {
         anim.SetTrigger("Jumping");
+        cloak_anim.SetTrigger("Jumping");
     }
 
     void OnAnimatorIK()

@@ -3558,7 +3558,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4064484396184952, guid: 1e793c3c2e571454193b1f36033148b6, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e793c3c2e571454193b1f36033148b6, type: 2}
@@ -5515,7 +5515,7 @@ Transform:
   - {fileID: 2141813564}
   - {fileID: 442800164}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1698583059
 Prefab:
