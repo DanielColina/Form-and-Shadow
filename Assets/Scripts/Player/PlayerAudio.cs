@@ -8,7 +8,6 @@ public class PlayerAudio : MonoBehaviour
     public AudioClip[] m_JumpAudioClips;
     public AudioClip[] m_LandAudioClips;
     public AudioClip[] m_StepAudioClips;
-    public AudioClip m_DeathAudioClip;
 
     float currentFrameFootstepLeft;
     float currentFrameFootstepRight;

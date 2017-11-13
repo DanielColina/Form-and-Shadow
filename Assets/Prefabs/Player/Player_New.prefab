@@ -4020,21 +4020,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_JumpAudioClips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 60d5be2e74f730c4e924b099cbca48bc, type: 3}
+  - {fileID: 8300000, guid: d5523e3e9fa2d3d4fa6ebca13bd8bc2b, type: 3}
+  - {fileID: 8300000, guid: d7dcb9a0725cb16469cbefadb4a484c7, type: 3}
   m_LandAudioClips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 682dad77699170f47a2e9aa840f38fee, type: 3}
+  - {fileID: 8300000, guid: 932e04b5f3ce19c4f838f558beba1629, type: 3}
+  - {fileID: 8300000, guid: 7a3710cacfdb39e4480bf56186319535, type: 3}
   m_StepAudioClips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_DeathAudioClip: {fileID: 0}
+  - {fileID: 8300000, guid: 8e70fd899de73ef42992384c013222c3, type: 3}
+  - {fileID: 8300000, guid: 229439b0aa4e02546a3f7e88b18870d7, type: 3}
+  - {fileID: 8300000, guid: 4823475456a137e4bbaca2b233aba13c, type: 3}
+  - {fileID: 8300000, guid: 330134524d9d4d147b666d47ccf8a31b, type: 3}
+  - {fileID: 8300000, guid: 074313dd5f89c1448a14eef14f2860f1, type: 3}
+  - {fileID: 8300000, guid: ab1a2efa5ca3fac488587c1a1b8b7944, type: 3}
 --- !u!114 &114275202335531028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4111,9 +4110,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightingMaster: {fileID: 0}
   m_LightSourceAligned: {fileID: 0}
-  m_ShiftInAudioClip: {fileID: 8300000, guid: e943df769223b284987e8e1d81a9dbc0, type: 3}
-  m_ShiftOutAudioClip: {fileID: 8300000, guid: eca9cfe4334e46545bb97fbe5a6ebc73, type: 3}
-  m_ShiftFailAudioClip: {fileID: 8300000, guid: 7241d34026d73e04cbc6e8785b12f96a,
+  m_ShiftInAudioClip: {fileID: 8300000, guid: 55d4cca85a456164c986fbe17e1f9205, type: 3}
+  m_ShiftOutAudioClip: {fileID: 8300000, guid: 278ac3134662be7428ebfb6a04d70cd2, type: 3}
+  m_ShiftFailAudioClip: {fileID: 8300000, guid: cef9ccf2162398743a32d9cb371b0587,
     type: 3}
   m_ShadowShiftLayerMask:
     serializedVersion: 2
@@ -4133,6 +4132,9 @@ MonoBehaviour:
   m_DefaultMask:
     serializedVersion: 2
     m_Bits: 1
+  m_PlayerCollisionOnlyMask:
+    serializedVersion: 2
+    m_Bits: 0
   m_PlayerMesh: {fileID: 1536329115439942}
   m_CloakMesh: {fileID: 1730588895718738}
   m_HoodMesh: {fileID: 1518829785902234}
