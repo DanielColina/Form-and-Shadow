@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shadow Wall
+  - Push Cube
+  - Conveyor Cube
+  - GoalA
+  - SwitchA
+  - SwitchB
+  - GoalB
+  - SwitchC
+  - GoalC
+  - Solid_Mesh
+  - Transparent_Mesh
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Climb Volume
+  - Shadow Wall
+  - Shadow
+  - Form
+  - 
+  - Shadowmeld Collide
+  - Shadowmeld Ignore
+  - Shadowmeld Death
+  - Ignore Shadowmeld Collision
+  - 
+  - 
+  - 
+  - Lava
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - PlayerRigCollision
+  - Player Collision Only
+  - Player Collision Ignore
+  - Light Ignore
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
