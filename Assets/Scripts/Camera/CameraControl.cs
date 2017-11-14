@@ -16,8 +16,8 @@ public class CameraControl : MonoBehaviour
     float m_CurrentDistance = 8f;
 	[Range(7, 9)] public float m_DistanceFollow = 8f;
 	[Range(0.75f, 1.5f)][SerializeField] float m_DistanceResumeSmooth = 1f;
-	[Range(2, 5)][SerializeField] float m_XMouseRotationSpeed = 5f;
-	[Range(2, 5)][SerializeField] float m_YMouseRotationSpeed = 5f;
+	[Range(0, 5)][SerializeField] float m_XMouseRotationSpeed = 5f;
+	[Range(0, 5)][SerializeField] float m_YMouseRotationSpeed = 5f;
 	[Range(0.02f, 0.1f)][SerializeField] float m_XSmooth = 0.05f;
 	[Range(0.075f, 0.12f)][SerializeField] float m_YSmooth = 0.1f;
 	[Range(-75, 0)][SerializeField] float m_YMinPanLimit = -40f;
@@ -319,11 +319,12 @@ public class CameraControl : MonoBehaviour
 		else if (waypointCount > 0 && Vector3.Distance(Camera.main.transform.position, waypoint.position) >= 1f) 
 		{
 			Camera.main.transform.position = Vector3.MoveTowards (Camera.main.transform.position, waypoint.position, Time.fixedDeltaTime * duration);
-
+			Debug.Log("LookAt" + switchTag.Substring (switchTag.Length - 1).ToUpper () + waypointCount.ToString ());
 			//DRF 11.12.17 Added logic for cinematic camera to look at things as it passes
-			if (GameObject.Find ("LookAt" + tag.Substring (tag.Length - 1).ToUpper () + waypointCount.ToString ()) != null) 
+			if (GameObject.Find ("LookAt" + switchTag.Substring (switchTag.Length - 1).ToUpper () + waypointCount.ToString ()) != null) 
 			{
-				Transform lookAt = GameObject.Find ("LookAt" + tag.Substring (tag.Length - 1).ToUpper () + waypointCount.ToString ()).transform;
+				Debug.Log("LookAt Exists");
+				Transform lookAt = GameObject.Find ("LookAt" + switchTag.Substring (switchTag.Length - 1).ToUpper () + waypointCount.ToString ()).transform;
 				Camera.main.transform.rotation = Quaternion.Slerp (Camera.main.transform.rotation, Quaternion.LookRotation (lookAt.position - transform.position), Time.fixedDeltaTime * rotSpeed);
 			}
 			else
@@ -353,6 +354,7 @@ public class CameraControl : MonoBehaviour
 	{
 		if (GameObject.Find ("Waypoint" + tag.Substring (tag.Length - 1).ToUpper() + waypointCount.ToString ()) != null) 
 		{
+			Debug.Log("Waypoint" + tag.Substring (tag.Length - 1).ToUpper() + waypointCount.ToString ());
 			GameObject waypoint = GameObject.Find ("Waypoint" + tag.Substring (tag.Length - 1).ToUpper() + waypointCount.ToString ());
 			Debug.Log (prevWaypoint.position);
 			Debug.Log (waypoint.transform.position);

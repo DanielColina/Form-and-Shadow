@@ -28,8 +28,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-Assets/Scenes/Levels/Level_Zero(Tutorial).meta
-Assets/Models/newSM/Materials.meta
-Assets/Models/newSM/Materials.meta
-Assets/LD Deco Prefabs/M_Materials/Narr Art.meta
 *.meta

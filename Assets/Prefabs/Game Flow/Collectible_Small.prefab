@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4773195662997052}
   - component: {fileID: 33421364504106126}
   - component: {fileID: 23703007032949550}
-  - component: {fileID: 95773764039842302}
   m_Layer: 0
   m_Name: Collectibe_Transparent_Mesh
   m_TagString: Transparent_Mesh
@@ -73,7 +72,6 @@ GameObject:
   - component: {fileID: 4077428636469796}
   - component: {fileID: 33774287736125384}
   - component: {fileID: 23597682090575022}
-  - component: {fileID: 95665516559934054}
   m_Layer: 0
   m_Name: Collectibe_Solid_Mesh
   m_TagString: Solid_Mesh
@@ -214,40 +212,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1715486482052486}
   m_Mesh: {fileID: 4300000, guid: c0932e8b22d1a824eaa99c6dfb72eae0, type: 3}
---- !u!95 &95665516559934054
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1715486482052486}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c0932e8b22d1a824eaa99c6dfb72eae0, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
---- !u!95 &95773764039842302
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1140254376476398}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c0932e8b22d1a824eaa99c6dfb72eae0, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114085495291407020
 MonoBehaviour:
   m_ObjectHideFlags: 1

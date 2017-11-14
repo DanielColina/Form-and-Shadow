@@ -417,6 +417,7 @@ public class PlayerShadowInteraction : MonoBehaviour
         bool leftHit = false;
 
         RaycastHit firstPlatformHit;
+        print("before");
         if (Physics.SphereCast(PlayerController.m_Instance.m_PlayerCollision.transform.position + new Vector3(0, 1, 0), 0.25f, Vector3.down, out firstPlatformHit, PlayerController.m_Instance.m_PlayerCollision.transform.position.y, 1 << 11, QueryTriggerInteraction.Ignore)) {
             var raycastOrigin = firstPlatformHit.point + new Vector3(0, 0.5f, 0);
             var leftRaycastOrigin = raycastOrigin;
@@ -430,99 +431,122 @@ public class PlayerShadowInteraction : MonoBehaviour
                 leftRaycastOrigin.z += -0.35f;
                 rightRaycastOrigin.z += 0.35f;
             }
-
+            print("after");
             var maxDist = PlayerController.m_Instance.m_PlayerCollision.GetComponent<CapsuleCollider>().height / 3 + 0.5f;
+
+            //while (Physics.Raycast(raycastOrigin, Vector3.down, out platformHit[0], maxDist, 1 << 11, QueryTriggerInteraction.Ignore)) { 
+            //    mainPlatformsHit.Add(platformHit[0].collider);
+            //    platformHit[0].collider.isTrigger = true;
+            //    print(platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.name);
+
+
+            //}
+
+
             while (Physics.Raycast(raycastOrigin, Vector3.down, out platformHit[0], maxDist, 1 << 11, QueryTriggerInteraction.Ignore)) {
+                print("mid");
+                if (platformHit[0].collider.GetComponentInParent<GearPlatform>()) {
+                    var gearPoint = platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.position;
+                    gearPoint.y = PlayerController.m_Instance.m_PlayerCollision.transform.position.y;
 
-				if(platformHit[0].collider.GetComponentInParent<GearPlatform>()) {
-					var gearPoint = platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.position;
-					gearPoint.y = PlayerController.m_Instance.m_PlayerCollision.transform.position.y;
+                    if (m_ZAxisTransition) {
+                        gearPoint.x = platformHit[0].point.x;
+                    }
+                    else {
+                        gearPoint.z = platformHit[0].point.z;
+                    }
 
-					if(m_ZAxisTransition) {
-						gearPoint.x = platformHit[0].point.x;
-					} else {
-						gearPoint.z = platformHit[0].point.z;
-					}
+                    transferLocations.Add(gearPoint);
+                    mainPlatformsHit.Add(platformHit[0].collider);
+                    platformHit[0].collider.GetComponent<MeshCollider>().convex = true;
+                    platformHit[0].collider.isTrigger = true;
 
-					transferLocations.Add(gearPoint);
-					mainPlatformsHit.Add(platformHit[0].collider);
-					platformHit[0].collider.GetComponent<MeshCollider>().convex = true;
-					platformHit[0].collider.isTrigger = true;
-
-				}
-                else if (platformHit[0].collider.GetComponent<PropellorPlatformShadowCollider>() && !platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.GetComponentInChildren<Killzone>())
-                {
+                }
+                else if (platformHit[0].collider.GetComponent<PropellorPlatformShadowCollider>() && !platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.GetComponentInChildren<Killzone>()) {
                     var propellorPoint = platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.position;
                     propellorPoint.y = PlayerController.m_Instance.m_PlayerCollision.transform.position.y;
                     transferLocations.Add(propellorPoint);
                     mainPlatformsHit.Add(platformHit[0].collider);
                     platformHit[0].collider.isTrigger = true;
-                                    
+
                 }
-                else
-                {
-	                while (Physics.Raycast(leftRaycastOrigin, Vector3.down, out platformHit[1], maxDist, 1 << 11, QueryTriggerInteraction.Ignore)) {
-	                    if (platformHit[1].collider != platformHit[0].collider) {
-	                        platformHit[1].collider.isTrigger = true;
-	                        auxPlatformsHit.Add(platformHit[1].collider);
-	                    }
-	                    else {
-	                        leftHit = true;
-	                        break;
-	                    }
-	                }
+                else {
+                    print("ELSE");
+                    while (Physics.Raycast(leftRaycastOrigin, Vector3.down, out platformHit[1], maxDist, 1 << 11, QueryTriggerInteraction.Ignore)) {
+                        print("left");
+                        if (platformHit[1].collider != platformHit[0].collider) {
+                            platformHit[1].collider.isTrigger = true;
+                            auxPlatformsHit.Add(platformHit[1].collider);
+                        }
+                        else {
+                            leftHit = true;
+                            break;
+                        }
+                    }
 
-	                while (Physics.Raycast(rightRaycastOrigin, Vector3.down, out platformHit[2], maxDist, 1 << 11, QueryTriggerInteraction.Ignore)) {
-	                    if (platformHit[2].collider != platformHit[0].collider) {
-	                        platformHit[2].collider.isTrigger = true;
-	                        auxPlatformsHit.Add(platformHit[2].collider);
-	                    }
-	                    else {
-	                        rightHit = true;
-	                        break;
-	                    }
-	                }
+                    foreach (Collider auxCollider in auxPlatformsHit) {
+                        auxCollider.isTrigger = false;
+                    }
 
-	                mainPlatformsHit.Add(platformHit[0].collider);
-	                platformHit[0].collider.isTrigger = true;
+                    auxPlatformsHit.Clear();
 
-	                foreach(Collider auxCollider in auxPlatformsHit) {
-	                    auxCollider.isTrigger = false;
-	                }
+                    while (Physics.Raycast(rightRaycastOrigin, Vector3.down, out platformHit[2], maxDist, 1 << 11, QueryTriggerInteraction.Ignore)) {
+                        print("right");
+                        if (platformHit[2].collider != platformHit[0].collider) {
+                            platformHit[2].collider.isTrigger = true;
+                            auxPlatformsHit.Add(platformHit[2].collider);
+                        }
+                        else {
+                            rightHit = true;
+                            break;
+                        }
+                    }
 
-	                print(platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.name);
-	                var platformPoint = platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.position;
-	                platformPoint.y = platformHit[0].point.y;
-	                if (m_ZAxisTransition)
-	                    platformPoint.x = platformHit[0].point.x;
-	                else 
-	                    platformPoint.z = platformHit[0].point.z;
-	                
-	                if(rightHit && leftHit) {
-	                    transferLocations.Add(platformPoint);
-	                } else if(rightHit) {
-	                    if(m_ZAxisTransition)
-	                        transferLocations.Add(platformPoint + new Vector3(0.35f, 0, 0));
-	                    else
-	                        transferLocations.Add(platformPoint + new Vector3(0, 0, 0.35f));
-	                }
-	                else if(leftHit) {
-	                    if (m_ZAxisTransition)
-	                        transferLocations.Add(platformPoint + new Vector3(-0.35f, 0, 0));
-	                    else
-	                        transferLocations.Add(platformPoint + new Vector3(0, 0, -0.35f));
-	                }
-	            }
-			}
+                    mainPlatformsHit.Add(platformHit[0].collider);
+                    platformHit[0].collider.isTrigger = true;
 
-            foreach(Collider mainCollider in mainPlatformsHit) {
-                mainCollider.isTrigger = false;
-				if (mainCollider.GetComponentInParent<GearPlatform>()) {
-					mainCollider.isTrigger = false;
+                    foreach (Collider auxCollider in auxPlatformsHit) {
+                        auxCollider.isTrigger = false;
+                    }
 
-					mainCollider.GetComponent<MeshCollider>().convex = false;
-				}
+                    auxPlatformsHit.Clear();
+
+                    print(platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.name);
+                    var platformPoint = platformHit[0].collider.GetComponentInParent<ShadowCollider>().m_TransformParent.position;
+                    platformPoint.y = platformHit[0].point.y;
+                    if (m_ZAxisTransition)
+                        platformPoint.x = platformHit[0].point.x;
+                    else
+                        platformPoint.z = platformHit[0].point.z;
+
+                    if (rightHit && leftHit) {
+                        transferLocations.Add(platformPoint);
+                    }
+                    else if (rightHit) {
+                        if (m_ZAxisTransition)
+                            transferLocations.Add(platformPoint + new Vector3(0.35f, 0, 0));
+                        else
+                            transferLocations.Add(platformPoint + new Vector3(0, 0, 0.35f));
+                    }
+                    else if (leftHit) {
+                        if (m_ZAxisTransition)
+                            transferLocations.Add(platformPoint + new Vector3(-0.35f, 0, 0));
+                        else
+                            transferLocations.Add(platformPoint + new Vector3(0, 0, -0.35f));
+                    }
+                }
             }
+
+            foreach (Collider mainCollider in mainPlatformsHit) {
+                mainCollider.isTrigger = false;
+                if (mainCollider.GetComponentInParent<GearPlatform>()) {
+                    mainCollider.isTrigger = false;
+
+                    mainCollider.GetComponent<MeshCollider>().convex = false;
+                }
+            }
+
+            mainPlatformsHit.Clear();
         }
 
 		return transferLocations;
