@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 52d68495ed643c34eb507a16cf7f3e74
+timeCreated: 1510698081
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _node_1112: {fileID: 2800000, guid: da84e1e8d1432e54e85bd32766dd8094, type: 3}
+  - _WhtSpiral: {fileID: 2800000, guid: 6583d60cd64664f41ad62a0e4ea1f759, type: 3}
+  - _BlckSpiral: {fileID: 2800000, guid: 4a5c43f40b60a7a4282fefc4d751a87f, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

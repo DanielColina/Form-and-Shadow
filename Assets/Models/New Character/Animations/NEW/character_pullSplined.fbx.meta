@@ -1,0 +1,1485 @@
+fileFormatVersion: 2
+guid: 727b4d806e9d7e240ae8b021ace0bd3d
+timeCreated: 1510698169
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: protagonist_animation_20_0011__2_:standing_rig_final:boundGeo
+    100004: protagonist_animation_20_0011__2_:standing_rig_final:character_eyesOpen
+    100006: protagonist_animation_20_0011__2_:standing_rig_final:eyes_GRP
+    100008: protagonist_animation_20_0011__2_:standing_rig_final:geometry
+    100010: protagonist_animation_20_0011__2_:standing_rig_final:jnt_head_end
+    100012: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ankle_FK
+    100014: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ankle_IK
+    100016: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_FK
+    100018: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_IK
+    100020: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_eyeball_end
+    100022: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_foot_end
+    100024: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_FK
+    100026: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_IK
+    100028: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_FK
+    100030: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_IK
+    100032: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_lo_eyelid
+    100034: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_middle_d
+    100036: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_pinky_d
+    100038: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_pointer_d
+    100040: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ring_d
+    100042: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_FK
+    100044: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_IK
+    100046: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_thumb_d
+    100048: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_up_eyelid
+    100050: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_wrist_FK
+    100052: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_wrist_IK
+    100054: protagonist_animation_20_0011__2_:standing_rig_final:jnt_lo_jaw_end
+    100056: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ankle_FK
+    100058: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ankle_IK
+    100060: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_FK
+    100062: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_IK
+    100064: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_eyeball_end
+    100066: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_foot_end
+    100068: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_FK
+    100070: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_IK
+    100072: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_FK
+    100074: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_IK
+    100076: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_lo_eyelid
+    100078: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_middle_d
+    100080: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_pinky_d
+    100082: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_pointer_d
+    100084: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ring_d
+    100086: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_FK
+    100088: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_IK
+    100090: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_thumb_d
+    100092: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_up_eyelid
+    100094: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_wrist_FK
+    100096: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_wrist_IK
+    100098: protagonist_animation_20_0011__2_:standing_rig_final:joints
+    100100: protagonist_animation_20_0011__2_:standing_rig_final:l_eye
+    100102: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate01
+    100104: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate02
+    100106: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate03
+    100108: protagonist_animation_20_0011__2_:standing_rig_final:r_eye
+    100110: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+    100112: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+    100114: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+    100116: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ankle
+    100118: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ball
+    100120: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+    100122: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_elbow
+    100124: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyeball
+    100126: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow1
+    100128: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow2
+    100130: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow3
+    100132: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow4
+    100134: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow5
+    100136: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_knee
+    100138: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_leg
+    100140: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_lo_eyelid
+    100142: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_mid_a
+    100144: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_b
+    100146: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_c
+    100148: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+    100150: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_a
+    100152: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_b
+    100154: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_c
+    100156: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_a
+    100158: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_b
+    100160: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_c
+    100162: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_a
+    100164: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_b
+    100166: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_c
+    100168: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_shoulder
+    100170: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_a
+    100172: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_b
+    100174: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_c
+    100176: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_up_eyelid
+    100178: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_wrist
+    100180: protagonist_animation_20_0011__2_:standing_rig_final:rig_lo_jaw
+    100182: protagonist_animation_20_0011__2_:standing_rig_final:rig_neck
+    100184: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ankle
+    100186: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ball
+    100188: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+    100190: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_elbow
+    100192: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyeball
+    100194: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow1
+    100196: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow2
+    100198: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow3
+    100200: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow4
+    100202: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow5
+    100204: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_knee
+    100206: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_leg
+    100208: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_lo_eyelid
+    100210: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_a
+    100212: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_b
+    100214: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_c
+    100216: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+    100218: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_a
+    100220: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_b
+    100222: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_c
+    100224: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_a
+    100226: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_b
+    100228: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_c
+    100230: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_a
+    100232: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_b
+    100234: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_c
+    100236: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_shoulder
+    100238: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_a
+    100240: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_b
+    100242: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_c
+    100244: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_up_eyelid
+    100246: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_wrist
+    100248: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine1
+    100250: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine2
+    100252: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine3
+    100254: protagonist_animation_20_0011__2_:standing_rig_final:transform1
+    100256: protagonist_animation_20_0011__2_:standing_rig_final:transform2
+    100258: protagonist_animation_20_0011__2_:standing_rig_final:transform3
+    100260: protagonist_animation_20_0011__2_:standing_rig_final:transform4
+    100262: protagonist_animation_20_0011__2_:standing_rig_final:transform5
+    400000: //RootNode
+    400002: protagonist_animation_20_0011__2_:standing_rig_final:boundGeo
+    400004: protagonist_animation_20_0011__2_:standing_rig_final:character_eyesOpen
+    400006: protagonist_animation_20_0011__2_:standing_rig_final:eyes_GRP
+    400008: protagonist_animation_20_0011__2_:standing_rig_final:geometry
+    400010: protagonist_animation_20_0011__2_:standing_rig_final:jnt_head_end
+    400012: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ankle_FK
+    400014: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ankle_IK
+    400016: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_FK
+    400018: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_IK
+    400020: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_eyeball_end
+    400022: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_foot_end
+    400024: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_FK
+    400026: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_IK
+    400028: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_FK
+    400030: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_IK
+    400032: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_lo_eyelid
+    400034: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_middle_d
+    400036: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_pinky_d
+    400038: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_pointer_d
+    400040: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ring_d
+    400042: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_FK
+    400044: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_IK
+    400046: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_thumb_d
+    400048: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_up_eyelid
+    400050: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_wrist_FK
+    400052: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_wrist_IK
+    400054: protagonist_animation_20_0011__2_:standing_rig_final:jnt_lo_jaw_end
+    400056: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ankle_FK
+    400058: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ankle_IK
+    400060: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_FK
+    400062: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_IK
+    400064: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_eyeball_end
+    400066: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_foot_end
+    400068: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_FK
+    400070: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_IK
+    400072: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_FK
+    400074: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_IK
+    400076: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_lo_eyelid
+    400078: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_middle_d
+    400080: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_pinky_d
+    400082: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_pointer_d
+    400084: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ring_d
+    400086: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_FK
+    400088: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_IK
+    400090: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_thumb_d
+    400092: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_up_eyelid
+    400094: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_wrist_FK
+    400096: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_wrist_IK
+    400098: protagonist_animation_20_0011__2_:standing_rig_final:joints
+    400100: protagonist_animation_20_0011__2_:standing_rig_final:l_eye
+    400102: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate01
+    400104: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate02
+    400106: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate03
+    400108: protagonist_animation_20_0011__2_:standing_rig_final:r_eye
+    400110: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+    400112: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+    400114: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+    400116: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ankle
+    400118: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ball
+    400120: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+    400122: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_elbow
+    400124: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyeball
+    400126: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow1
+    400128: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow2
+    400130: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow3
+    400132: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow4
+    400134: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow5
+    400136: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_knee
+    400138: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_leg
+    400140: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_lo_eyelid
+    400142: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_mid_a
+    400144: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_b
+    400146: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_c
+    400148: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+    400150: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_a
+    400152: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_b
+    400154: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_c
+    400156: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_a
+    400158: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_b
+    400160: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_c
+    400162: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_a
+    400164: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_b
+    400166: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_c
+    400168: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_shoulder
+    400170: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_a
+    400172: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_b
+    400174: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_c
+    400176: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_up_eyelid
+    400178: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_wrist
+    400180: protagonist_animation_20_0011__2_:standing_rig_final:rig_lo_jaw
+    400182: protagonist_animation_20_0011__2_:standing_rig_final:rig_neck
+    400184: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ankle
+    400186: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ball
+    400188: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+    400190: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_elbow
+    400192: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyeball
+    400194: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow1
+    400196: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow2
+    400198: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow3
+    400200: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow4
+    400202: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow5
+    400204: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_knee
+    400206: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_leg
+    400208: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_lo_eyelid
+    400210: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_a
+    400212: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_b
+    400214: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_c
+    400216: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+    400218: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_a
+    400220: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_b
+    400222: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_c
+    400224: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_a
+    400226: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_b
+    400228: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_c
+    400230: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_a
+    400232: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_b
+    400234: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_c
+    400236: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_shoulder
+    400238: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_a
+    400240: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_b
+    400242: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_c
+    400244: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_up_eyelid
+    400246: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_wrist
+    400248: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine1
+    400250: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine2
+    400252: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine3
+    400254: protagonist_animation_20_0011__2_:standing_rig_final:transform1
+    400256: protagonist_animation_20_0011__2_:standing_rig_final:transform2
+    400258: protagonist_animation_20_0011__2_:standing_rig_final:transform3
+    400260: protagonist_animation_20_0011__2_:standing_rig_final:transform4
+    400262: protagonist_animation_20_0011__2_:standing_rig_final:transform5
+    4300000: protagonist_animation_20_0011__2_:standing_rig_final:r_eye
+    4300002: protagonist_animation_20_0011__2_:standing_rig_final:l_eye
+    4300004: protagonist_animation_20_0011__2_:standing_rig_final:character_eyesOpen
+    7400000: pull_Continual
+    9500000: //RootNode
+    13700000: protagonist_animation_20_0011__2_:standing_rig_final:character_eyesOpen
+    13700002: protagonist_animation_20_0011__2_:standing_rig_final:l_eye
+    13700004: protagonist_animation_20_0011__2_:standing_rig_final:r_eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'character_pullSplined' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'protagonist_animation_20_0011__2_:standing_rig_final:rig_spine3'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pull_Continual
+      takeName: character_pullSplined
+      firstFrame: 351
+      lastFrame: 393
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ball
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ball
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyeball
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyeball
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_lo_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_a
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_b
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_c
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_a
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_b
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_c
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_mid_a
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_b
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_c
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_a
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_b
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_c
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_a
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_b
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_c
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_a
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_b
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_c
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_a
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_b
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_c
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_a
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_b
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_c
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_a
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_b
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_c
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_a
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_b
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_c
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: character_pullSplined(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:geometry
+      parentName: character_pullSplined(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:boundGeo
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:character_eyesOpen
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:boundGeo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:eyes_GRP
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:boundGeo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:l_eye
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:eyes_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:r_eye
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:eyes_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate01
+      parentName: character_pullSplined(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate02
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate03
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:joints
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:moveScaleRotate03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:joints
+      position: {x: -1.6653345e-18, y: 0.09737936, z: 0.00004232116}
+      rotation: {x: 0.5008339, y: -0.49916476, z: 0.50083387, w: -0.49916476}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000005}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: 0.007812864, y: 0.00006840183, z: -0.009095966}
+      rotation: {x: -0.16860065, y: 0.9810093, z: 0.09414537, w: -0.018199716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_FK
+      position: {x: -0.039994255, y: -1.3877787e-18, z: 3.8745223e-18}
+      rotation: {x: -0.00034893796, y: 0.0049448926, z: -0.0254741, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ankle_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_FK
+      position: {x: -0.040192023, y: -2.220446e-18, z: -1.110223e-18}
+      rotation: {x: 0.064857006, y: -0.08275119, z: 0.5369921, w: 0.8370098}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: 0.007812864, y: 0.00006840183, z: -0.009095966}
+      rotation: {x: -0.07054126, y: 0.9925315, z: 0.09951987, w: -0.0010019522}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_leg_IK
+      position: {x: -0.039994255, y: -1.3877787e-18, z: 3.8745223e-18}
+      rotation: {x: 0.055523016, y: 0.09372419, z: -0.5426659, w: 0.83285457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ankle_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_knee_IK
+      position: {x: -0.040192023, y: -3.330669e-18, z: -4.1759003e-19}
+      rotation: {x: -0.017051961, y: -0.032947645, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: 0.007812819, y: 0.00006840168, z: 0.00909597}
+      rotation: {x: -0.16980341, y: 0.98547786, z: 0.00006309246, w: 0.00049947813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_FK
+      position: {x: -0.039994173, y: 0.000000002440172, z: 0.00008045576}
+      rotation: {x: -0.00034893796, y: 0.0049448926, z: -0.0254741, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ankle_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_FK
+      position: {x: -0.040185742, y: 0.0000006053764, z: -0.0007126963}
+      rotation: {x: -0.017051958, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: 0.007812819, y: 0.00006840168, z: 0.00909597}
+      rotation: {x: 0.14309257, y: 0.9844242, z: -0.09917751, w: -0.024441969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_leg_IK
+      position: {x: -0.039994173, y: 0.000000002440172, z: 0.00008045576}
+      rotation: {x: -0.05073089, y: -0.08896854, z: -0.5330701, w: 0.8398496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ankle_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_knee_IK
+      position: {x: -0.040185742, y: 0.0000006053764, z: -0.0007126963}
+      rotation: {x: -0.017051956, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_leg
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: 0.007812864, y: 0.00006840183, z: -0.009095966}
+      rotation: {x: 0.035666287, y: -0.99474984, z: -0.095766366, w: 0.0054365993}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_knee
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_leg
+      position: {x: -0.039994255, y: -1.3877787e-18, z: 3.8745223e-18}
+      rotation: {x: -0.00022305548, y: -0.00000029802322, z: -0.000010162592, w: 1}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000004}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ankle
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_knee
+      position: {x: -0.040192023, y: -2.220446e-18, z: -1.110223e-18}
+      rotation: {x: -0.065243095, y: 0.08142949, z: -0.524252, w: -0.8451464}
+      scale: {x: 1.0000012, y: 1.0000014, z: 1.0000008}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ball
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ankle
+      position: {x: -0.014051108, y: -9.992007e-18, z: -9.227759e-19}
+      rotation: {x: 0.9521401, y: 0.27068087, z: -0.03467243, w: -0.1376916}
+      scale: {x: 1.0000002, y: 0.99999964, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_foot_end
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ball
+      position: {x: -0.007690759, y: -3.2959746e-18, z: -3.1102316e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_leg
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: 0.007812819, y: 0.00006840168, z: 0.00909597}
+      rotation: {x: -0.02371588, y: 0.99518424, z: -0.09496617, w: 0.0052237953}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.9999999}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_knee
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_leg
+      position: {x: -0.039994173, y: 0.000000002440172, z: 0.00008045576}
+      rotation: {x: -0.00034885106, y: 0.0049449797, z: -0.025474157, w: 0.99966323}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000004}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ankle
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_knee
+      position: {x: -0.040185742, y: 0.0000006053764, z: -0.0007126963}
+      rotation: {x: -0.09809921, y: 0.016724324, z: 0.5418223, w: 0.83458096}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ball
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ankle
+      position: {x: -0.014021587, y: -0.00005158871, z: 0.00090882776}
+      rotation: {x: 0.9548289, y: 0.2610861, z: -0.035489477, w: -0.13739118}
+      scale: {x: 1.0000011, y: 1.0000002, z: 1.0000012}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_foot_end
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ball
+      position: {x: -0.007690602, y: -0.000010300961, z: -0.000046179466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine1
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_hips
+      position: {x: -0.006617201, y: -1.0972126e-18, z: -1.7659911e-18}
+      rotation: {x: 0.000000059604645, y: 0.000000059604645, z: 0.00016975403, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine2
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine1
+      position: {x: -0.0072582313, y: -0.0000108212525, z: 6.2645196e-18}
+      rotation: {x: -0, y: -0, z: -3.5527137e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine3
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine2
+      position: {x: -0.0073839216, y: -0.0000110077735, z: 6.3737703e-18}
+      rotation: {x: 0.0000000299856, y: 0.000000029618448, z: -0.002995045, w: -0.9999955}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_spine3
+      position: {x: -0.006655675, y: -0.0000021708029, z: -2.7321827e-17}
+      rotation: {x: -0, y: -0, z: -0.0014956595, w: 0.99999887}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000006}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+      position: {x: -0.0115289865, y: -0.0031178407, z: -0.002583014}
+      rotation: {x: 0.1304375, y: -0.74853694, z: -0.068193935, w: 0.64655095}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000006}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+      position: {x: -0.012320324, y: -4.805726e-19, z: -7.702172e-18}
+      rotation: {x: -0.40207222, y: -0.29180008, z: 0.73792803, w: 0.45678535}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_FK
+      position: {x: -0.031386007, y: -5.3637704e-18, z: -4.3992403e-17}
+      rotation: {x: -0.00016025237, y: -0.00073599955, z: 0.21274963, w: 0.9771065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_wrist_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_FK
+      position: {x: -0.017543577, y: 0.00000015921471, z: 0.000013216407}
+      rotation: {x: 0.9890295, y: 0.07006695, z: 0.015141274, w: 0.12915884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+      position: {x: -0.012320324, y: -4.805726e-19, z: -7.702172e-18}
+      rotation: {x: -0.29787022, y: -0.38203636, z: 0.80518585, w: 0.3420487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_shoulder_IK
+      position: {x: -0.031386007, y: 0.0006934301, z: -5.3290704e-17}
+      rotation: {x: 0.000019897365, y: 0.00037601296, z: -0.030780356, w: 0.9995261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_wrist_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_elbow_IK
+      position: {x: -0.017543564, y: -0.0006934301, z: -0.000013217357}
+      rotation: {x: 0.9794183, y: 0.17918357, z: -0.06150164, w: 0.069646314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_shoulder
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_clavical
+      position: {x: -0.012320324, y: -4.805726e-19, z: -7.702172e-18}
+      rotation: {x: -0.056030095, y: 0.09116436, z: 0.16833119, w: 0.97990525}
+      scale: {x: 1.0000005, y: 1.0000012, z: 1.0000004}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_elbow
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_shoulder
+      position: {x: -0.031386007, y: -5.3637704e-18, z: -4.3992403e-17}
+      rotation: {x: 0.000000059604645, y: 0.00000021234155, z: -0.000018402934, w: 1}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000004}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_wrist
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_elbow
+      position: {x: -0.017543579, y: -1.6653345e-18, z: -1.1723955e-15}
+      rotation: {x: 0.77566504, y: -0.009416173, z: 0.08341187, w: 0.6255378}
+      scale: {x: 1.0000004, y: 1.000001, z: 0.99999934}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_wrist
+      position: {x: -0.004403923, y: 0.00049735646, z: -0.00065705844}
+      rotation: {x: -0.7683489, y: -0.062204313, z: -0.12186406, w: 0.62523586}
+      scale: {x: 0.9999998, y: 1.0000007, z: 1.0000006}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_mid_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+      position: {x: -0.004574994, y: -0.0020447143, z: -0.00031858432}
+      rotation: {x: -0.0023025868, y: -0.014869325, z: 0.08279361, w: 0.99645317}
+      scale: {x: 1.0000014, y: 1.0000007, z: 0.9999995}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_mid_a
+      position: {x: -0.0022663155, y: 1.4137392e-18, z: -4.8282685e-18}
+      rotation: {x: -0.000022163147, y: -0.029781738, z: -0.0013093286, w: 0.9995556}
+      scale: {x: 1.0000007, y: 1.0000004, z: 0.9999997}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_b
+      position: {x: -0.002292476, y: 1.8608908e-19, z: 3.4241843e-17}
+      rotation: {x: 0.00029705887, y: 0.017800203, z: 0.010280255, w: 0.99978876}
+      scale: {x: 0.99999964, y: 0.99999976, z: 1.0000007}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_middle_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_middle_c
+      position: {x: -0.0023100632, y: -9.461178e-19, z: -1.6093815e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+      position: {x: -0.0041054226, y: 0.0023867975, z: -0.00044499538}
+      rotation: {x: -0.0014505085, y: -0.02042319, z: 0.06058685, w: 0.997953}
+      scale: {x: 1.0000017, y: 1.0000002, z: 0.9999994}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_a
+      position: {x: -0.0018534969, y: 2.7988928e-18, z: 7.907743e-18}
+      rotation: {x: 0.0001789696, y: -0.008411756, z: 0.011521107, w: 0.9998982}
+      scale: {x: 1.0000008, y: 1.000001, z: 0.99999994}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_b
+      position: {x: -0.0015093674, y: 3.1444492e-20, z: 1.3955971e-17}
+      rotation: {x: 0.000051958606, y: 0.01790568, z: 0.008596109, w: 0.9998027}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_pinky_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pinky_c
+      position: {x: -0.002033209, y: 1.05379e-18, z: -2.6741302e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+      position: {x: -0.0033482048, y: -0.004161662, z: -0.00029364965}
+      rotation: {x: 0.00010210274, y: -0.043083742, z: 0.13381767, w: 0.99006903}
+      scale: {x: 1.0000008, y: 1, z: 0.9999993}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_a
+      position: {x: -0.003164297, y: 1.5352823e-18, z: -1.1080607e-17}
+      rotation: {x: -0.000039633855, y: 0.030277388, z: -0.0028444421, w: 0.99953747}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000002}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_b
+      position: {x: -0.0018042322, y: -3.2234424e-20, z: -1.3877707e-17}
+      rotation: {x: -0.000046833986, y: -0.011304927, z: 0.0093673095, w: 0.9998923}
+      scale: {x: 1, y: 1.0000005, z: 0.9999999}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_pointer_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_pointer_c
+      position: {x: -0.002359414, y: 5.4680185e-19, z: 1.08392614e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_palm
+      position: {x: -0.004559511, y: 4.1633362e-19, z: 1.8488746e-18}
+      rotation: {x: -0.0037434674, y: -0.053148802, z: 0.07243039, w: 0.9959493}
+      scale: {x: 1.0000007, y: 0.9999997, z: 0.9999994}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_a
+      position: {x: -0.0023633854, y: 4.8517232e-18, z: 1.4334243e-17}
+      rotation: {x: 0.0044220155, y: 0.024758387, z: 0.03127752, w: 0.9991943}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.9999998}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_b
+      position: {x: -0.0018344376, y: -4.9327665e-19, z: -1.24090625e-17}
+      rotation: {x: -0.00023451255, y: 0.0014586183, z: -0.008536003, w: 0.99996245}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_ring_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_ring_c
+      position: {x: -0.0022288822, y: -2.936548e-18, z: -6.5610068e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_wrist
+      position: {x: -0.0029737998, y: 0.00042180152, z: 0.0022316345}
+      rotation: {x: -0.6690667, y: 0.3051574, z: 0.28727078, w: 0.6137624}
+      scale: {x: 1.0000012, y: 1.0000006, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_a
+      position: {x: -0.002631811, y: 2.081668e-18, z: 7.528699e-18}
+      rotation: {x: -0.05202111, y: 0.012930332, z: -0.021992682, w: 0.9983201}
+      scale: {x: 0.9999997, y: 1, z: 0.99999994}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_b
+      position: {x: -0.0033438187, y: 2.081668e-18, z: -1.2767564e-17}
+      rotation: {x: -0.00032049775, y: -0.016968403, z: -0.035564486, w: 0.99922323}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_thumb_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_thumb_c
+      position: {x: -0.0032360055, y: -4.6490586e-18, z: 1.2143064e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_neck
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+      position: {x: -0.026512895, y: 0.004011532, z: 4.8097485e-17}
+      rotation: {x: -0, y: -0, z: 0.025078304, w: -0.99968547}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_neck
+      position: {x: -0.006556082, y: 2.0469737e-17, z: 1.4807979e-17}
+      rotation: {x: -0, y: -0, z: -0.030628383, w: -0.99953085}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_head_end
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.021290373, y: -2.428613e-19, z: 6.7755615e-17}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_lo_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.005617531, y: -0.008525332, z: -0.0051244013}
+      rotation: {x: 0.4411116, y: 0.89704776, z: 0.02310646, w: -0.013857557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_lo_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_lo_eyelid
+      position: {x: -0.0042355335, y: 0.0006099479, z: 0.0004883462}
+      rotation: {x: -0.6892927, y: -0.22745553, z: 0.6528079, w: -0.21675205}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_up_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.005617531, y: -0.008525332, z: -0.0051244013}
+      rotation: {x: 0.00026958116, y: -0.0000714848, z: 0.6093728, w: 0.7928838}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_up_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_up_eyelid
+      position: {x: -0.004517477, y: 0.0013370183, z: -0.0000038961816}
+      rotation: {x: 0.08846013, y: -0.70136905, z: 0.08865978, w: 0.70170915}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_lo_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.0056289327, y: -0.008539452, z: 0.0051334915}
+      rotation: {x: 0.45232973, y: 0.89145434, z: -0.023071652, w: 0.01321776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_lo_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_lo_eyelid
+      position: {x: -0.0042053605, y: 0.0006394851, z: -0.00048126388}
+      rotation: {x: -0.6527431, y: -0.21777378, z: 0.68900985, w: -0.22752261}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_up_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.0056289327, y: -0.008539452, z: 0.0051334915}
+      rotation: {x: 0.013198446, y: -0.0034070155, z: 0.6040976, w: 0.79679376}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_up_eyelid
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_up_eyelid
+      position: {x: -0.004528355, y: 0.0013298258, z: -0.0000075235957}
+      rotation: {x: 0.08439097, y: -0.70092714, z: 0.09227052, w: 0.7021863}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:transform1
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow5
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:transform1
+      position: {x: -0.008426756, y: 0.16374412, z: 0.009014577}
+      rotation: {x: 0, y: 0.000000029802322, z: 1, w: 0.000000014901161}
+      scale: {x: 1.0000008, y: 1, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:transform2
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow4
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:transform2
+      position: {x: -0.007644082, y: 0.16475508, z: 0.010064692}
+      rotation: {x: 0, y: 0.000000029802322, z: 1, w: 0.000000014901161}
+      scale: {x: 1.0000008, y: 1, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:transform3
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow3
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:transform3
+      position: {x: -0.0062653064, y: 0.16454683, z: 0.011314829}
+      rotation: {x: 0, y: 0.000000029802322, z: 1, w: 0.000000014901161}
+      scale: {x: 1.0000008, y: 1, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:transform4
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow2
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:transform4
+      position: {x: -0.004636653, y: 0.16395523, z: 0.011864889}
+      rotation: {x: 0, y: 0.000000029802322, z: 1, w: 0.000000014901161}
+      scale: {x: 1.0000008, y: 1, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:transform5
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyebrow1
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:transform5
+      position: {x: -0.002965062, y: 0.16302049, z: 0.012464955}
+      rotation: {x: 0, y: 0.000000029802322, z: 1, w: 0.000000014901161}
+      scale: {x: 1.0000008, y: 1, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow1
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.008904697, y: -0.012752854, z: -0.002965062}
+      rotation: {x: 0.4972162, y: -0.5027684, z: 0.4972162, w: 0.5027684}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow2
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.009832699, y: -0.012142447, z: -0.004636653}
+      rotation: {x: 0.4972162, y: -0.5027684, z: 0.4972162, w: 0.5027684}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow3
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.010418152, y: -0.011585851, z: -0.0062653064}
+      rotation: {x: 0.4972162, y: -0.5027684, z: 0.4972162, w: 0.5027684}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow4
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.010612502, y: -0.010333479, z: -0.007644082}
+      rotation: {x: 0.4972162, y: -0.5027684, z: 0.4972162, w: 0.5027684}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyebrow5
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.0095899645, y: -0.009294654, z: -0.008426756}
+      rotation: {x: 0.4972162, y: -0.5027684, z: 0.4972162, w: 0.5027684}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_lo_jaw
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: 0.001145067, y: -0.0032790536, z: 0.000012155656}
+      rotation: {x: 0.4915781, y: 0.8708335, z: 0.00000003024474, w: -0.000000013981373}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000008}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_lo_jaw_end
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_lo_jaw
+      position: {x: -0.011384948, y: -3.330669e-18, z: -3.2049696e-18}
+      rotation: {x: 0.6798524, y: 0.19442403, z: -0.6798524, w: 0.19442403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyeball
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.0056175296, y: -0.008525332, z: -0.0051244013}
+      rotation: {x: 0.000000017241987, y: -0.000000029947284, z: 0.7039012, w: 0.71029806}
+      scale: {x: 1.0000015, y: 1.0000005, z: 1.0000011}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_l_eyeball_end
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_l_eyeball
+      position: {x: -0.0060067303, y: -4.0354956e-17, z: -1.110223e-18}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyeball
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_head
+      position: {x: -0.0056289304, y: -0.008539452, z: 0.0051334915}
+      rotation: {x: 0.000000017241987, y: -0.000000029947213, z: 0.70390236, w: 0.71029687}
+      scale: {x: 1.0000012, y: 1.0000004, z: 1.0000011}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_eyeball_end
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_eyeball
+      position: {x: -0.0060067303, y: 1.5671703e-17, z: 1.110223e-18}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_chest
+      position: {x: -0.011529439, y: -0.00311784, z: 0.00258301}
+      rotation: {x: 0.74853677, y: 0.13043803, z: 0.64655095, w: 0.068194665}
+      scale: {x: 1.0000002, y: 1.000001, z: 1.0000012}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+      position: {x: 0.012320368, y: 0.00000003118999, z: 0.00000002209353}
+      rotation: {x: -0.30223247, y: -0.18012153, z: 0.73754853, w: 0.57639736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_FK
+      position: {x: 0.031385984, y: 1.11022296e-17, z: 0.000000032407748}
+      rotation: {x: -0.00018972169, y: -0.00072895945, z: 0.25187284, w: 0.96776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_wrist_FK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_FK
+      position: {x: 0.017543461, y: 2.0539126e-17, z: 0.0000007303454}
+      rotation: {x: 0.9518289, y: 0.08130018, z: 0.097316355, w: 0.2791801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+      position: {x: 0.012320368, y: 0.00000003118999, z: 0.00000002209353}
+      rotation: {x: -0.24160509, y: -0.2736054, z: 0.83379287, w: 0.4141938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_shoulder_IK
+      position: {x: 0.031385984, y: -0.00060078286, z: 0.000000032407748}
+      rotation: {x: 0.000036719543, y: 0.0007723485, z: -0.02833203, w: 0.99959826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_wrist_IK
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_elbow_IK
+      position: {x: 0.01754344, y: 0.0006008046, z: 0.00002556883}
+      rotation: {x: 0.91257316, y: 0.353006, z: -0.0050299955, w: 0.20632938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_shoulder
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_clavical
+      position: {x: 0.012320368, y: 0.00000003118999, z: 0.00000002209353}
+      rotation: {x: -0.06324511, y: 0.08977123, z: 0.16904514, w: 0.97947174}
+      scale: {x: 1, y: 1.0000002, z: 0.99999976}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_elbow
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_shoulder
+      position: {x: 0.031385984, y: 1.11022296e-17, z: 0.000000032407748}
+      rotation: {x: -0, y: 0.000007545576, z: -0.0002770182, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999999}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_wrist
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_elbow
+      position: {x: 0.017543461, y: -5.551115e-19, z: 0.0000007303454}
+      rotation: {x: 0.7298823, y: -0.009239716, z: 0.08079957, w: 0.67871785}
+      scale: {x: 1.0000002, y: 1.0000011, z: 1.0000007}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_wrist
+      position: {x: 0.0044065327, y: -0.000537336, z: 0.00060625945}
+      rotation: {x: 0.10078672, y: -0.24240823, z: -0.13335009, w: 0.95566636}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000005}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+      position: {x: 0.0039086095, y: 0.0006360393, z: -0.0030873036}
+      rotation: {x: -0.012792729, y: 0.2067387, z: 0.1573339, w: 0.9655784}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999976}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_a
+      position: {x: 0.0022455917, y: -0.00030499318, z: 0.000023632518}
+      rotation: {x: 0.000118174576, y: 0.002190098, z: -0.045791633, w: 0.99894863}
+      scale: {x: 1.0000004, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_b
+      position: {x: 0.0022922105, y: 0.000035319128, z: 0.0000121953235}
+      rotation: {x: -0.000039918858, y: -0.011695943, z: -0.004691567, w: 0.99992067}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_middle_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_middle_c
+      position: {x: 0.0023086735, y: -0.000033489516, z: -0.000071454626}
+      rotation: {x: -0.000004737442, y: 0.007424109, z: 0.0006380973, w: 0.9999722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+      position: {x: 0.004256497, y: 0.0017818297, z: 0.0012069693}
+      rotation: {x: -0.015795225, y: 0.1826675, z: 0.13343172, w: 0.9739503}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000002}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_a
+      position: {x: 0.001849593, y: -0.00011961718, z: 0.000006261007}
+      rotation: {x: 0.0020027352, y: 0.031206556, z: -0.0092215715, w: 0.99946845}
+      scale: {x: 1, y: 1.0000007, z: 1.0000011}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_b
+      position: {x: 0.0015074002, y: -0.000050789036, z: 0.000060044204}
+      rotation: {x: -0.00082935084, y: -0.019113444, z: -0.01149874, w: 0.9997509}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_pinky_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pinky_c
+      position: {x: 0.0020306197, y: -0.00010210143, z: -0.00001584422}
+      rotation: {x: 0.0007398983, y: 0.0464408, z: -0.015912862, w: 0.998794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+      position: {x: 0.0023500125, y: -0.00014680726, z: -0.0048033795}
+      rotation: {x: -0.023845406, y: 0.30363542, z: 0.13758129, w: 0.94250107}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000002}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_a
+      position: {x: 0.003141438, y: -0.00020951779, z: 0.00031634007}
+      rotation: {x: 0.00044148974, y: 0.012761623, z: -0.031987432, w: 0.9994067}
+      scale: {x: 1, y: 1.0000001, z: 1.0000006}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_b
+      position: {x: 0.0017824833, y: -0.00010920341, z: 0.00025723732}
+      rotation: {x: -0.00006499641, y: -0.032065306, z: -0.00056013104, w: 0.9994856}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_pointer_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_pointer_c
+      position: {x: 0.0023536661, y: -0.000097227356, z: 0.0001326616}
+      rotation: {x: -0.00006125694, y: -0.083522804, z: -0.0007308529, w: 0.9965056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_palm
+      position: {x: 0.0043496783, y: 0.0008436471, z: -0.0010760396}
+      rotation: {x: -0.023572547, y: 0.1925322, z: 0.11918849, w: 0.9737401}
+      scale: {x: 1.000001, y: 1.0000015, z: 1.0000008}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_a
+      position: {x: 0.0023625616, y: 0.000058300982, z: -0.000027596387}
+      rotation: {x: 0.002868597, y: 0.013424124, z: -0.0080662, w: 0.99987334}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000006}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_b
+      position: {x: 0.0018328197, y: -0.000037731246, z: -0.00006606}
+      rotation: {x: 0.00019609832, y: 0.009405061, z: -0.005401878, w: 0.9999412}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_ring_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_ring_c
+      position: {x: 0.0022288004, y: -0.000020353971, z: 0.00000020183748}
+      rotation: {x: 0.000059970876, y: 0.007764975, z: -0.0077227913, w: 0.99994004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_a
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_wrist
+      position: {x: 0.0029917648, y: -0.000035229736, z: -0.0022471484}
+      rotation: {x: 0.10178251, y: 0.32452884, z: 0.13902986, w: 0.9300495}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_b
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_a
+      position: {x: 0.0024921848, y: -0.000712329, z: -0.00045539983}
+      rotation: {x: 0.028042238, y: 0.081586145, z: -0.021202782, w: 0.99604607}
+      scale: {x: 1.0000006, y: 1.0000011, z: 1.000001}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_c
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_b
+      position: {x: 0.0032304602, y: -0.00084976736, z: 0.00015112905}
+      rotation: {x: 0.00411431, y: -0.010334898, z: -0.09073336, w: 0.99581313}
+      scale: {x: 1.0000004, y: 1.0000004, z: 0.99999946}
+    - name: protagonist_animation_20_0011__2_:standing_rig_final:jnt_r_thumb_d
+      parentName: protagonist_animation_20_0011__2_:standing_rig_final:rig_r_thumb_c
+      position: {x: 0.0032215908, y: -0.00009171509, z: 0.00029028786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

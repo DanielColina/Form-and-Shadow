@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 85dab98b66d7ebe428122f7507e2fec5
+timeCreated: 1510698170
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: board1
+    100002: board2
+    100004: board3
+    100006: board4
+    100008: boards
+    100010: case1
+    100012: centerPiece
+    100014: connector1
+    100016: connector2
+    100018: connector3
+    100020: connector4
+    100022: connectors
+    100024: grate1
+    100026: //RootNode
+    100028: propellor1
+    100030: propellor2
+    100032: propellor3
+    100034: propellor4
+    100036: propellor5
+    100038: propellorBlades
+    100040: supportBeam1
+    100042: supportBeam2
+    100044: supportBeams
+    400000: board1
+    400002: board2
+    400004: board3
+    400006: board4
+    400008: boards
+    400010: case1
+    400012: centerPiece
+    400014: connector1
+    400016: connector2
+    400018: connector3
+    400020: connector4
+    400022: connectors
+    400024: grate1
+    400026: //RootNode
+    400028: propellor1
+    400030: propellor2
+    400032: propellor3
+    400034: propellor4
+    400036: propellor5
+    400038: propellorBlades
+    400040: supportBeam1
+    400042: supportBeam2
+    400044: supportBeams
+    2300000: board1
+    2300002: board2
+    2300004: board3
+    2300006: board4
+    2300008: case1
+    2300010: centerPiece
+    2300012: connector1
+    2300014: connector2
+    2300016: connector3
+    2300018: connector4
+    2300020: grate1
+    2300022: propellor1
+    2300024: propellor2
+    2300026: propellor3
+    2300028: propellor4
+    2300030: propellor5
+    2300032: supportBeam1
+    2300034: supportBeam2
+    3300000: board1
+    3300002: board2
+    3300004: board3
+    3300006: board4
+    3300008: case1
+    3300010: centerPiece
+    3300012: connector1
+    3300014: connector2
+    3300016: connector3
+    3300018: connector4
+    3300020: grate1
+    3300022: propellor1
+    3300024: propellor2
+    3300026: propellor3
+    3300028: propellor4
+    3300030: propellor5
+    3300032: supportBeam1
+    3300034: supportBeam2
+    4300000: case1
+    4300002: connector4
+    4300004: connector1
+    4300006: connector3
+    4300008: connector2
+    4300010: board2
+    4300012: board4
+    4300014: board3
+    4300016: board1
+    4300018: propellor1
+    4300020: propellor2
+    4300022: propellor3
+    4300024: propellor4
+    4300026: propellor5
+    4300028: centerPiece
+    4300030: supportBeam2
+    4300032: supportBeam1
+    4300034: grate1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
