@@ -1,0 +1,1422 @@
+fileFormatVersion: 2
+guid: 419c43b6a1e2b8d4aac2c6619bc689c2
+timeCreated: 1510787204
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Character_ACTUAL_FRIGGIN__Unity_Rig:character
+    100004: Character_ACTUAL_FRIGGIN__Unity_Rig:cloak
+    100006: Character_ACTUAL_FRIGGIN__Unity_Rig:hood
+    100008: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_head_end
+    100010: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ankle_FK
+    100012: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ankle_IK
+    100014: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_FK
+    100016: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_IK
+    100018: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_eyeball_end
+    100020: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_foot_end
+    100022: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_FK
+    100024: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_IK
+    100026: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_FK
+    100028: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_IK
+    100030: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_lo_eyelid
+    100032: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_middle_d
+    100034: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_pinky_d
+    100036: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_pointer_d
+    100038: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ring_d
+    100040: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_FK
+    100042: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_IK
+    100044: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_thumb_d
+    100046: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_up_eyelid
+    100048: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_wrist_FK
+    100050: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_wrist_IK
+    100052: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_lo_jaw_end
+    100054: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ankle_FK
+    100056: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ankle_IK
+    100058: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_FK
+    100060: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_IK
+    100062: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_eyeball_end
+    100064: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_foot_end
+    100066: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_FK
+    100068: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_IK
+    100070: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_FK
+    100072: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_IK
+    100074: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_lo_eyelid
+    100076: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_middle_d
+    100078: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_pinky_d
+    100080: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_pointer_d
+    100082: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ring_d
+    100084: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_FK
+    100086: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_IK
+    100088: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_thumb_d
+    100090: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_up_eyelid
+    100092: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_wrist_FK
+    100094: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_wrist_IK
+    100096: Character_ACTUAL_FRIGGIN__Unity_Rig:l_eye
+    100098: Character_ACTUAL_FRIGGIN__Unity_Rig:r_eye
+    100100: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+    100102: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+    100104: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+    100106: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ankle
+    100108: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ball
+    100110: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+    100112: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_elbow
+    100114: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyeball
+    100116: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow1
+    100118: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow2
+    100120: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow3
+    100122: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow4
+    100124: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow5
+    100126: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_knee
+    100128: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_leg
+    100130: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_lo_eyelid
+    100132: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_mid_a
+    100134: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_b
+    100136: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_c
+    100138: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+    100140: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_a
+    100142: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_b
+    100144: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_c
+    100146: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_a
+    100148: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_b
+    100150: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_c
+    100152: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_a
+    100154: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_b
+    100156: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_c
+    100158: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_shoulder
+    100160: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_a
+    100162: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_b
+    100164: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_c
+    100166: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_up_eyelid
+    100168: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_wrist
+    100170: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_lo_jaw
+    100172: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_neck
+    100174: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ankle
+    100176: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ball
+    100178: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+    100180: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_elbow
+    100182: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyeball
+    100184: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow1
+    100186: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow2
+    100188: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow3
+    100190: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow4
+    100192: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow5
+    100194: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_knee
+    100196: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_leg
+    100198: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_lo_eyelid
+    100200: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_a
+    100202: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_b
+    100204: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_c
+    100206: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+    100208: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_a
+    100210: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_b
+    100212: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_c
+    100214: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_a
+    100216: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_b
+    100218: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_c
+    100220: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_a
+    100222: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_b
+    100224: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_c
+    100226: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_shoulder
+    100228: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_a
+    100230: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_b
+    100232: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_c
+    100234: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_up_eyelid
+    100236: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_wrist
+    100238: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine1
+    100240: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine2
+    100242: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine3
+    100244: Character_ACTUAL_FRIGGIN__Unity_Rig:transform1
+    100246: Character_ACTUAL_FRIGGIN__Unity_Rig:transform2
+    100248: Character_ACTUAL_FRIGGIN__Unity_Rig:transform3
+    100250: Character_ACTUAL_FRIGGIN__Unity_Rig:transform4
+    100252: Character_ACTUAL_FRIGGIN__Unity_Rig:transform5
+    400000: //RootNode
+    400002: Character_ACTUAL_FRIGGIN__Unity_Rig:character
+    400004: Character_ACTUAL_FRIGGIN__Unity_Rig:cloak
+    400006: Character_ACTUAL_FRIGGIN__Unity_Rig:hood
+    400008: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_head_end
+    400010: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ankle_FK
+    400012: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ankle_IK
+    400014: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_FK
+    400016: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_IK
+    400018: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_eyeball_end
+    400020: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_foot_end
+    400022: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_FK
+    400024: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_IK
+    400026: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_FK
+    400028: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_IK
+    400030: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_lo_eyelid
+    400032: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_middle_d
+    400034: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_pinky_d
+    400036: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_pointer_d
+    400038: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ring_d
+    400040: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_FK
+    400042: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_IK
+    400044: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_thumb_d
+    400046: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_up_eyelid
+    400048: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_wrist_FK
+    400050: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_wrist_IK
+    400052: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_lo_jaw_end
+    400054: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ankle_FK
+    400056: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ankle_IK
+    400058: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_FK
+    400060: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_IK
+    400062: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_eyeball_end
+    400064: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_foot_end
+    400066: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_FK
+    400068: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_IK
+    400070: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_FK
+    400072: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_IK
+    400074: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_lo_eyelid
+    400076: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_middle_d
+    400078: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_pinky_d
+    400080: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_pointer_d
+    400082: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ring_d
+    400084: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_FK
+    400086: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_IK
+    400088: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_thumb_d
+    400090: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_up_eyelid
+    400092: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_wrist_FK
+    400094: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_wrist_IK
+    400096: Character_ACTUAL_FRIGGIN__Unity_Rig:l_eye
+    400098: Character_ACTUAL_FRIGGIN__Unity_Rig:r_eye
+    400100: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+    400102: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+    400104: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+    400106: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ankle
+    400108: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ball
+    400110: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+    400112: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_elbow
+    400114: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyeball
+    400116: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow1
+    400118: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow2
+    400120: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow3
+    400122: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow4
+    400124: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow5
+    400126: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_knee
+    400128: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_leg
+    400130: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_lo_eyelid
+    400132: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_mid_a
+    400134: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_b
+    400136: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_c
+    400138: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+    400140: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_a
+    400142: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_b
+    400144: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_c
+    400146: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_a
+    400148: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_b
+    400150: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_c
+    400152: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_a
+    400154: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_b
+    400156: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_c
+    400158: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_shoulder
+    400160: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_a
+    400162: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_b
+    400164: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_c
+    400166: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_up_eyelid
+    400168: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_wrist
+    400170: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_lo_jaw
+    400172: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_neck
+    400174: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ankle
+    400176: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ball
+    400178: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+    400180: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_elbow
+    400182: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyeball
+    400184: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow1
+    400186: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow2
+    400188: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow3
+    400190: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow4
+    400192: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow5
+    400194: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_knee
+    400196: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_leg
+    400198: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_lo_eyelid
+    400200: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_a
+    400202: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_b
+    400204: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_c
+    400206: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+    400208: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_a
+    400210: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_b
+    400212: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_c
+    400214: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_a
+    400216: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_b
+    400218: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_c
+    400220: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_a
+    400222: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_b
+    400224: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_c
+    400226: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_shoulder
+    400228: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_a
+    400230: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_b
+    400232: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_c
+    400234: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_up_eyelid
+    400236: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_wrist
+    400238: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine1
+    400240: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine2
+    400242: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine3
+    400244: Character_ACTUAL_FRIGGIN__Unity_Rig:transform1
+    400246: Character_ACTUAL_FRIGGIN__Unity_Rig:transform2
+    400248: Character_ACTUAL_FRIGGIN__Unity_Rig:transform3
+    400250: Character_ACTUAL_FRIGGIN__Unity_Rig:transform4
+    400252: Character_ACTUAL_FRIGGIN__Unity_Rig:transform5
+    4300000: Character_ACTUAL_FRIGGIN__Unity_Rig:hood
+    4300002: Character_ACTUAL_FRIGGIN__Unity_Rig:cloak
+    4300004: Character_ACTUAL_FRIGGIN__Unity_Rig:r_eye
+    4300006: Character_ACTUAL_FRIGGIN__Unity_Rig:l_eye
+    4300008: Character_ACTUAL_FRIGGIN__Unity_Rig:character
+    9500000: //RootNode
+    13700000: Character_ACTUAL_FRIGGIN__Unity_Rig:character
+    13700002: Character_ACTUAL_FRIGGIN__Unity_Rig:cloak
+    13700004: Character_ACTUAL_FRIGGIN__Unity_Rig:hood
+    13700006: Character_ACTUAL_FRIGGIN__Unity_Rig:l_eye
+    13700008: Character_ACTUAL_FRIGGIN__Unity_Rig:r_eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10.5
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ball
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ball
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyeball
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyeball
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_lo_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_a
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_b
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_c
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_a
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_b
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_c
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_mid_a
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_b
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_c
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_a
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_b
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_c
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_a
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_b
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_c
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_a
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_b
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_c
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_a
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_b
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_c
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_a
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_b
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_c
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_a
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_b
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_c
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_a
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_b
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_c
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Character and Cloak SIM FBX(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:character
+      parentName: Character and Cloak SIM FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:cloak
+      parentName: Character and Cloak SIM FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:hood
+      parentName: Character and Cloak SIM FBX(Clone)
+      position: {x: -0.000030214156, y: -0.015940074, z: -0.00003285765}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:l_eye
+      parentName: Character and Cloak SIM FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:r_eye
+      parentName: Character and Cloak SIM FBX(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      parentName: Character and Cloak SIM FBX(Clone)
+      position: {x: -9.107298e-19, y: 1.0083423, z: -0.00057182997}
+      rotation: {x: 0.50083387, y: -0.49916473, z: 0.50083387, w: -0.49916473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: 0.08203507, y: 0.0007182192, z: -0.095507644}
+      rotation: {x: -0.023614839, y: 0.99511194, z: 0.095793456, w: -0.004264058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_FK
+      position: {x: -0.41993967, y: -1.4571677e-17, z: 4.0682483e-17}
+      rotation: {x: -0.00034893796, y: 0.004944892, z: -0.025474098, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ankle_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_FK
+      position: {x: -0.42201623, y: -2.3314683e-17, z: -1.1657341e-17}
+      rotation: {x: 0.064857006, y: -0.08275119, z: 0.5369921, w: 0.8370097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: 0.08203507, y: 0.0007182192, z: -0.095507644}
+      rotation: {x: -0.03566627, y: 0.99474984, z: 0.095766425, w: -0.0054365736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_leg_IK
+      position: {x: -0.41993967, y: -1.4571677e-17, z: 4.0682483e-17}
+      rotation: {x: -0.00022296533, y: -0.00000028398517, z: -0.000010158739, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ankle_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_knee_IK
+      position: {x: -0.42201623, y: -3.4972025e-17, z: -4.3846954e-18}
+      rotation: {x: -0.017051961, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: 0.08203461, y: 0.00071821763, z: 0.09550768}
+      rotation: {x: -0.024152482, y: 0.9997082, z: -0.000010478375, w: 0.0005032946}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_FK
+      position: {x: -0.41993883, y: 0.000000025621805, z: 0.0008447854}
+      rotation: {x: -0.00034893796, y: 0.004944892, z: -0.025474098, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ankle_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_FK
+      position: {x: -0.42195028, y: 0.000006356452, z: -0.007483311}
+      rotation: {x: -0.017051958, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: 0.08203461, y: 0.00071821763, z: 0.09550768}
+      rotation: {x: -0.023715883, y: 0.99518424, z: -0.094966225, w: 0.005223835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_leg_IK
+      position: {x: -0.41993883, y: 0.000000025621805, z: 0.0008447854}
+      rotation: {x: -0.00034893796, y: 0.004944892, z: -0.025474098, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ankle_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_knee_IK
+      position: {x: -0.42195028, y: 0.000006356452, z: -0.007483311}
+      rotation: {x: -0.017051958, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_leg
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: 0.08203507, y: 0.0007182192, z: -0.095507644}
+      rotation: {x: -0.03566627, y: 0.99474984, z: 0.095766425, w: -0.0054365736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_knee
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_leg
+      position: {x: -0.41993967, y: -1.4571677e-17, z: 4.0682483e-17}
+      rotation: {x: -0.00022296533, y: -0.00000028398517, z: -0.000010158739, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ankle
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_knee
+      position: {x: -0.42201623, y: -2.3314683e-17, z: -1.1657341e-17}
+      rotation: {x: -0.017051958, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ball
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ankle
+      position: {x: -0.14753664, y: -1.04916075e-16, z: -9.689146e-18}
+      rotation: {x: 0.9548289, y: 0.26108617, z: -0.03548949, w: -0.13739116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_foot_end
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ball
+      position: {x: -0.08075297, y: -3.460773e-17, z: -3.265743e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_leg
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: 0.08203461, y: 0.00071821763, z: 0.09550768}
+      rotation: {x: -0.023715883, y: 0.99518424, z: -0.094966225, w: 0.005223835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_knee
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_leg
+      position: {x: -0.41993883, y: 0.000000025621805, z: 0.0008447854}
+      rotation: {x: -0.00034893796, y: 0.004944892, z: -0.025474098, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ankle
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_knee
+      position: {x: -0.42195028, y: 0.000006356452, z: -0.007483311}
+      rotation: {x: -0.0980991, y: 0.016724342, z: 0.5418223, w: 0.834581}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ball
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ankle
+      position: {x: -0.14722666, y: -0.0005416815, z: 0.0095426915}
+      rotation: {x: 0.9548289, y: 0.26108617, z: -0.03548949, w: -0.13739116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_foot_end
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ball
+      position: {x: -0.080751315, y: -0.000108160086, z: -0.0004848844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine1
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_hips
+      position: {x: -0.069480605, y: -1.1520732e-17, z: -1.8542906e-17}
+      rotation: {x: 0, y: 0, z: 0.00016973428, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine2
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine1
+      position: {x: -0.07621143, y: -0.000113623144, z: 6.5777455e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine3
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine2
+      position: {x: -0.077531174, y: -0.00011558163, z: 6.692459e-17}
+      rotation: {x: 0, y: 0, z: 0.0029950577, w: 0.9999955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_spine3
+      position: {x: -0.06988459, y: -0.00002279343, z: -2.0432699e-16}
+      rotation: {x: 0, y: 0, z: -0.0014956582, w: 0.99999887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+      position: {x: -0.12105436, y: -0.03273733, z: -0.027121646}
+      rotation: {x: 0.13043745, y: -0.7485372, z: -0.06819387, w: 0.6465507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+      position: {x: -0.1293634, y: -5.0460123e-18, z: -8.0872807e-17}
+      rotation: {x: -0.052420445, y: 0.17782837, z: 0.2778503, w: 0.9425648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_FK
+      position: {x: -0.32955307, y: -5.631959e-17, z: -4.6192026e-16}
+      rotation: {x: 0, y: -0.00075324374, z: -0, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_wrist_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_FK
+      position: {x: -0.18420756, y: 0.0000016717544, z: 0.00013877227}
+      rotation: {x: 0.77194023, y: -0.008054635, z: 0.082398765, w: 0.6302808}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+      position: {x: -0.1293634, y: -5.0460123e-18, z: -8.0872807e-17}
+      rotation: {x: -0.058180753, y: 0.17612675, z: 0.27893528, w: 0.9422258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_shoulder_IK
+      position: {x: -0.32955307, y: 0.0072810156, z: -5.595524e-16}
+      rotation: {x: 0.000000004973215, y: 0.00000022498996, z: -0.000018399302, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_wrist_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_elbow_IK
+      position: {x: -0.18420741, y: -0.0072810156, z: -0.00013878226}
+      rotation: {x: 0.7718266, y: -0.008907447, z: 0.0834669, w: 0.6302679}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_shoulder
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_clavical
+      position: {x: -0.1293634, y: -5.0460123e-18, z: -8.0872807e-17}
+      rotation: {x: -0.056030057, y: 0.09116435, z: 0.16833118, w: 0.97990525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_elbow
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_shoulder
+      position: {x: -0.32955307, y: -5.631959e-17, z: -4.6192026e-16}
+      rotation: {x: 4.13966e-12, y: 0.00000022499005, z: -0.000018399302, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_wrist
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_elbow
+      position: {x: -0.18420756, y: -1.7486013e-17, z: -1.2310153e-14}
+      rotation: {x: 0.7718266, y: -0.008907447, z: 0.0834669, w: 0.6302679}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_wrist
+      position: {x: -0.04624119, y: 0.005222243, z: -0.0068991133}
+      rotation: {x: -0.7683489, y: -0.062204342, z: -0.12186408, w: 0.6252358}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_mid_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+      position: {x: -0.048037436, y: -0.0214695, z: -0.0033451354}
+      rotation: {x: -0.002302577, y: -0.014869346, z: 0.08279363, w: 0.9964531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_mid_a
+      position: {x: -0.023796313, y: 1.4844262e-17, z: -5.069682e-17}
+      rotation: {x: -0.000022134127, y: -0.029781725, z: -0.00130932, w: 0.9995556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_b
+      position: {x: -0.024070995, y: 1.9539354e-18, z: 3.5953936e-16}
+      rotation: {x: 0.00029705427, y: 0.01780021, z: 0.010280277, w: 0.9997887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_middle_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_middle_c
+      position: {x: -0.024255665, y: -9.934237e-18, z: -1.6898506e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+      position: {x: -0.04310694, y: 0.025061373, z: -0.0046724514}
+      rotation: {x: -0.0014509853, y: -0.02042188, z: 0.06058573, w: 0.9979531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_a
+      position: {x: -0.019461717, y: 2.9388374e-17, z: 8.3031305e-17}
+      rotation: {x: 0.00017902865, y: -0.008411766, z: 0.011521078, w: 0.99989825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_b
+      position: {x: -0.015848357, y: 3.3016715e-19, z: 1.465377e-16}
+      rotation: {x: 0.000051947718, y: 0.017905697, z: 0.008596122, w: 0.9998027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_pinky_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pinky_c
+      position: {x: -0.021348694, y: 1.10647955e-17, z: -2.8078367e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+      position: {x: -0.03515615, y: -0.043697447, z: -0.003083321}
+      rotation: {x: 0.000102158636, y: -0.043083735, z: 0.13381769, w: 0.990069}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_a
+      position: {x: -0.03322512, y: 1.6120463e-17, z: -1.1634638e-16}
+      rotation: {x: -0.000039738785, y: 0.030277366, z: -0.0028444447, w: 0.99953747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_b
+      position: {x: -0.018944439, y: -3.3846145e-19, z: -1.4571592e-16}
+      rotation: {x: -0.000046899902, y: -0.0113049, z: 0.0093673095, w: 0.99989223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_pointer_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_pointer_c
+      position: {x: -0.024773847, y: 5.7414193e-18, z: 1.1381224e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_palm
+      position: {x: -0.047874864, y: 4.371503e-18, z: 1.9413183e-17}
+      rotation: {x: -0.0037438865, y: -0.05314698, z: 0.07243148, w: 0.9959493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_a
+      position: {x: -0.024815548, y: 5.0943093e-17, z: 1.5050955e-16}
+      rotation: {x: 0.0044221007, y: 0.024760785, z: 0.031275827, w: 0.99919426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_b
+      position: {x: -0.019261595, y: -5.1794046e-18, z: -1.3029515e-16}
+      rotation: {x: -0.00023455662, y: 0.0014586204, z: -0.008535995, w: 0.9999625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_ring_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_ring_c
+      position: {x: -0.023403263, y: -3.0833753e-17, z: -6.889057e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_wrist
+      position: {x: -0.031224899, y: 0.004428916, z: 0.023432162}
+      rotation: {x: -0.66756874, y: 0.30295667, z: 0.29051492, w: 0.61495554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_a
+      position: {x: -0.027634013, y: 2.1857515e-17, z: 7.905135e-17}
+      rotation: {x: -0.05202099, y: 0.012930108, z: -0.021993024, w: 0.9983201}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_b
+      position: {x: -0.035110097, y: 2.1857515e-17, z: -1.3405943e-16}
+      rotation: {x: -0.0003205574, y: -0.016969794, z: -0.035568275, w: 0.9992231}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_thumb_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_thumb_c
+      position: {x: -0.033978056, y: -4.8815118e-17, z: 1.2750217e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_neck
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+      position: {x: -0.24949971, y: 5.5561804e-15, z: 5.784482e-16}
+      rotation: {x: 0, y: 0, z: -0.023583138, w: 0.9997219}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_neck
+      position: {x: -0.068838865, y: 2.1493223e-16, z: 1.5548378e-16}
+      rotation: {x: 0, y: 0, z: 0.030628387, w: 0.99953085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_head_end
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.22354892, y: -2.5500434e-18, z: 7.11434e-16}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_lo_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.058984075, y: -0.089515984, z: -0.05380621}
+      rotation: {x: 0.4967347, y: 0.8679024, z: 0.000000009144839, w: 0.0000000052339506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_lo_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_lo_eyelid
+      position: {x: -0.0444731, y: 0.006404453, z: 0.0051276353}
+      rotation: {x: 0.6894021, y: 0.22665909, z: -0.65271974, w: 0.21750249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_up_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.058984075, y: -0.089515984, z: -0.05380621}
+      rotation: {x: 0, y: 0, z: 0.6694937, w: 0.74281776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_up_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_up_eyelid
+      position: {x: -0.04743351, y: 0.014038692, z: -0.00004090991}
+      rotation: {x: 0.08853967, y: -0.7013754, z: 0.088580325, w: 0.7017028}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_lo_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.05910379, y: -0.08966424, z: 0.05390166}
+      rotation: {x: 0.49673018, y: 0.867905, z: -2.4451284e-17, w: -8.054866e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_lo_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_lo_eyelid
+      position: {x: -0.044156283, y: 0.0067145936, z: -0.0050532706}
+      rotation: {x: -0.6526428, y: -0.21862957, z: 0.68913335, w: -0.22661361}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_up_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.05910379, y: -0.08966424, z: 0.05390166}
+      rotation: {x: 2.0989916e-24, y: 1.6937318e-16, z: 0.6694944, w: 0.7428171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_up_eyelid
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_up_eyelid
+      position: {x: -0.047547728, y: 0.01396317, z: -0.00007899775}
+      rotation: {x: 0.08829024, y: -0.7012517, z: 0.088377476, w: 0.7018835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:transform1
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: 1.6195637, y: -0.022038175, z: -1.9425848e-16}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow5
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:transform1
+      position: {x: -0.088480935, y: 1.7193133, z: 0.094653055}
+      rotation: {x: 0, y: -1.6653345e-16, z: 4.9960036e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:transform2
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: 1.6195637, y: -0.022038175, z: -1.9425848e-16}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow4
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:transform2
+      position: {x: -0.08026286, y: 1.7299283, z: 0.105679266}
+      rotation: {x: 0, y: -1.6653345e-16, z: 4.9960036e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:transform3
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: 1.6195637, y: -0.022038175, z: -1.9425848e-16}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow3
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:transform3
+      position: {x: -0.06578571, y: 1.7277417, z: 0.11880571}
+      rotation: {x: 0, y: -1.6653345e-16, z: 4.9960036e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:transform4
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: 1.6195637, y: -0.022038175, z: -1.9425848e-16}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow2
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:transform4
+      position: {x: -0.048684854, y: 1.7215298, z: 0.12458134}
+      rotation: {x: 0, y: -1.6653345e-16, z: 4.9960036e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:transform5
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: 1.6195637, y: -0.022038175, z: -1.9425848e-16}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyebrow1
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:transform5
+      position: {x: -0.031133149, y: 1.7117151, z: 0.13088204}
+      rotation: {x: 0, y: -1.6653345e-16, z: 4.9960036e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyeball
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.05910377, y: -0.08966424, z: 0.05390166}
+      rotation: {x: 5.5391875e-31, y: -3.2193963e-15, z: 0.7021057, w: 0.7120728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_eyeball_end
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_eyeball
+      position: {x: -0.06307066, y: 1.6455288e-16, z: 1.1657341e-17}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyeball
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.05898406, y: -0.089515984, z: -0.05380621}
+      rotation: {x: -5.5391875e-31, y: -3.661274e-15, z: 0.7021057, w: 0.7120728}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_l_eyeball_end
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyeball
+      position: {x: -0.06307066, y: -4.2372704e-16, z: -1.1657341e-17}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow1
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.09389664, y: -0.13362154, z: -0.031133149}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow2
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.10362143, y: -0.12718315, z: -0.048684854}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow3
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.10975119, y: -0.12132053, z: -0.06578571}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow4
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.11175252, y: -0.10816458, z: -0.08026286}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_l_eyebrow5
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: -0.100983284, y: -0.097289085, z: -0.088480935}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_lo_jaw
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_head
+      position: {x: 0.012023204, y: -0.03443006, z: 0.00012763438}
+      rotation: {x: 0.49157804, y: 0.8708335, z: 6.291849e-16, w: -9.900422e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_lo_jaw_end
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_lo_jaw
+      position: {x: -0.11954196, y: -3.4972025e-17, z: -3.365218e-17}
+      rotation: {x: 0.6798524, y: 0.19442403, z: -0.6798524, w: 0.19442403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_chest
+      position: {x: -0.12105911, y: -0.03273732, z: 0.027121603}
+      rotation: {x: 0.748537, y: 0.13043801, z: 0.6465507, w: 0.068194605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+      position: {x: 0.12936386, y: 0.00000032749492, z: 0.00000023198207}
+      rotation: {x: -0.052420445, y: 0.17782837, z: 0.2778503, w: 0.9425648}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_FK
+      position: {x: 0.32955286, y: 1.1657341e-16, z: 0.00000034028133}
+      rotation: {x: 0, y: -0.00075324374, z: -0, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_wrist_FK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_FK
+      position: {x: 0.18420634, y: 2.1566082e-16, z: 0.0000076686265}
+      rotation: {x: 0.7206187, y: -0.007634857, z: 0.08038203, w: 0.6886139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+      position: {x: 0.12936386, y: 0.00000032749492, z: 0.00000023198207}
+      rotation: {x: -0.06526531, y: 0.17400733, z: 0.2802431, w: 0.94176733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_shoulder_IK
+      position: {x: 0.32955286, y: -0.00630822, z: 0.00000034028133}
+      rotation: {x: -1.074307e-18, y: -5.601299e-17, z: 2.0532773e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_wrist_IK
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_elbow_IK
+      position: {x: 0.18420613, y: 0.006308448, z: 0.0002684727}
+      rotation: {x: 0.7298823, y: -0.009239636, z: 0.08079961, w: 0.6787179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_shoulder
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_clavical
+      position: {x: 0.12936386, y: 0.00000032749492, z: 0.00000023198207}
+      rotation: {x: -0.06339905, y: 0.08989548, z: 0.16901454, w: 0.9794557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_elbow
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_shoulder
+      position: {x: 0.32955286, y: 1.1657341e-16, z: 0.00000034028133}
+      rotation: {x: -8.5751307e-20, y: -9.7621584e-36, z: 1.1384268e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_wrist
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_elbow
+      position: {x: 0.18420634, y: -5.8286707e-18, z: 0.0000076686265}
+      rotation: {x: 0.7298823, y: -0.009239636, z: 0.08079961, w: 0.6787179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_wrist
+      position: {x: 0.04626859, y: -0.0056420276, z: 0.0063657244}
+      rotation: {x: 0.10078675, y: -0.24240826, z: -0.13335012, w: 0.9556663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+      position: {x: 0.041040402, y: 0.0066784127, z: -0.032416686}
+      rotation: {x: -0.012792755, y: 0.20673871, z: 0.15733391, w: 0.9655783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_a
+      position: {x: 0.023578715, y: -0.0032024283, z: 0.0002481414}
+      rotation: {x: 0.000118193406, y: 0.0021900777, z: -0.04579159, w: 0.99894863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_b
+      position: {x: 0.024068208, y: 0.00037085084, z: 0.00012805089}
+      rotation: {x: -0.000039950126, y: -0.011695927, z: -0.0046916083, w: 0.9999206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_middle_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_middle_c
+      position: {x: 0.02424107, y: -0.00035163993, z: -0.0007502736}
+      rotation: {x: -0.000004737442, y: 0.007424109, z: 0.0006380973, w: 0.9999722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+      position: {x: 0.04469322, y: 0.018709213, z: 0.012673178}
+      rotation: {x: -0.015795367, y: 0.1826703, z: 0.13343146, w: 0.97394973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_a
+      position: {x: 0.019420726, y: -0.0012559803, z: 0.00006574057}
+      rotation: {x: 0.0020027682, y: 0.031206578, z: -0.009221539, w: 0.99946845}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_b
+      position: {x: 0.015827702, y: -0.0005332849, z: 0.0006304641}
+      rotation: {x: -0.0008293287, y: -0.019113466, z: -0.011498757, w: 0.99975085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_pinky_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pinky_c
+      position: {x: 0.021321505, y: -0.001072065, z: -0.0001663643}
+      rotation: {x: 0.0007398983, y: 0.0464408, z: -0.015912862, w: 0.998794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+      position: {x: 0.02467513, y: -0.0015414762, z: -0.050435487}
+      rotation: {x: -0.023845445, y: 0.30363548, z: 0.13758132, w: 0.94250107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_a
+      position: {x: 0.0329851, y: -0.002199937, z: 0.0033215706}
+      rotation: {x: 0.0004415127, y: 0.012761615, z: -0.031987444, w: 0.9994067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_b
+      position: {x: 0.018716075, y: -0.0011466357, z: 0.002700992}
+      rotation: {x: -0.00006500376, y: -0.03206529, z: -0.000560109, w: 0.9994857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_pointer_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_pointer_c
+      position: {x: 0.024713496, y: -0.0010208872, z: 0.0013929469}
+      rotation: {x: -0.00006125694, y: -0.083522804, z: -0.0007308529, w: 0.9965056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_palm
+      position: {x: 0.045671623, y: 0.008858294, z: -0.011298416}
+      rotation: {x: -0.023572622, y: 0.19253287, z: 0.119187936, w: 0.97374004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_a
+      position: {x: 0.024806896, y: 0.0006121603, z: -0.00028976204}
+      rotation: {x: 0.0028685771, y: 0.013420311, z: -0.008062016, w: 0.99987334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_b
+      position: {x: 0.019244606, y: -0.0003961781, z: -0.00069362996}
+      rotation: {x: 0.00019610814, y: 0.009405055, z: -0.005401867, w: 0.9999412}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_ring_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_ring_c
+      position: {x: 0.023402404, y: -0.00021371669, z: 0.0000021192934}
+      rotation: {x: 0.000059970876, y: 0.007764975, z: -0.0077227913, w: 0.99994004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_a
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_wrist
+      position: {x: 0.03141353, y: -0.00036991222, z: -0.023595057}
+      rotation: {x: 0.10182396, y: 0.32453468, z: 0.13909674, w: 0.9300329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_b
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_a
+      position: {x: 0.02616794, y: -0.0074794544, z: -0.004781698}
+      rotation: {x: 0.028041413, y: 0.0815838, z: -0.02120347, w: 0.9960463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_c
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_b
+      position: {x: 0.033919834, y: -0.008922557, z: 0.0015868549}
+      rotation: {x: 0.004114523, y: -0.010332345, z: -0.09073273, w: 0.99581325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character_ACTUAL_FRIGGIN__Unity_Rig:jnt_r_thumb_d
+      parentName: Character_ACTUAL_FRIGGIN__Unity_Rig:rig_r_thumb_c
+      position: {x: 0.0338267, y: -0.00096300844, z: 0.0030480225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
