@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baa3485173ea340f684ba7f357a77f79, type: 3}
   m_Name: Cloak_Topology
   m_EditorClassIdentifier: 
-  input: {fileID: 4300002, guid: 419c43b6a1e2b8d4aac2c6619bc689c2, type: 3}
+  input: {fileID: 4300002, guid: 1935b32b215fda14ca7452dcdb8ebf51, type: 3}
   scale: {x: 1, y: 1, z: 1}
   initialized: 1
   vertexCount: 944
