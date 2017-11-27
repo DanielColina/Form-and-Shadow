@@ -3,8 +3,8 @@
 public class PlayerMotor : MonoBehaviour
 {
     public static PlayerMotor m_Instance;
-    [Range(2, 10)][SerializeField] float m_MovementSpeed = 4f;
-    [Range(2, 10)][SerializeField] float m_2DMovementSpeed = 4f;
+    [Range(0, 10)][SerializeField] float m_MovementSpeed = 4f;
+    [Range(0, 10)][SerializeField] float m_2DMovementSpeed = 4f;
     [Range(.25f, 1)][SerializeField] float m_GrabbingMovementSpeed = 0.25f;
     [Range(5, 14)][SerializeField] float m_JumpSpeed = 12f;
     [Range(2, 8)][SerializeField] float m_GravityMultiplier = 21f;
