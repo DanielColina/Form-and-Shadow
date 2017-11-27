@@ -12,8 +12,8 @@ public class CameraControl : MonoBehaviour
 	Camera m_Camera;
 
 	[Header("3D Camera Variables")]
-    public LayerMask m_ClipPlaneLayerMask;
-    float m_CurrentDistance = 8f;
+	public LayerMask m_ClipPlaneLayerMask;
+	float m_CurrentDistance = 8f;
 	[Range(7, 9)] public float m_DistanceFollow = 8f;
 	[Range(0.75f, 1.5f)][SerializeField] float m_DistanceResumeSmooth = 1f;
 	[Range(0, 5)][SerializeField] float m_XMouseRotationSpeed = 5f;
@@ -62,6 +62,8 @@ public class CameraControl : MonoBehaviour
 	public float rotSpeed = 2f;
 	int delay = 0;
 
+	private bool allowSpeedAdjustment = true;
+
 	void Start()
 	{
 		m_CurrentDistance = m_DistanceFollow;
@@ -90,6 +92,41 @@ public class CameraControl : MonoBehaviour
 			Update3DCameraMovement();
 			break;
 		}
+
+		//DRF 11/27/2017 Debugger to raise/lower camera rotation speed
+		if (CrossPlatformInputManager.GetButton("Checkpoint Control") && allowSpeedAdjustment)
+		{
+			switch (Input.inputString)
+			{
+			case "[":
+				ChangeSpeed (false);
+				break;
+			case "]":
+				ChangeSpeed (true);
+				break;
+			}
+		}
+	}
+
+	public void ChangeSpeed(bool which)
+	{
+		allowSpeedAdjustment = false;
+		if (which) 
+		{
+			m_XMouseRotationSpeed += .5f;
+			m_YMouseRotationSpeed += .5f;
+		} 
+		else 
+		{
+			m_XMouseRotationSpeed -= .5f;
+			m_YMouseRotationSpeed -= .5f;
+		}
+		StartCoroutine(delayNextInput());
+	}
+
+	IEnumerator delayNextInput() {
+		yield return new WaitForSeconds(0.1f);
+		allowSpeedAdjustment = true;
 	}
 
 	public void Reset()
@@ -134,11 +171,11 @@ public class CameraControl : MonoBehaviour
 
 	void HandlePlayerInput()
 	{
-        // If the RMB is down, get mouse axis input to rotate camera
-        mouseX += CrossPlatformInputManager.GetAxis("Mouse X") * m_XMouseRotationSpeed;
-        mouseY -= CrossPlatformInputManager.GetAxis("Mouse Y") * m_YMouseRotationSpeed;
-        // Limit mouse Y
-        mouseY = ClampAngle(mouseY, m_YMinPanLimit, m_YMaxPanLimit);
+		// If the RMB is down, get mouse axis input to rotate camera
+		mouseX += CrossPlatformInputManager.GetAxis("Mouse X") * m_XMouseRotationSpeed;
+		mouseY -= CrossPlatformInputManager.GetAxis("Mouse Y") * m_YMouseRotationSpeed;
+		// Limit mouse Y
+		mouseY = ClampAngle(mouseY, m_YMinPanLimit, m_YMaxPanLimit);
 	}
 
 	void CalculateDesiredPosition()
@@ -220,7 +257,7 @@ public class CameraControl : MonoBehaviour
 
 		else if (messaged)
 			insideObject = true;
-		
+
 		else
 		{
 			insideObject = false;
@@ -230,21 +267,21 @@ public class CameraControl : MonoBehaviour
 			nearestDistance = hitInfo.distance;
 
 		if (Physics.Linecast(from, clipPlanePoints.lowerLeft, out hitInfo, m_ClipPlaneLayerMask) && insideObject)
-		    if(hitInfo.distance < nearestDistance || nearestDistance == -1)
-			    nearestDistance = hitInfo.distance;
+		if(hitInfo.distance < nearestDistance || nearestDistance == -1)
+			nearestDistance = hitInfo.distance;
 
 		if (Physics.Linecast(from, clipPlanePoints.upperRight, out hitInfo, m_ClipPlaneLayerMask) && insideObject)
-            if (hitInfo.distance < nearestDistance || nearestDistance == -1)
-			    nearestDistance = hitInfo.distance;
+		if (hitInfo.distance < nearestDistance || nearestDistance == -1)
+			nearestDistance = hitInfo.distance;
 
 		if (Physics.Linecast(from, clipPlanePoints.lowerRight, out hitInfo, m_ClipPlaneLayerMask) && insideObject)
-		    if (hitInfo.distance < nearestDistance || nearestDistance == -1)
-			    nearestDistance = hitInfo.distance;
+		if (hitInfo.distance < nearestDistance || nearestDistance == -1)
+			nearestDistance = hitInfo.distance;
 
 		if (Physics.Linecast(from, to + transform.forward * -m_Camera.nearClipPlane, out hitInfo, m_ClipPlaneLayerMask) && insideObject)
-            if (hitInfo.distance < nearestDistance || nearestDistance == -1)
-			    nearestDistance = hitInfo.distance;
-			
+		if (hitInfo.distance < nearestDistance || nearestDistance == -1)
+			nearestDistance = hitInfo.distance;
+
 		return nearestDistance;
 	}
 
