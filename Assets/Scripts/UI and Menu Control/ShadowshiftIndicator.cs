@@ -4,6 +4,8 @@ using System.Collections;
 
 public class ShadowshiftIndicator : MonoBehaviour
 {
+    public GameObject hood;
+    public GameObject cloak;
     GameObject cloakPickup;
     GameObject shadowShiftIcon;
     bool overrideOff;
@@ -25,6 +27,10 @@ public class ShadowshiftIndicator : MonoBehaviour
             }
             else if (cloakPickup.activeSelf == false)
             {
+                if(!hood.activeSelf)
+                    hood.SetActive(true);
+                if(!cloak.activeSelf)
+                    cloak.SetActive(true);
                 shadowShiftIcon.GetComponent<Image>().enabled = true;
                 StartCoroutine(ToggleOff());
             }
