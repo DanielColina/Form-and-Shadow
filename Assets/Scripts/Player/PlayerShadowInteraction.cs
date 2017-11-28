@@ -679,8 +679,9 @@ public class PlayerShadowInteraction : MonoBehaviour
 					rend.Add (checkRenders);
 					CameraControl.transparentObjects.Add (checkRenders.gameObject);
 					CameraControl.shad.Add (checkRenders.material.shader);
+
 					checkRenders.material.shader = Shader.Find ("Transparent/Diffuse");
-					Color tempColor = rend[i].material.color;
+					Color tempColor = checkRenders.material.color;
 					tempColor.a = 0.3F;
 					checkRenders.material.color = tempColor;
 				}
@@ -718,7 +719,7 @@ public class PlayerShadowInteraction : MonoBehaviour
 					CameraControl.transparentObjects.Add (checkRenders.gameObject);
 					CameraControl.shad.Add (checkRenders.material.shader);
 					checkRenders.material.shader = Shader.Find ("Transparent/Diffuse");
-					Color tempColor = rend[i].material.color;
+					Color tempColor = checkRenders.material.color;
 					tempColor.a = 0.3F;
 					checkRenders.material.color = tempColor;
 				}
@@ -758,7 +759,7 @@ public class PlayerShadowInteraction : MonoBehaviour
 					CameraControl.transparentObjects.Add (checkRenders.gameObject);
 					CameraControl.shad.Add (checkRenders.material.shader);
 					checkRenders.material.shader = Shader.Find ("Transparent/Diffuse");
-					Color tempColor = rend[i].material.color;
+					Color tempColor = checkRenders.material.color;
 					tempColor.a = 0.3F;
 					checkRenders.material.color = tempColor;
 				}
