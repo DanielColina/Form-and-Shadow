@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 114836195885317048}
   - component: {fileID: 114099421271288356}
   - component: {fileID: 114078998892379544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cloak
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4769753820271328}
   - component: {fileID: 137038331066926164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: r_eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,7 +1470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4107081351892380}
   - component: {fileID: 137627516896404526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1515,7 +1515,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4085886168623836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Final_Rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1531,7 +1531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4449541124288514}
   - component: {fileID: 137970995901706560}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: l_eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1650,7 +1650,7 @@ GameObject:
   - component: {fileID: 114124103323525018}
   - component: {fileID: 114501422242001426}
   - component: {fileID: 114067368126165816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21395,9 +21395,9 @@ MonoBehaviour:
   m_PlayerCollisionOnlyMask:
     serializedVersion: 2
     m_Bits: 0
-  m_PlayerMesh: {fileID: 0}
-  m_CloakMesh: {fileID: 0}
-  m_HoodMesh: {fileID: 0}
+  m_PlayerMesh: {fileID: 1700216538316562}
+  m_CloakMesh: {fileID: 1178420125389136}
+  m_HoodMesh: {fileID: 1820219824739288}
   m_NormalPlayerMaterial: {fileID: 2100000, guid: 7675d24cb0aa9974e981e7d777b5f441,
     type: 2}
   m_ShadowmeldPlayerMaterial: {fileID: 2100000, guid: 1ce98cb5deb2bb34d8596c59029dd205,
@@ -21610,7 +21610,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 20f22ae3709029e46888363b99bd356a, type: 2}
+  - {fileID: 2100000, guid: 7675d24cb0aa9974e981e7d777b5f441, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21865,7 +21865,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 20f22ae3709029e46888363b99bd356a, type: 2}
+  - {fileID: 2100000, guid: 7675d24cb0aa9974e981e7d777b5f441, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
