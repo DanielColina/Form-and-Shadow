@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4583718389749322}
   - component: {fileID: 33056593255682078}
   - component: {fileID: 23546269093341364}
-  - component: {fileID: 64305008655243706}
   m_Layer: 12
   m_Name: Blade_Transparent_Mesh
   m_TagString: Transparent_Mesh
@@ -75,7 +74,6 @@ GameObject:
   - component: {fileID: 4663848477095706}
   - component: {fileID: 33186791858472098}
   - component: {fileID: 23369407888580026}
-  - component: {fileID: 64049882618207928}
   m_Layer: 12
   m_Name: Pole_Transparent_Mesh
   m_TagString: Transparent_Mesh
@@ -404,34 +402,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64049882618207928
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1384373255938000}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: a1e3462c0fbedde409aa280b5ed7d25a, type: 3}
---- !u!64 &64305008655243706
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1089321950966242}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: daea822a8a845404aa8fcbc51de352db, type: 3}
 --- !u!64 &64379400240820648
 MeshCollider:
   m_ObjectHideFlags: 1
