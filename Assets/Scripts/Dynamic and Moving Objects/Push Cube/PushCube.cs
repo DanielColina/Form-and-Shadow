@@ -68,7 +68,7 @@ public class PushCube : MonoBehaviour
         PlayerMotor.m_Instance.m_GrabbedObjectTransform = gameObject.transform;
         PlayerMotor.m_Instance.SnapAlignCharacterWithGrabbedObject();
         PlayerShadowInteraction.m_CurrentPlayerState = PlayerShadowInteraction.PlayerState.Grabbing;
-        m_BaseCollider.material = PlayerController.m_Instance.m_AirbornePhysicMaterial;
+        m_BaseCollider.material = PlayerController.m_Instance.m_PlayerCollision.sharedMaterial;
         PlayerController.m_Instance.m_PlayerCollision.transform.localScale = new Vector3(1, 1, 1.5f);
         body.mass = 1f;
 

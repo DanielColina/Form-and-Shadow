@@ -4100,10 +4100,6 @@ MonoBehaviour:
   m_GroundLayer2D:
     serializedVersion: 2
     m_Bits: 2049
-  m_GroundedPhysicMaterial: {fileID: 13400000, guid: 16a1fbed0a2a1354da9de61442ef01ba,
-    type: 2}
-  m_AirbornePhysicMaterial: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1,
-    type: 2}
   m_PlayerCollision: {fileID: 136022794438489032}
   m_IsGrounded: 0
 --- !u!114 &114075587426984980
@@ -19348,7 +19344,7 @@ MonoBehaviour:
     m_Bits: 1
   m_PlayerCollisionOnlyMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 536870912
   m_PlayerMesh: {fileID: 1700216538316562}
   m_CloakMesh: {fileID: 1178420125389136}
   m_HoodMesh: {fileID: 1820219824739288}
