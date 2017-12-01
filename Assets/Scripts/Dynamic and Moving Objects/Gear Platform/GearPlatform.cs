@@ -23,11 +23,11 @@ public class GearPlatform : MonoBehaviour
         {
             if(rotateClockwise)
             {
-                transform.Rotate(rotationAxisVector, Time.deltaTime * rotationSpeed);
+                transform.Rotate(rotationAxisVector, Time.fixedDeltaTime * rotationSpeed);
             }
             else
             {
-                transform.Rotate(rotationAxisVector, Time.deltaTime * -rotationSpeed);
+                transform.Rotate(rotationAxisVector, Time.fixedDeltaTime * -rotationSpeed);
             }
         }
     }
