@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65722790216343414}
   - component: {fileID: 23590969234086738}
   - component: {fileID: 114562564815953148}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: glassDecal
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}

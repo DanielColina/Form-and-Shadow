@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65224217926165144}
   - component: {fileID: 23649794564128448}
   - component: {fileID: 114784698158666976}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: trashDecal
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -37,8 +37,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1494613942247076}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 15.574442, y: 0, z: -29.163626}
-  m_LocalScale: {x: 3.4811668, y: 3.400092, z: 3.1304626}
+  m_LocalPosition: {x: 2.48, y: 36.95, z: -65.18}
+  m_LocalScale: {x: 3.6961815, y: 3.6100988, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 28df8ee8045872a4fb6f125f094de372, type: 2}
-  sprite: {fileID: 21300004, guid: e3c815db6c335934996c25e4903143f7, type: 3}
+  sprite: {fileID: 21300002, guid: e3c815db6c335934996c25e4903143f7, type: 3}
   maxAngle: 90
   pushDistance: 0.01
   affectedLayers:

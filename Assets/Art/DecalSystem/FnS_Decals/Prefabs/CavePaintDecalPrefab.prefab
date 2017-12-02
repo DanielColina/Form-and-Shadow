@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65811485682598308}
   - component: {fileID: 23050461263554514}
   - component: {fileID: 114734142862206342}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CavePaintDecalPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}

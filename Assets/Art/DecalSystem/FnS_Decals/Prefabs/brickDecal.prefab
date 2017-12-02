@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65088890521464428}
   - component: {fileID: 23171171370726342}
   - component: {fileID: 114970305206318638}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: brickDecal
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}

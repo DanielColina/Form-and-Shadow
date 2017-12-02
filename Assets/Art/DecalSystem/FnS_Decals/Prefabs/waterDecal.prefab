@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65770847501642432}
   - component: {fileID: 23596303180243630}
   - component: {fileID: 114629040719676076}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: waterDecal
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}

@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 65250728642823330}
   - component: {fileID: 23159565428447560}
   - component: {fileID: 114065841008041148}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: rockDecal
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
