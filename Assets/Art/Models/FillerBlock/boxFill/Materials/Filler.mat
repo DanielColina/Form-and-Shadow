@@ -92,6 +92,6 @@ Material:
     - _ZWrite: 1
     - _normalAdjust: 2
     m_Colors:
-    - _Color: {r: 0.29411763, g: 0.29411763, b: 0.29411763, a: 1}
+    - _Color: {r: 0.3455882, g: 0.35321146, b: 0.35321146, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -23,12 +23,12 @@ GameObject:
   - component: {fileID: 65957819358548216}
   - component: {fileID: 23998865314796942}
   - component: {fileID: 114639755547407560}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: boltDecal
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4376057412985298
 Transform:
@@ -36,9 +36,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1797384991984976}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 15.574442, y: 0, z: -29.163626}
-  m_LocalScale: {x: 3.616017, y: 3.6100988, z: 3.1304626}
+  m_LocalRotation: {x: -0.0000010770926, y: 0.0000029504295, z: 3.177886e-12, w: 1}
+  m_LocalPosition: {x: 12.072021, y: 46.503277, z: -49.999958}
+  m_LocalScale: {x: 0.7183354, y: 0.7171597, z: 0.62187815}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -90,7 +90,7 @@ BoxCollider:
   m_GameObject: {fileID: 1797384991984976}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 28df8ee8045872a4fb6f125f094de372, type: 2}
-  sprite: {fileID: 21300012, guid: e3c815db6c335934996c25e4903143f7, type: 3}
+  sprite: {fileID: 21300010, guid: e3c815db6c335934996c25e4903143f7, type: 3}
   maxAngle: 90
   pushDistance: 0.01
   affectedLayers:
