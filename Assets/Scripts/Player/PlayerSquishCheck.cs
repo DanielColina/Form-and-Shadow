@@ -8,6 +8,11 @@ public class PlayerSquishCheck : MonoBehaviour
     bool timerActive;
     bool wasSquished;
 
+    void Start()
+    {
+        timerActive = false;
+    }
+
     void Update()
     {
         if (squishedTimer > 0)
@@ -18,11 +23,15 @@ public class PlayerSquishCheck : MonoBehaviour
             timerActive = false;
             if (wasSquished)
             {
-                GameController.m_Instance.Respawn("Crush");
+                if(Physics.OverlapSphere(transform.position + new Vector3(0, 1.12f, 0), 0.1f, m_SquishLayerMask, QueryTriggerInteraction.Ignore).Length != 0)
+                {
+                    wasSquished = false;
+                    GameController.m_Instance.Respawn("Crush");
+                }
             }
         }
 
-        if (PlayerShadowInteraction.m_CurrentPlayerState == PlayerShadowInteraction.PlayerState.Form || PlayerShadowInteraction.m_CurrentPlayerState == PlayerShadowInteraction.PlayerState.Shadow)
+        if (PlayerShadowInteraction.m_CurrentPlayerState == PlayerShadowInteraction.PlayerState.Form || PlayerShadowInteraction.m_CurrentPlayerState == PlayerShadowInteraction.PlayerState.Shadow && !GameController.m_Resetting)
             CheckforSquish();
     }
     
@@ -32,7 +41,7 @@ public class PlayerSquishCheck : MonoBehaviour
         wasSquished = (overlappingColliders.Length != 0);
         if (wasSquished && !timerActive)
         {
-            squishedTimer = 6;
+            squishedTimer = 2;
             timerActive = true;
         }
     }

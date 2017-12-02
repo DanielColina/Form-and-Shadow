@@ -295,7 +295,6 @@ public class ShadowCast : MonoBehaviour {
         shadowColliderMaster.name = "Gear_Platform_Shadow_Collider_Master";
         shadowColliderMesh.name = "Gear_Platform_Shadow_Collider_Mesh_Master";
 
-
         // Is the gear vertical?
         if (GetComponent<GearPlatform>().gearType == GearPlatform.GearType.Vertical)
         {
@@ -309,6 +308,7 @@ public class ShadowCast : MonoBehaviour {
                 GearPlatform shadowColliderGearPlatform = shadowColliderMaster.AddComponent<GearPlatform>();
                 shadowColliderGearPlatform.gearType = GearPlatform.GearType.Vertical;
                 shadowColliderGearPlatform.rotateClockwise = GetComponent<GearPlatform>().rotateClockwise;
+                shadowColliderMaster.transform.eulerAngles = new Vector3(transform.eulerAngles.x, 0, 0);
             }
             // Or is it casting parallel to its facing?
             else

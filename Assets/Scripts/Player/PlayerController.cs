@@ -6,8 +6,6 @@ public class PlayerController : MonoBehaviour
 {
 	public LayerMask m_GroundLayer3D;
 	public LayerMask m_GroundLayer2D;
-    public PhysicMaterial m_GroundedPhysicMaterial;
-    public PhysicMaterial m_AirbornePhysicMaterial;
 	public CapsuleCollider m_PlayerCollision;
 	public static PlayerController m_Instance;
 	GameObject m_Camera;
@@ -53,12 +51,11 @@ public class PlayerController : MonoBehaviour
             {
 				case PlayerShadowInteraction.PlayerState.Form:
 					Get3DLocomotionInput ();
-					if (isJumping) 
+                    if (isJumping) 
 					{
 						Jump ();
 						isJumping = false;
 					}
-                    UpdatePhysicMaterial();
                     break;
                 case PlayerShadowInteraction.PlayerState.Shadow:
                     Get2DLocomotionInput();
@@ -67,11 +64,9 @@ public class PlayerController : MonoBehaviour
 						Jump ();
 						isJumping = false;
 					}
-                    UpdatePhysicMaterial();
                     break;
                 case PlayerShadowInteraction.PlayerState.Grabbing:
                     GetGrabbingLocomotionInput();
-                    m_PlayerCollision.material = m_AirbornePhysicMaterial;
                     break;
                 case PlayerShadowInteraction.PlayerState.Shadowmelded:
                     Get3DLocomotionInput();
@@ -80,7 +75,6 @@ public class PlayerController : MonoBehaviour
 						Jump ();
 						isJumping = false;
 					}
-                    UpdatePhysicMaterial();
                     break;
             }
             PlayerMotor.m_Instance.UpdateMovement();
@@ -103,14 +97,6 @@ public class PlayerController : MonoBehaviour
 		else
 			m_IsGrounded = Physics.CheckSphere(pos, radius, m_GroundLayer3D, QueryTriggerInteraction.Ignore);
 	}
-
-    void UpdatePhysicMaterial()
-    {
-        if (m_IsGrounded)
-            m_PlayerCollision.material = m_GroundedPhysicMaterial;
-        else
-            m_PlayerCollision.material = m_AirbornePhysicMaterial;
-    }
 
 	void Get3DLocomotionInput()
 	{
