@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4090714987060794}
   - component: {fileID: 95547166936636972}
+  - component: {fileID: 114423932014638828}
   m_Layer: 12
   m_Name: Prfb_SM_TrashPile 1
   m_TagString: Untagged
@@ -51,8 +52,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1993945707125288}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.24, y: 37.36, z: -63.86}
-  m_LocalScale: {x: 10.876258, y: 10.876261, z: 10.876261}
+  m_LocalPosition: {x: -271.84, y: 5.2827, z: 38.51}
+  m_LocalScale: {x: 14.455908, y: 14.455911, z: 14.455911}
   m_Children:
   - {fileID: 4180232448646494}
   m_Father: {fileID: 0}
@@ -127,3 +128,14 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114423932014638828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1993945707125288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46498935e0d7c345a916376cfecaba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
