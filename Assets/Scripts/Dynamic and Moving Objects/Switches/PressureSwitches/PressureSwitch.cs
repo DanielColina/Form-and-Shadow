@@ -71,7 +71,7 @@ public abstract class PressureSwitch : Switch
 	void StartCinematic()
 	{
 		//play cinematic once
-		if (isCinematic && !cinematicStarted) 
+		if ((isCinematic && !cinematicStarted) && PlayerShadowInteraction.m_CurrentPlayerState != PlayerShadowInteraction.PlayerState.Shadow) 
 		{
 			m_Camera.GetComponent<CameraControl> ().SetupCinematic (this.gameObject.tag);
 			m_Camera.GetComponent<CameraControl> ().duration = this.gameObject.GetComponent<SetCinematicSpeed> ().speed;
