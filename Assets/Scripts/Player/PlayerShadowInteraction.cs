@@ -739,7 +739,7 @@ public class PlayerShadowInteraction : MonoBehaviour
 					checkRenders = hit.transform.gameObject.GetComponent<Renderer> ();
 				else 
 				{
-					if (hit.transform.parent.childCount != null) 
+					if (hit.transform.parent.childCount > 0) 
 					{
 						for (int j = 0; j < hit.transform.parent.childCount; j++) 
 						{
