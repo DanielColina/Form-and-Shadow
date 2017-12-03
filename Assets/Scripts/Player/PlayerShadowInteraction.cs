@@ -654,21 +654,24 @@ public class PlayerShadowInteraction : MonoBehaviour
 				RaycastHit hit = hits [i];
 				Debug.Log (hit.collider.transform.gameObject.name);
 				Renderer checkRenders = null;
-				if (hit.collider.transform.gameObject.tag == "Solid_Mesh")
-					checkRenders = hit.transform.gameObject.GetComponent<Renderer> ();
-				else 
-				{
-					//DRF 11.27.2017 added check to prevent soft locking
-					if (hit.transform.parent.childCount != null) 
-					{
-						for (int j = 0; j < hit.transform.parent.childCount; j++) 
-						{
-							if (hit.transform.parent.GetChild (0).tag == "Solid_Mesh") 
-							{
-								checkRenders = hit.transform.parent.GetChild (0).GetComponent<Renderer> ();
-							}
-						}
-					}
+                if (hit.collider.transform.gameObject.tag == "Solid_Mesh")
+                    checkRenders = hit.transform.gameObject.GetComponent<Renderer>();
+                else
+                {
+                    //DRF 11.27.2017 added check to prevent soft locking
+                    if (hit.transform.parent != null)
+                    { 
+                        if (hit.transform.parent.childCount != 0)
+                        {
+                            for (int j = 0; j < hit.transform.parent.childCount; j++)
+                            {
+                                if (hit.transform.parent.GetChild(0).tag == "Solid_Mesh")
+                                {
+                                    checkRenders = hit.transform.parent.GetChild(0).GetComponent<Renderer>();
+                                }
+                            }
+                        }
+                    }
 				}
 
 				Debug.Log (checkRenders);
@@ -699,17 +702,20 @@ public class PlayerShadowInteraction : MonoBehaviour
 					checkRenders = hit.transform.gameObject.GetComponent<Renderer> ();
 				else 
 				{
-					if (hit.transform.parent.childCount != null) 
-					{
-						for (int j = 0; j < hit.transform.parent.childCount; j++) 
-						{
-							if (hit.transform.parent.GetChild (0).tag == "Solid_Mesh") 
-							{
-								checkRenders = hit.transform.parent.GetChild (0).GetComponent<Renderer> ();
-							}
-						}
-					}
-				}
+                    if (hit.transform.parent != null)
+                    {
+                        if (hit.transform.parent.childCount != 0)
+                        {
+                            for (int j = 0; j < hit.transform.parent.childCount; j++)
+                            {
+                                if (hit.transform.parent.GetChild(0).tag == "Solid_Mesh")
+                                {
+                                    checkRenders = hit.transform.parent.GetChild(0).GetComponent<Renderer>();
+                                }
+                            }
+                        }
+                    }
+                }
 				Debug.Log (checkRenders);
 
 
@@ -739,17 +745,20 @@ public class PlayerShadowInteraction : MonoBehaviour
 					checkRenders = hit.transform.gameObject.GetComponent<Renderer> ();
 				else 
 				{
-					if (hit.transform.parent.childCount > 0) 
-					{
-						for (int j = 0; j < hit.transform.parent.childCount; j++) 
-						{
-							if (hit.transform.parent.GetChild (0).tag == "Solid_Mesh") 
-							{
-								checkRenders = hit.transform.parent.GetChild (0).GetComponent<Renderer> ();
-							}
-						}
-					}
-				}
+                    if (hit.transform.parent != null)
+                    {
+                        if (hit.transform.parent.childCount != 0)
+                        {
+                            for (int j = 0; j < hit.transform.parent.childCount; j++)
+                            {
+                                if (hit.transform.parent.GetChild(0).tag == "Solid_Mesh")
+                                {
+                                    checkRenders = hit.transform.parent.GetChild(0).GetComponent<Renderer>();
+                                }
+                            }
+                        }
+                    }
+                }
 				Debug.Log (checkRenders);
 
 
