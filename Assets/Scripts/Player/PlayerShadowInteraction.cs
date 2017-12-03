@@ -188,7 +188,7 @@ public class PlayerShadowInteraction : MonoBehaviour
 
 	void UpdateShadowShiftInput()
 	{
-		if ((Input.GetButtonDown("Shadowshift") && shiftDelay <= 0) || (shadowStart && shiftDelay <= 0))
+		if ((Input.GetButtonDown("Shadowshift") && shiftDelay <= 0 && GameController.m_Resetting == false) || (shadowStart && shiftDelay <= 0))
 		{
 			switch (m_CurrentPlayerState)
 			{
