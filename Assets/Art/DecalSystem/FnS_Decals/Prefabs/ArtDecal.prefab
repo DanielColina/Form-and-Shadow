@@ -56,7 +56,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 28df8ee8045872a4fb6f125f094de372, type: 2}
+  - {fileID: 2100000, guid: c44b38ea0dff5124c9ccbd27fe183577, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,8 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc94ce5ba77fa1d45ba7c6a0df113ba5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 28df8ee8045872a4fb6f125f094de372, type: 2}
-  sprite: {fileID: 21300006, guid: e3c815db6c335934996c25e4903143f7, type: 3}
+  material: {fileID: 2100000, guid: c44b38ea0dff5124c9ccbd27fe183577, type: 2}
+  sprite: {fileID: 21300016, guid: 3dd33b9b1fce8da4b8fd3e8c7b87b288, type: 3}
   maxAngle: 90
   pushDistance: 0.01
   affectedLayers:

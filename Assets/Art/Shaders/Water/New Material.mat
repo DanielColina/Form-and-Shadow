@@ -56,7 +56,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _WaveTex:
         m_Texture: {fileID: 2800000, guid: 4afabb186b834d04c9a913e2a66b273f, type: 3}
-        m_Scale: {x: 4, y: 4}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _node_1112:
         m_Texture: {fileID: 2800000, guid: da84e1e8d1432e54e85bd32766dd8094, type: 3}
@@ -76,7 +76,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _node_6522:
         m_Texture: {fileID: 2800000, guid: 84b85ec41044ee344807ed641b608c7c, type: 3}
-        m_Scale: {x: 0.5, y: 0.5}
+        m_Scale: {x: 0.5, y: 1}
         m_Offset: {x: 0, y: 1.44}
     - _node_6522_copy:
         m_Texture: {fileID: 2800000, guid: 84b85ec41044ee344807ed641b608c7c, type: 3}
