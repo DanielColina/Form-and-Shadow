@@ -1,0 +1,2736 @@
+fileFormatVersion: 2
+guid: 886b1552630dec44b8686c58b866bca8
+timeCreated: 1512362292
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: standing_rig_final:blendShapes
+    100004: standing_rig_final:boundGeo
+    100006: standing_rig_final:cc_chest
+    100008: standing_rig_final:cc_gen_eyes
+    100010: standing_rig_final:cc_head
+    100012: standing_rig_final:cc_hips
+    100014: standing_rig_final:cc_l_ankle_FK
+    100016: standing_rig_final:cc_l_arm_IK
+    100018: standing_rig_final:cc_l_ball_FK
+    100020: standing_rig_final:cc_l_clavicle
+    100022: standing_rig_final:cc_l_elbow_FK
+    100024: standing_rig_final:cc_l_elbow_PV
+    100026: standing_rig_final:cc_l_eye
+    100028: standing_rig_final:cc_l_eyebrow1
+    100030: standing_rig_final:cc_l_eyebrow2
+    100032: standing_rig_final:cc_l_eyebrow3
+    100034: standing_rig_final:cc_l_eyebrow4
+    100036: standing_rig_final:cc_l_eyebrow5
+    100038: standing_rig_final:cc_l_eyebrow_gen
+    100040: standing_rig_final:cc_l_foot
+    100042: standing_rig_final:cc_l_knee_FK
+    100044: standing_rig_final:cc_l_leg_FK
+    100046: standing_rig_final:cc_l_leg_switch_IKFK
+    100048: standing_rig_final:cc_l_lo_eyelid
+    100050: standing_rig_final:cc_l_middle01
+    100052: standing_rig_final:cc_l_middle02
+    100054: standing_rig_final:cc_l_middle03
+    100056: standing_rig_final:cc_l_pinky01
+    100058: standing_rig_final:cc_l_pinky02
+    100060: standing_rig_final:cc_l_pinky03
+    100062: standing_rig_final:cc_l_pointer01
+    100064: standing_rig_final:cc_l_pointer02
+    100066: standing_rig_final:cc_l_pointer03
+    100068: standing_rig_final:cc_l_PV
+    100070: standing_rig_final:cc_l_ring01
+    100072: standing_rig_final:cc_l_ring02
+    100074: standing_rig_final:cc_l_ring03
+    100076: standing_rig_final:cc_l_shoulder_FK
+    100078: standing_rig_final:cc_l_switch_IKFK
+    100080: standing_rig_final:cc_l_thumb01
+    100082: standing_rig_final:cc_l_thumb02
+    100084: standing_rig_final:cc_l_thumb03
+    100086: standing_rig_final:cc_l_up_eyelid
+    100088: standing_rig_final:cc_l_wrist_FK
+    100090: standing_rig_final:cc_r_ankle_FK
+    100092: standing_rig_final:cc_r_arm_IK
+    100094: standing_rig_final:cc_r_ball_FK
+    100096: standing_rig_final:cc_r_clavicle
+    100098: standing_rig_final:cc_r_elbow_FK
+    100100: standing_rig_final:cc_r_elbow_PV
+    100102: standing_rig_final:cc_r_eye
+    100104: standing_rig_final:cc_r_eyebrow1
+    100106: standing_rig_final:cc_r_eyebrow2
+    100108: standing_rig_final:cc_r_eyebrow3
+    100110: standing_rig_final:cc_r_eyebrow4
+    100112: standing_rig_final:cc_r_eyebrow5
+    100114: standing_rig_final:cc_r_eyebrow_gen
+    100116: standing_rig_final:cc_r_foot
+    100118: standing_rig_final:cc_r_knee_FK
+    100120: standing_rig_final:cc_r_leg_FK
+    100122: standing_rig_final:cc_r_leg_switch_IKFK
+    100124: standing_rig_final:cc_r_lo_eyelid
+    100126: standing_rig_final:cc_r_middle01
+    100128: standing_rig_final:cc_r_middle02
+    100130: standing_rig_final:cc_r_middle03
+    100132: standing_rig_final:cc_r_pinky01
+    100134: standing_rig_final:cc_r_pinky02
+    100136: standing_rig_final:cc_r_pinky03
+    100138: standing_rig_final:cc_r_pointer01
+    100140: standing_rig_final:cc_r_pointer02
+    100142: standing_rig_final:cc_r_pointer03
+    100144: standing_rig_final:cc_r_PV
+    100146: standing_rig_final:cc_r_ring01
+    100148: standing_rig_final:cc_r_ring02
+    100150: standing_rig_final:cc_r_ring03
+    100152: standing_rig_final:cc_r_shoulder_FK
+    100154: standing_rig_final:cc_r_switch_IKFK
+    100156: standing_rig_final:cc_r_thumb01
+    100158: standing_rig_final:cc_r_thumb02
+    100160: standing_rig_final:cc_r_thumb03
+    100162: standing_rig_final:cc_r_up_eyelid
+    100164: standing_rig_final:cc_r_wrist_FK
+    100166: standing_rig_final:cc_spine01
+    100168: standing_rig_final:cc_spine02
+    100170: standing_rig_final:cc_spine03
+    100172: standing_rig_final:character_eyesClosed
+    100174: standing_rig_final:character_eyesOpen
+    100176: standing_rig_final:controlCurves
+    100178: standing_rig_final:eyes_GRP
+    100180: standing_rig_final:geometry
+    100182: standing_rig_final:grp_chest
+    100184: standing_rig_final:grp_hips
+    100186: standing_rig_final:grp_l_ankle_FK
+    100188: standing_rig_final:grp_l_arm_IK
+    100190: standing_rig_final:grp_l_ball_FK
+    100192: standing_rig_final:grp_l_clavicle
+    100194: standing_rig_final:grp_l_elbow_FK
+    100196: standing_rig_final:grp_l_elbow_PV
+    100198: standing_rig_final:grp_l_eye
+    100200: standing_rig_final:grp_l_eyebrow_jnts
+    100202: standing_rig_final:grp_l_fingers
+    100204: standing_rig_final:grp_l_foot
+    100206: standing_rig_final:grp_l_knee_FK
+    100208: standing_rig_final:grp_l_leg_FK
+    100210: standing_rig_final:grp_l_leg_switch_IKFK
+    100212: standing_rig_final:grp_l_lo_eyelid
+    100214: standing_rig_final:grp_l_middle01
+    100216: standing_rig_final:grp_l_middle02
+    100218: standing_rig_final:grp_l_middle03
+    100220: standing_rig_final:grp_l_pinky01
+    100222: standing_rig_final:grp_l_pinky02
+    100224: standing_rig_final:grp_l_pinky03
+    100226: standing_rig_final:grp_l_pointer01
+    100228: standing_rig_final:grp_l_pointer02
+    100230: standing_rig_final:grp_l_pointer03
+    100232: standing_rig_final:grp_l_PV
+    100234: standing_rig_final:grp_l_ring01
+    100236: standing_rig_final:grp_l_ring02
+    100238: standing_rig_final:grp_l_ring03
+    100240: standing_rig_final:grp_l_shoulder_FK
+    100242: standing_rig_final:grp_l_switch_IKFK
+    100244: standing_rig_final:grp_l_thumb01
+    100246: standing_rig_final:grp_l_thumb02
+    100248: standing_rig_final:grp_l_thumb03
+    100250: standing_rig_final:grp_l_up_eyelid
+    100252: standing_rig_final:grp_l_wrist_FK
+    100254: standing_rig_final:grp_r_ankle_FK
+    100256: standing_rig_final:grp_r_arm_IK
+    100258: standing_rig_final:grp_r_ball_FK
+    100260: standing_rig_final:grp_r_clavicle
+    100262: standing_rig_final:grp_r_elbow_FK
+    100264: standing_rig_final:grp_r_elbow_PV
+    100266: standing_rig_final:grp_r_eye
+    100268: standing_rig_final:grp_r_eyebrow_jnts
+    100270: standing_rig_final:grp_r_fingers
+    100272: standing_rig_final:grp_r_foot
+    100274: standing_rig_final:grp_r_knee_FK
+    100276: standing_rig_final:grp_r_leg_FK
+    100278: standing_rig_final:grp_r_leg_switch_IKFK
+    100280: standing_rig_final:grp_r_lo_eyelid
+    100282: standing_rig_final:grp_r_middle01
+    100284: standing_rig_final:grp_r_middle02
+    100286: standing_rig_final:grp_r_middle03
+    100288: standing_rig_final:grp_r_pinky01
+    100290: standing_rig_final:grp_r_pinky02
+    100292: standing_rig_final:grp_r_pinky03
+    100294: standing_rig_final:grp_r_pointer01
+    100296: standing_rig_final:grp_r_pointer02
+    100298: standing_rig_final:grp_r_pointer03
+    100300: standing_rig_final:grp_r_PV
+    100302: standing_rig_final:grp_r_ring01
+    100304: standing_rig_final:grp_r_ring02
+    100306: standing_rig_final:grp_r_ring03
+    100308: standing_rig_final:grp_r_shoulder_FK
+    100310: standing_rig_final:grp_r_switch_IKFK
+    100312: standing_rig_final:grp_r_thumb01
+    100314: standing_rig_final:grp_r_thumb02
+    100316: standing_rig_final:grp_r_thumb03
+    100318: standing_rig_final:grp_r_up_eyelid
+    100320: standing_rig_final:grp_r_wrist_FK
+    100322: standing_rig_final:grp_spine01
+    100324: standing_rig_final:grp_spine02
+    100326: standing_rig_final:grp_spine03
+    100328: standing_rig_final:ikHandles
+    100330: standing_rig_final:ikrp_l_arm
+    100332: standing_rig_final:ikrp_l_leg
+    100334: standing_rig_final:ikrp_r_arm
+    100336: standing_rig_final:ikrp_r_leg
+    100338: standing_rig_final:iksc_l_foot
+    100340: standing_rig_final:iksc_r_foot
+    100342: standing_rig_final:jnt_head_end
+    100344: standing_rig_final:jnt_l_ankle_ctrl
+    100346: standing_rig_final:jnt_l_ankle_FK
+    100348: standing_rig_final:jnt_l_ankle_IK
+    100350: standing_rig_final:jnt_l_ball_ctrl
+    100352: standing_rig_final:jnt_l_elbow_FK
+    100354: standing_rig_final:jnt_l_elbow_IK
+    100356: standing_rig_final:jnt_l_eyeball_end
+    100358: standing_rig_final:jnt_l_foot_end
+    100360: standing_rig_final:jnt_l_heel_ctrl
+    100362: standing_rig_final:jnt_l_in_bank_ctrl
+    100364: standing_rig_final:jnt_l_knee_FK
+    100366: standing_rig_final:jnt_l_knee_IK
+    100368: standing_rig_final:jnt_l_leg_FK
+    100370: standing_rig_final:jnt_l_leg_IK
+    100372: standing_rig_final:jnt_l_lo_eyelid
+    100374: standing_rig_final:jnt_l_middle_d
+    100376: standing_rig_final:jnt_l_out_bank_ctrl
+    100378: standing_rig_final:jnt_l_pinky_d
+    100380: standing_rig_final:jnt_l_pointer_d
+    100382: standing_rig_final:jnt_l_ring_d
+    100384: standing_rig_final:jnt_l_shoulder_FK
+    100386: standing_rig_final:jnt_l_shoulder_IK
+    100388: standing_rig_final:jnt_l_thumb_d
+    100390: standing_rig_final:jnt_l_toe_ctrl
+    100392: standing_rig_final:jnt_l_up_eyelid
+    100394: standing_rig_final:jnt_l_wrist_FK
+    100396: standing_rig_final:jnt_l_wrist_IK
+    100398: standing_rig_final:jnt_lo_jaw_end
+    100400: standing_rig_final:jnt_r_ankle_ctrl
+    100402: standing_rig_final:jnt_r_ankle_FK
+    100404: standing_rig_final:jnt_r_ankle_IK
+    100406: standing_rig_final:jnt_r_ball_ctrl
+    100408: standing_rig_final:jnt_r_elbow_FK
+    100410: standing_rig_final:jnt_r_elbow_IK
+    100412: standing_rig_final:jnt_r_eyeball_end
+    100414: standing_rig_final:jnt_r_foot_end
+    100416: standing_rig_final:jnt_r_heel_ctrl
+    100418: standing_rig_final:jnt_r_in_bank_ctrl
+    100420: standing_rig_final:jnt_r_knee_FK
+    100422: standing_rig_final:jnt_r_knee_IK
+    100424: standing_rig_final:jnt_r_leg_FK
+    100426: standing_rig_final:jnt_r_leg_IK
+    100428: standing_rig_final:jnt_r_lo_eyelid
+    100430: standing_rig_final:jnt_r_middle_d
+    100432: standing_rig_final:jnt_r_out_bank_ctrl
+    100434: standing_rig_final:jnt_r_pinky_d
+    100436: standing_rig_final:jnt_r_pointer_d
+    100438: standing_rig_final:jnt_r_ring_d
+    100440: standing_rig_final:jnt_r_shoulder_FK
+    100442: standing_rig_final:jnt_r_shoulder_IK
+    100444: standing_rig_final:jnt_r_thumb_d
+    100446: standing_rig_final:jnt_r_toe_ctrl
+    100448: standing_rig_final:jnt_r_up_eyelid
+    100450: standing_rig_final:jnt_r_wrist_FK
+    100452: standing_rig_final:jnt_r_wrist_IK
+    100454: standing_rig_final:joints
+    100456: standing_rig_final:l_eye
+    100458: standing_rig_final:moveScaleRotate01
+    100460: standing_rig_final:moveScaleRotate02
+    100462: standing_rig_final:moveScaleRotate03
+    100464: standing_rig_final:r_eye
+    100466: standing_rig_final:rig_chest
+    100468: standing_rig_final:rig_head
+    100470: standing_rig_final:rig_hips
+    100472: standing_rig_final:rig_l_ankle
+    100474: standing_rig_final:rig_l_ball
+    100476: standing_rig_final:rig_l_clavical
+    100478: standing_rig_final:rig_l_elbow
+    100480: standing_rig_final:rig_l_eyeball
+    100482: standing_rig_final:rig_l_eyebrow1
+    100484: standing_rig_final:rig_l_eyebrow2
+    100486: standing_rig_final:rig_l_eyebrow3
+    100488: standing_rig_final:rig_l_eyebrow4
+    100490: standing_rig_final:rig_l_eyebrow5
+    100492: standing_rig_final:rig_l_knee
+    100494: standing_rig_final:rig_l_leg
+    100496: standing_rig_final:rig_l_lo_eyelid
+    100498: standing_rig_final:rig_l_mid_a
+    100500: standing_rig_final:rig_l_middle_b
+    100502: standing_rig_final:rig_l_middle_c
+    100504: standing_rig_final:rig_l_palm
+    100506: standing_rig_final:rig_l_pinky_a
+    100508: standing_rig_final:rig_l_pinky_b
+    100510: standing_rig_final:rig_l_pinky_c
+    100512: standing_rig_final:rig_l_pointer_a
+    100514: standing_rig_final:rig_l_pointer_b
+    100516: standing_rig_final:rig_l_pointer_c
+    100518: standing_rig_final:rig_l_ring_a
+    100520: standing_rig_final:rig_l_ring_b
+    100522: standing_rig_final:rig_l_ring_c
+    100524: standing_rig_final:rig_l_shoulder
+    100526: standing_rig_final:rig_l_thumb_a
+    100528: standing_rig_final:rig_l_thumb_b
+    100530: standing_rig_final:rig_l_thumb_c
+    100532: standing_rig_final:rig_l_up_eyelid
+    100534: standing_rig_final:rig_l_wrist
+    100536: standing_rig_final:rig_lo_jaw
+    100538: standing_rig_final:rig_neck
+    100540: standing_rig_final:rig_r_ankle
+    100542: standing_rig_final:rig_r_ball
+    100544: standing_rig_final:rig_r_clavical
+    100546: standing_rig_final:rig_r_elbow
+    100548: standing_rig_final:rig_r_eyeball
+    100550: standing_rig_final:rig_r_eyebrow1
+    100552: standing_rig_final:rig_r_eyebrow2
+    100554: standing_rig_final:rig_r_eyebrow3
+    100556: standing_rig_final:rig_r_eyebrow4
+    100558: standing_rig_final:rig_r_eyebrow5
+    100560: standing_rig_final:rig_r_knee
+    100562: standing_rig_final:rig_r_leg
+    100564: standing_rig_final:rig_r_lo_eyelid
+    100566: standing_rig_final:rig_r_middle_a
+    100568: standing_rig_final:rig_r_middle_b
+    100570: standing_rig_final:rig_r_middle_c
+    100572: standing_rig_final:rig_r_palm
+    100574: standing_rig_final:rig_r_pinky_a
+    100576: standing_rig_final:rig_r_pinky_b
+    100578: standing_rig_final:rig_r_pinky_c
+    100580: standing_rig_final:rig_r_pointer_a
+    100582: standing_rig_final:rig_r_pointer_b
+    100584: standing_rig_final:rig_r_pointer_c
+    100586: standing_rig_final:rig_r_ring_a
+    100588: standing_rig_final:rig_r_ring_b
+    100590: standing_rig_final:rig_r_ring_c
+    100592: standing_rig_final:rig_r_shoulder
+    100594: standing_rig_final:rig_r_thumb_a
+    100596: standing_rig_final:rig_r_thumb_b
+    100598: standing_rig_final:rig_r_thumb_c
+    100600: standing_rig_final:rig_r_up_eyelid
+    100602: standing_rig_final:rig_r_wrist
+    100604: standing_rig_final:rig_spine1
+    100606: standing_rig_final:rig_spine2
+    100608: standing_rig_final:rig_spine3
+    100610: standing_rig_final:transform1
+    100612: standing_rig_final:transform2
+    100614: standing_rig_final:transform3
+    100616: standing_rig_final:transform4
+    100618: standing_rig_final:transform5
+    400000: //RootNode
+    400002: standing_rig_final:blendShapes
+    400004: standing_rig_final:boundGeo
+    400006: standing_rig_final:cc_chest
+    400008: standing_rig_final:cc_gen_eyes
+    400010: standing_rig_final:cc_head
+    400012: standing_rig_final:cc_hips
+    400014: standing_rig_final:cc_l_ankle_FK
+    400016: standing_rig_final:cc_l_arm_IK
+    400018: standing_rig_final:cc_l_ball_FK
+    400020: standing_rig_final:cc_l_clavicle
+    400022: standing_rig_final:cc_l_elbow_FK
+    400024: standing_rig_final:cc_l_elbow_PV
+    400026: standing_rig_final:cc_l_eye
+    400028: standing_rig_final:cc_l_eyebrow1
+    400030: standing_rig_final:cc_l_eyebrow2
+    400032: standing_rig_final:cc_l_eyebrow3
+    400034: standing_rig_final:cc_l_eyebrow4
+    400036: standing_rig_final:cc_l_eyebrow5
+    400038: standing_rig_final:cc_l_eyebrow_gen
+    400040: standing_rig_final:cc_l_foot
+    400042: standing_rig_final:cc_l_knee_FK
+    400044: standing_rig_final:cc_l_leg_FK
+    400046: standing_rig_final:cc_l_leg_switch_IKFK
+    400048: standing_rig_final:cc_l_lo_eyelid
+    400050: standing_rig_final:cc_l_middle01
+    400052: standing_rig_final:cc_l_middle02
+    400054: standing_rig_final:cc_l_middle03
+    400056: standing_rig_final:cc_l_pinky01
+    400058: standing_rig_final:cc_l_pinky02
+    400060: standing_rig_final:cc_l_pinky03
+    400062: standing_rig_final:cc_l_pointer01
+    400064: standing_rig_final:cc_l_pointer02
+    400066: standing_rig_final:cc_l_pointer03
+    400068: standing_rig_final:cc_l_PV
+    400070: standing_rig_final:cc_l_ring01
+    400072: standing_rig_final:cc_l_ring02
+    400074: standing_rig_final:cc_l_ring03
+    400076: standing_rig_final:cc_l_shoulder_FK
+    400078: standing_rig_final:cc_l_switch_IKFK
+    400080: standing_rig_final:cc_l_thumb01
+    400082: standing_rig_final:cc_l_thumb02
+    400084: standing_rig_final:cc_l_thumb03
+    400086: standing_rig_final:cc_l_up_eyelid
+    400088: standing_rig_final:cc_l_wrist_FK
+    400090: standing_rig_final:cc_r_ankle_FK
+    400092: standing_rig_final:cc_r_arm_IK
+    400094: standing_rig_final:cc_r_ball_FK
+    400096: standing_rig_final:cc_r_clavicle
+    400098: standing_rig_final:cc_r_elbow_FK
+    400100: standing_rig_final:cc_r_elbow_PV
+    400102: standing_rig_final:cc_r_eye
+    400104: standing_rig_final:cc_r_eyebrow1
+    400106: standing_rig_final:cc_r_eyebrow2
+    400108: standing_rig_final:cc_r_eyebrow3
+    400110: standing_rig_final:cc_r_eyebrow4
+    400112: standing_rig_final:cc_r_eyebrow5
+    400114: standing_rig_final:cc_r_eyebrow_gen
+    400116: standing_rig_final:cc_r_foot
+    400118: standing_rig_final:cc_r_knee_FK
+    400120: standing_rig_final:cc_r_leg_FK
+    400122: standing_rig_final:cc_r_leg_switch_IKFK
+    400124: standing_rig_final:cc_r_lo_eyelid
+    400126: standing_rig_final:cc_r_middle01
+    400128: standing_rig_final:cc_r_middle02
+    400130: standing_rig_final:cc_r_middle03
+    400132: standing_rig_final:cc_r_pinky01
+    400134: standing_rig_final:cc_r_pinky02
+    400136: standing_rig_final:cc_r_pinky03
+    400138: standing_rig_final:cc_r_pointer01
+    400140: standing_rig_final:cc_r_pointer02
+    400142: standing_rig_final:cc_r_pointer03
+    400144: standing_rig_final:cc_r_PV
+    400146: standing_rig_final:cc_r_ring01
+    400148: standing_rig_final:cc_r_ring02
+    400150: standing_rig_final:cc_r_ring03
+    400152: standing_rig_final:cc_r_shoulder_FK
+    400154: standing_rig_final:cc_r_switch_IKFK
+    400156: standing_rig_final:cc_r_thumb01
+    400158: standing_rig_final:cc_r_thumb02
+    400160: standing_rig_final:cc_r_thumb03
+    400162: standing_rig_final:cc_r_up_eyelid
+    400164: standing_rig_final:cc_r_wrist_FK
+    400166: standing_rig_final:cc_spine01
+    400168: standing_rig_final:cc_spine02
+    400170: standing_rig_final:cc_spine03
+    400172: standing_rig_final:character_eyesClosed
+    400174: standing_rig_final:character_eyesOpen
+    400176: standing_rig_final:controlCurves
+    400178: standing_rig_final:eyes_GRP
+    400180: standing_rig_final:geometry
+    400182: standing_rig_final:grp_chest
+    400184: standing_rig_final:grp_hips
+    400186: standing_rig_final:grp_l_ankle_FK
+    400188: standing_rig_final:grp_l_arm_IK
+    400190: standing_rig_final:grp_l_ball_FK
+    400192: standing_rig_final:grp_l_clavicle
+    400194: standing_rig_final:grp_l_elbow_FK
+    400196: standing_rig_final:grp_l_elbow_PV
+    400198: standing_rig_final:grp_l_eye
+    400200: standing_rig_final:grp_l_eyebrow_jnts
+    400202: standing_rig_final:grp_l_fingers
+    400204: standing_rig_final:grp_l_foot
+    400206: standing_rig_final:grp_l_knee_FK
+    400208: standing_rig_final:grp_l_leg_FK
+    400210: standing_rig_final:grp_l_leg_switch_IKFK
+    400212: standing_rig_final:grp_l_lo_eyelid
+    400214: standing_rig_final:grp_l_middle01
+    400216: standing_rig_final:grp_l_middle02
+    400218: standing_rig_final:grp_l_middle03
+    400220: standing_rig_final:grp_l_pinky01
+    400222: standing_rig_final:grp_l_pinky02
+    400224: standing_rig_final:grp_l_pinky03
+    400226: standing_rig_final:grp_l_pointer01
+    400228: standing_rig_final:grp_l_pointer02
+    400230: standing_rig_final:grp_l_pointer03
+    400232: standing_rig_final:grp_l_PV
+    400234: standing_rig_final:grp_l_ring01
+    400236: standing_rig_final:grp_l_ring02
+    400238: standing_rig_final:grp_l_ring03
+    400240: standing_rig_final:grp_l_shoulder_FK
+    400242: standing_rig_final:grp_l_switch_IKFK
+    400244: standing_rig_final:grp_l_thumb01
+    400246: standing_rig_final:grp_l_thumb02
+    400248: standing_rig_final:grp_l_thumb03
+    400250: standing_rig_final:grp_l_up_eyelid
+    400252: standing_rig_final:grp_l_wrist_FK
+    400254: standing_rig_final:grp_r_ankle_FK
+    400256: standing_rig_final:grp_r_arm_IK
+    400258: standing_rig_final:grp_r_ball_FK
+    400260: standing_rig_final:grp_r_clavicle
+    400262: standing_rig_final:grp_r_elbow_FK
+    400264: standing_rig_final:grp_r_elbow_PV
+    400266: standing_rig_final:grp_r_eye
+    400268: standing_rig_final:grp_r_eyebrow_jnts
+    400270: standing_rig_final:grp_r_fingers
+    400272: standing_rig_final:grp_r_foot
+    400274: standing_rig_final:grp_r_knee_FK
+    400276: standing_rig_final:grp_r_leg_FK
+    400278: standing_rig_final:grp_r_leg_switch_IKFK
+    400280: standing_rig_final:grp_r_lo_eyelid
+    400282: standing_rig_final:grp_r_middle01
+    400284: standing_rig_final:grp_r_middle02
+    400286: standing_rig_final:grp_r_middle03
+    400288: standing_rig_final:grp_r_pinky01
+    400290: standing_rig_final:grp_r_pinky02
+    400292: standing_rig_final:grp_r_pinky03
+    400294: standing_rig_final:grp_r_pointer01
+    400296: standing_rig_final:grp_r_pointer02
+    400298: standing_rig_final:grp_r_pointer03
+    400300: standing_rig_final:grp_r_PV
+    400302: standing_rig_final:grp_r_ring01
+    400304: standing_rig_final:grp_r_ring02
+    400306: standing_rig_final:grp_r_ring03
+    400308: standing_rig_final:grp_r_shoulder_FK
+    400310: standing_rig_final:grp_r_switch_IKFK
+    400312: standing_rig_final:grp_r_thumb01
+    400314: standing_rig_final:grp_r_thumb02
+    400316: standing_rig_final:grp_r_thumb03
+    400318: standing_rig_final:grp_r_up_eyelid
+    400320: standing_rig_final:grp_r_wrist_FK
+    400322: standing_rig_final:grp_spine01
+    400324: standing_rig_final:grp_spine02
+    400326: standing_rig_final:grp_spine03
+    400328: standing_rig_final:ikHandles
+    400330: standing_rig_final:ikrp_l_arm
+    400332: standing_rig_final:ikrp_l_leg
+    400334: standing_rig_final:ikrp_r_arm
+    400336: standing_rig_final:ikrp_r_leg
+    400338: standing_rig_final:iksc_l_foot
+    400340: standing_rig_final:iksc_r_foot
+    400342: standing_rig_final:jnt_head_end
+    400344: standing_rig_final:jnt_l_ankle_ctrl
+    400346: standing_rig_final:jnt_l_ankle_FK
+    400348: standing_rig_final:jnt_l_ankle_IK
+    400350: standing_rig_final:jnt_l_ball_ctrl
+    400352: standing_rig_final:jnt_l_elbow_FK
+    400354: standing_rig_final:jnt_l_elbow_IK
+    400356: standing_rig_final:jnt_l_eyeball_end
+    400358: standing_rig_final:jnt_l_foot_end
+    400360: standing_rig_final:jnt_l_heel_ctrl
+    400362: standing_rig_final:jnt_l_in_bank_ctrl
+    400364: standing_rig_final:jnt_l_knee_FK
+    400366: standing_rig_final:jnt_l_knee_IK
+    400368: standing_rig_final:jnt_l_leg_FK
+    400370: standing_rig_final:jnt_l_leg_IK
+    400372: standing_rig_final:jnt_l_lo_eyelid
+    400374: standing_rig_final:jnt_l_middle_d
+    400376: standing_rig_final:jnt_l_out_bank_ctrl
+    400378: standing_rig_final:jnt_l_pinky_d
+    400380: standing_rig_final:jnt_l_pointer_d
+    400382: standing_rig_final:jnt_l_ring_d
+    400384: standing_rig_final:jnt_l_shoulder_FK
+    400386: standing_rig_final:jnt_l_shoulder_IK
+    400388: standing_rig_final:jnt_l_thumb_d
+    400390: standing_rig_final:jnt_l_toe_ctrl
+    400392: standing_rig_final:jnt_l_up_eyelid
+    400394: standing_rig_final:jnt_l_wrist_FK
+    400396: standing_rig_final:jnt_l_wrist_IK
+    400398: standing_rig_final:jnt_lo_jaw_end
+    400400: standing_rig_final:jnt_r_ankle_ctrl
+    400402: standing_rig_final:jnt_r_ankle_FK
+    400404: standing_rig_final:jnt_r_ankle_IK
+    400406: standing_rig_final:jnt_r_ball_ctrl
+    400408: standing_rig_final:jnt_r_elbow_FK
+    400410: standing_rig_final:jnt_r_elbow_IK
+    400412: standing_rig_final:jnt_r_eyeball_end
+    400414: standing_rig_final:jnt_r_foot_end
+    400416: standing_rig_final:jnt_r_heel_ctrl
+    400418: standing_rig_final:jnt_r_in_bank_ctrl
+    400420: standing_rig_final:jnt_r_knee_FK
+    400422: standing_rig_final:jnt_r_knee_IK
+    400424: standing_rig_final:jnt_r_leg_FK
+    400426: standing_rig_final:jnt_r_leg_IK
+    400428: standing_rig_final:jnt_r_lo_eyelid
+    400430: standing_rig_final:jnt_r_middle_d
+    400432: standing_rig_final:jnt_r_out_bank_ctrl
+    400434: standing_rig_final:jnt_r_pinky_d
+    400436: standing_rig_final:jnt_r_pointer_d
+    400438: standing_rig_final:jnt_r_ring_d
+    400440: standing_rig_final:jnt_r_shoulder_FK
+    400442: standing_rig_final:jnt_r_shoulder_IK
+    400444: standing_rig_final:jnt_r_thumb_d
+    400446: standing_rig_final:jnt_r_toe_ctrl
+    400448: standing_rig_final:jnt_r_up_eyelid
+    400450: standing_rig_final:jnt_r_wrist_FK
+    400452: standing_rig_final:jnt_r_wrist_IK
+    400454: standing_rig_final:joints
+    400456: standing_rig_final:l_eye
+    400458: standing_rig_final:moveScaleRotate01
+    400460: standing_rig_final:moveScaleRotate02
+    400462: standing_rig_final:moveScaleRotate03
+    400464: standing_rig_final:r_eye
+    400466: standing_rig_final:rig_chest
+    400468: standing_rig_final:rig_head
+    400470: standing_rig_final:rig_hips
+    400472: standing_rig_final:rig_l_ankle
+    400474: standing_rig_final:rig_l_ball
+    400476: standing_rig_final:rig_l_clavical
+    400478: standing_rig_final:rig_l_elbow
+    400480: standing_rig_final:rig_l_eyeball
+    400482: standing_rig_final:rig_l_eyebrow1
+    400484: standing_rig_final:rig_l_eyebrow2
+    400486: standing_rig_final:rig_l_eyebrow3
+    400488: standing_rig_final:rig_l_eyebrow4
+    400490: standing_rig_final:rig_l_eyebrow5
+    400492: standing_rig_final:rig_l_knee
+    400494: standing_rig_final:rig_l_leg
+    400496: standing_rig_final:rig_l_lo_eyelid
+    400498: standing_rig_final:rig_l_mid_a
+    400500: standing_rig_final:rig_l_middle_b
+    400502: standing_rig_final:rig_l_middle_c
+    400504: standing_rig_final:rig_l_palm
+    400506: standing_rig_final:rig_l_pinky_a
+    400508: standing_rig_final:rig_l_pinky_b
+    400510: standing_rig_final:rig_l_pinky_c
+    400512: standing_rig_final:rig_l_pointer_a
+    400514: standing_rig_final:rig_l_pointer_b
+    400516: standing_rig_final:rig_l_pointer_c
+    400518: standing_rig_final:rig_l_ring_a
+    400520: standing_rig_final:rig_l_ring_b
+    400522: standing_rig_final:rig_l_ring_c
+    400524: standing_rig_final:rig_l_shoulder
+    400526: standing_rig_final:rig_l_thumb_a
+    400528: standing_rig_final:rig_l_thumb_b
+    400530: standing_rig_final:rig_l_thumb_c
+    400532: standing_rig_final:rig_l_up_eyelid
+    400534: standing_rig_final:rig_l_wrist
+    400536: standing_rig_final:rig_lo_jaw
+    400538: standing_rig_final:rig_neck
+    400540: standing_rig_final:rig_r_ankle
+    400542: standing_rig_final:rig_r_ball
+    400544: standing_rig_final:rig_r_clavical
+    400546: standing_rig_final:rig_r_elbow
+    400548: standing_rig_final:rig_r_eyeball
+    400550: standing_rig_final:rig_r_eyebrow1
+    400552: standing_rig_final:rig_r_eyebrow2
+    400554: standing_rig_final:rig_r_eyebrow3
+    400556: standing_rig_final:rig_r_eyebrow4
+    400558: standing_rig_final:rig_r_eyebrow5
+    400560: standing_rig_final:rig_r_knee
+    400562: standing_rig_final:rig_r_leg
+    400564: standing_rig_final:rig_r_lo_eyelid
+    400566: standing_rig_final:rig_r_middle_a
+    400568: standing_rig_final:rig_r_middle_b
+    400570: standing_rig_final:rig_r_middle_c
+    400572: standing_rig_final:rig_r_palm
+    400574: standing_rig_final:rig_r_pinky_a
+    400576: standing_rig_final:rig_r_pinky_b
+    400578: standing_rig_final:rig_r_pinky_c
+    400580: standing_rig_final:rig_r_pointer_a
+    400582: standing_rig_final:rig_r_pointer_b
+    400584: standing_rig_final:rig_r_pointer_c
+    400586: standing_rig_final:rig_r_ring_a
+    400588: standing_rig_final:rig_r_ring_b
+    400590: standing_rig_final:rig_r_ring_c
+    400592: standing_rig_final:rig_r_shoulder
+    400594: standing_rig_final:rig_r_thumb_a
+    400596: standing_rig_final:rig_r_thumb_b
+    400598: standing_rig_final:rig_r_thumb_c
+    400600: standing_rig_final:rig_r_up_eyelid
+    400602: standing_rig_final:rig_r_wrist
+    400604: standing_rig_final:rig_spine1
+    400606: standing_rig_final:rig_spine2
+    400608: standing_rig_final:rig_spine3
+    400610: standing_rig_final:transform1
+    400612: standing_rig_final:transform2
+    400614: standing_rig_final:transform3
+    400616: standing_rig_final:transform4
+    400618: standing_rig_final:transform5
+    2300000: standing_rig_final:character_eyesClosed
+    3300000: standing_rig_final:character_eyesClosed
+    4300000: standing_rig_final:character_eyesClosed
+    4300002: standing_rig_final:r_eye
+    4300004: standing_rig_final:l_eye
+    4300006: standing_rig_final:character_eyesOpen
+    7400000: FinalRun
+    9500000: //RootNode
+    13700000: standing_rig_final:character_eyesOpen
+    13700002: standing_rig_final:l_eye
+    13700004: standing_rig_final:r_eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'standing_rig_final:rig_spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'standing_rig_final:rig_neck'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FinalRun
+      takeName: Take 001
+      firstFrame: 2201
+      lastFrame: 2226
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: standing_rig_final:rig_hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_ankle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_ankle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_clavical
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_clavical
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_shoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_shoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_ball
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_ball
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_eyeball
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_eyeball
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_lo_jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_thumb_a
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_thumb_b
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_thumb_c
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_pointer_a
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_pointer_b
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_pointer_c
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_mid_a
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_middle_b
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_middle_c
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_ring_a
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_ring_b
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_ring_c
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_pinky_a
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_pinky_b
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_l_pinky_c
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_thumb_a
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_thumb_b
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_thumb_c
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_pointer_a
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_pointer_b
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_pointer_c
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_middle_a
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_middle_b
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_middle_c
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_ring_a
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_ring_b
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_ring_c
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_pinky_a
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_pinky_b
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_r_pinky_c
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: standing_rig_final:rig_chest
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: character@FinalRun(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:geometry
+      parentName: character@FinalRun(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:blendShapes
+      parentName: standing_rig_final:geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:character_eyesClosed
+      parentName: standing_rig_final:blendShapes
+      position: {x: -0.15211952, y: 0.08736263, z: -0.17900746}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:boundGeo
+      parentName: standing_rig_final:geometry
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:character_eyesOpen
+      parentName: standing_rig_final:boundGeo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:eyes_GRP
+      parentName: standing_rig_final:boundGeo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:l_eye
+      parentName: standing_rig_final:eyes_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:r_eye
+      parentName: standing_rig_final:eyes_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:moveScaleRotate01
+      parentName: character@FinalRun(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:moveScaleRotate02
+      parentName: standing_rig_final:moveScaleRotate01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:moveScaleRotate03
+      parentName: standing_rig_final:moveScaleRotate02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:controlCurves
+      parentName: standing_rig_final:moveScaleRotate03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_hips
+      parentName: standing_rig_final:controlCurves
+      position: {x: -5.4800607e-19, y: 0.0960326, z: -0.00005446}
+      rotation: {x: 0.50083387, y: -0.49916473, z: 0.50083387, w: -0.49916473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_hips
+      parentName: standing_rig_final:grp_hips
+      position: {x: 1.6588292e-18, y: 1.7763568e-17, z: 4.597017e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_spine01
+      parentName: standing_rig_final:cc_hips
+      position: {x: -0.006617201, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.00016973428, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_spine01
+      parentName: standing_rig_final:grp_spine01
+      position: {x: 4.857226e-19, y: 3.5527136e-17, z: 4.943962e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_spine02
+      parentName: standing_rig_final:cc_spine01
+      position: {x: -0.0072582313, y: -0.000010821819, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_spine02
+      parentName: standing_rig_final:grp_spine02
+      position: {x: 1.7839462e-17, y: 1.7763568e-17, z: 4.857226e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_spine03
+      parentName: standing_rig_final:cc_spine02
+      position: {x: -0.0073839216, y: -0.000011007785, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0029950577, w: 0.9999955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_spine03
+      parentName: standing_rig_final:grp_spine03
+      position: {x: -2.7972415e-19, y: 1.7763568e-17, z: 5.2909067e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_chest
+      parentName: standing_rig_final:cc_spine03
+      position: {x: -0.006655675, y: -0.0000021708029, z: 2.2811613e-18}
+      rotation: {x: 0, y: -0, z: -0.0014956582, w: 0.99999887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_chest
+      parentName: standing_rig_final:grp_chest
+      position: {x: 1.7483844e-17, y: 0, z: 5.117434e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_head
+      parentName: standing_rig_final:cc_chest
+      position: {x: -0.030209333, y: 0.00022094621, z: -3.9378223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_gen_eyes
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.0056037395, y: -0.02119561, z: 0.000004545041}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_eye
+      parentName: standing_rig_final:cc_gen_eyes
+      position: {x: 0.0000056002427, y: 0.012680137, z: -0.005128946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eye
+      parentName: standing_rig_final:grp_l_eye
+      position: {x: -0, y: -0.012349564, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_eye
+      parentName: standing_rig_final:cc_gen_eyes
+      position: {x: -0.0000056002427, y: 0.012665857, z: 0.005128946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eye
+      parentName: standing_rig_final:grp_r_eye
+      position: {x: -0, y: -0.012349564, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eyebrow_gen
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.010389929, y: -0.020314496, z: -0.006326318}
+      rotation: {x: 0, y: 0, z: 0.06419302, w: 0.9979375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eyebrow1
+      parentName: standing_rig_final:cc_l_eyebrow_gen
+      position: {x: 0.0015263202, y: 0.000045930454, z: 0.0033612554}
+      rotation: {x: 0.5052996, y: -0.08220173, z: 0.06422072, w: 0.85661596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eyebrow2
+      parentName: standing_rig_final:cc_l_eyebrow_gen
+      position: {x: 0.00059159833, y: 0.0000307931, z: 0.0016896644}
+      rotation: {x: -0.029513888, y: -0.005960641, z: 0.012812866, w: 0.9994645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eyebrow3
+      parentName: standing_rig_final:cc_l_eyebrow_gen
+      position: {x: -0, y: 0.000042550662, z: 0.000061011226}
+      rotation: {x: -0.038579125, y: -0.005494934, z: 0.0030351304, w: 0.99923587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eyebrow4
+      parentName: standing_rig_final:cc_l_eyebrow_gen
+      position: {x: -0.00020824402, y: 0.000023831242, z: -0.001317765}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_eyebrow5
+      parentName: standing_rig_final:cc_l_eyebrow_gen
+      position: {x: 0.00080269534, y: 0.000035791076, z: -0.002100439}
+      rotation: {x: -0.009267987, y: 0.007084718, z: -0.014177547, w: 0.9998315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eyebrow_gen
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.010389929, y: -0.020314496, z: 0.0062653064}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eyebrow1
+      parentName: standing_rig_final:cc_r_eyebrow_gen
+      position: {x: 0.0015263202, y: 0.000045930454, z: -0.0033002445}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eyebrow2
+      parentName: standing_rig_final:cc_r_eyebrow_gen
+      position: {x: 0.00059159833, y: 0.0000307931, z: -0.001628653}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eyebrow3
+      parentName: standing_rig_final:cc_r_eyebrow_gen
+      position: {x: -0, y: 0.000042550662, z: 1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eyebrow4
+      parentName: standing_rig_final:cc_r_eyebrow_gen
+      position: {x: -0.00020824402, y: 0.000023831242, z: 0.0013787762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_eyebrow5
+      parentName: standing_rig_final:cc_r_eyebrow_gen
+      position: {x: 0.00080269534, y: 0.000035791076, z: 0.0021614502}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_lo_eyelid
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.004413109, y: -0.008470783, z: -0.005787925}
+      rotation: {x: 0.6942973, y: 0.7196883, z: 0.000000006620681, w: 0.0000000063870997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_lo_eyelid
+      parentName: standing_rig_final:grp_l_lo_eyelid
+      position: {x: -0.012392245, y: 0.0011158127, z: -0.00073097117}
+      rotation: {x: 0.6942973, y: 0.7196883, z: 0.0000000039327146, w: 0.0000000037939665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_up_eyelid
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.0076225805, y: -0.008174534, z: -0.0051301853}
+      rotation: {x: 0, y: 0, z: 0.6747123, w: 0.73808086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_up_eyelid
+      parentName: standing_rig_final:grp_l_up_eyelid
+      position: {x: -0.012725154, y: -0.0005724239, z: 1.09912074e-16}
+      rotation: {x: 0, y: -0, z: -0.6747123, w: 0.73808086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_lo_eyelid
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.004413099, y: -0.008470783, z: 0.005787925}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_lo_eyelid
+      parentName: standing_rig_final:grp_r_lo_eyelid
+      position: {x: -0.00073097146, y: -0.001225266, z: 0.012356222}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_up_eyelid
+      parentName: standing_rig_final:cc_head
+      position: {x: -0.0076225754, y: -0.008174524, z: 0.0051301853}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_up_eyelid
+      parentName: standing_rig_final:grp_r_up_eyelid
+      position: {x: -0.00027683272, y: 0.0007457439, z: 0.0127047235}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_clavicle
+      parentName: standing_rig_final:cc_chest
+      position: {x: -0.0115289865, y: -0.0031178475, z: -0.002583014}
+      rotation: {x: 0.2276047, y: -0.77211434, z: -0.16776407, w: 0.569114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_clavicle
+      parentName: standing_rig_final:grp_l_clavicle
+      position: {x: 0.0035861407, y: -0.0056348173, z: 1.0658141e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_shoulder_FK
+      parentName: standing_rig_final:cc_chest
+      position: {x: -0.008466024, y: 0.0035650413, z: -0.012469758}
+      rotation: {x: 0, y: -0.6810089, z: -0, w: 0.7322751}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_shoulder_FK
+      parentName: standing_rig_final:grp_l_shoulder_FK
+      position: {x: 4.440892e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_elbow_FK
+      parentName: standing_rig_final:cc_l_shoulder_FK
+      position: {x: -0.031386007, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0.00075324374, z: -0, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_elbow_FK
+      parentName: standing_rig_final:grp_l_elbow_FK
+      position: {x: -4.440892e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_wrist_FK
+      parentName: standing_rig_final:cc_l_elbow_FK
+      position: {x: -0.017543579, y: 0, z: 0}
+      rotation: {x: 0.77188915, y: -0.008442942, z: 0.08287689, w: 0.63027555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_wrist_FK
+      parentName: standing_rig_final:grp_l_wrist_FK
+      position: {x: -4.440892e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_clavicle
+      parentName: standing_rig_final:cc_chest
+      position: {x: -0.011529439, y: -0.0031178475, z: 0.00258301}
+      rotation: {x: 0.77211434, y: 0.22760467, z: 0.5691141, w: 0.16776407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_clavicle
+      parentName: standing_rig_final:grp_r_clavicle
+      position: {x: -0.0037203904, y: 0.005880956, z: 1.2434498e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_shoulder_FK
+      parentName: standing_rig_final:cc_chest
+      position: {x: -0.008465941, y: 0.0035650444, z: 0.012469748}
+      rotation: {x: 0.6810089, y: 7.977715e-16, z: 0.7322751, w: -8.5782764e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_shoulder_FK
+      parentName: standing_rig_final:grp_r_shoulder_FK
+      position: {x: -4.440892e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_elbow_FK
+      parentName: standing_rig_final:cc_r_shoulder_FK
+      position: {x: 0.031386085, y: 0, z: -0.000000022547319}
+      rotation: {x: 0, y: -0.00075324374, z: -0, w: 0.9999997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_elbow_FK
+      parentName: standing_rig_final:grp_r_elbow_FK
+      position: {x: 8.881784e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_wrist_FK
+      parentName: standing_rig_final:cc_r_elbow_FK
+      position: {x: 0.017543448, y: 0.0000000080466265, z: 0.00000029236077}
+      rotation: {x: 0.7206187, y: -0.007634857, z: 0.08038203, w: 0.6886139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_wrist_FK
+      parentName: standing_rig_final:grp_r_wrist_FK
+      position: {x: 8.881784e-18, y: -5.3290704e-17, z: 2.220446e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_arm_IK
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.061271705, y: 0.13594554, z: -0.0036417504}
+      rotation: {x: -0.6422787, y: 0.01306245, z: 0.055636507, w: 0.76433766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_arm_IK
+      parentName: standing_rig_final:grp_l_arm_IK
+      position: {x: 0.046503287, y: -0.07710339, z: -0.019992147}
+      rotation: {x: 0.13194835, y: 0.6538534, z: 0.25784087, w: 0.6989875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_ball_FK
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.005861591, y: 0.006768553, z: -0.04832652}
+      rotation: {x: 0.4910801, y: 0.5917143, z: 0.3817155, w: 0.51284283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_ball_FK
+      parentName: standing_rig_final:grp_l_ball_FK
+      position: {x: 2.220446e-18, y: 8.3266725e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_elbow_PV
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.043853655, y: 0.13468494, z: -0.0036416939}
+      rotation: {x: -0.7066424, y: 0.025623763, z: -0.025642741, w: 0.70664173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_elbow_PV
+      parentName: standing_rig_final:grp_l_elbow_PV
+      position: {x: -2.6645352e-17, y: -0.016616372, z: 0.11154645}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_fingers
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.07892732, y: -0.020985723, z: -0.03586435}
+      rotation: {x: 0.1802869, y: 0.77784574, z: -0.07464337, w: 0.5973953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_middle01
+      parentName: standing_rig_final:grp_l_fingers
+      position: {x: -0.07058792, y: 0.13674402, z: -0.004518126}
+      rotation: {x: 0.9941201, y: 0.010610104, z: 0.03237078, w: 0.10278503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_middle01
+      parentName: standing_rig_final:grp_l_middle01
+      position: {x: 2.4424906e-17, y: -1.0658141e-16, z: 2.5535128e-17}
+      rotation: {x: 0, y: -0, z: -0.14205565, w: 0.9898587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_middle02
+      parentName: standing_rig_final:cc_l_middle01
+      position: {x: -0.0022663153, y: 0, z: 0}
+      rotation: {x: -0.000022134127, y: -0.029781725, z: -0.00130932, w: 0.9995556}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_middle02
+      parentName: standing_rig_final:grp_l_middle02
+      position: {x: -2.1371793e-17, y: 1.5987211e-16, z: -1.05471186e-16}
+      rotation: {x: 0, y: 0, z: 0.2543121, w: 0.9671222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_middle03
+      parentName: standing_rig_final:cc_l_middle02
+      position: {x: -0.0022924757, y: 0, z: 0}
+      rotation: {x: 0.00029705427, y: 0.01780021, z: 0.010280277, w: 0.9997887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_middle03
+      parentName: standing_rig_final:grp_l_middle03
+      position: {x: -0, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0.10333257, w: 0.99464685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_pinky01
+      parentName: standing_rig_final:grp_l_fingers
+      position: {x: -0.06934666, y: 0.1326013, z: -0.0034356022}
+      rotation: {x: 0.9919561, y: 0.069608666, z: 0.016173607, w: 0.1044804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_pinky01
+      parentName: standing_rig_final:grp_l_pinky01
+      position: {x: -1.7763568e-17, y: 5.3290704e-17, z: 6.217249e-17}
+      rotation: {x: 0, y: -0, z: -0.1216473, w: 0.99257344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_pinky02
+      parentName: standing_rig_final:cc_l_pinky01
+      position: {x: -0.0018534969, y: 0, z: -8.8817837e-17}
+      rotation: {x: 0.00017902865, y: -0.008411766, z: 0.011521078, w: 0.99989825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_pinky02
+      parentName: standing_rig_final:grp_l_pinky02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2622653, w: 0.9649958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_pinky03
+      parentName: standing_rig_final:cc_l_pinky02
+      position: {x: -0.0015093674, y: 0, z: 0}
+      rotation: {x: 0.000051947718, y: 0.017905697, z: 0.008596122, w: 0.9998027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_pinky03
+      parentName: standing_rig_final:grp_l_pinky03
+      position: {x: -1.7763568e-17, y: 3.5527136e-17, z: -3.330669e-18}
+      rotation: {x: 0, y: -0, z: -0.14866036, w: 0.9888883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_pointer01
+      parentName: standing_rig_final:grp_l_fingers
+      position: {x: -0.06976336, y: 0.13901277, z: -0.0049182335}
+      rotation: {x: 0.9939573, y: -0.043283638, z: 0.009218255, w: 0.10045141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_pointer01
+      parentName: standing_rig_final:grp_l_pointer01
+      position: {x: -2.6645352e-17, y: 5.3290704e-17, z: -9.992007e-18}
+      rotation: {x: 0, y: -0, z: -0.13014333, w: 0.9914952}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_pointer02
+      parentName: standing_rig_final:cc_l_pointer01
+      position: {x: -0.003164296, y: 0, z: 0}
+      rotation: {x: -0.000039738785, y: 0.030277366, z: -0.0028444447, w: 0.99953747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_pointer02
+      parentName: standing_rig_final:grp_l_pointer02
+      position: {x: -1.7763568e-17, y: 3.5527136e-17, z: 0.0000057832435}
+      rotation: {x: 0, y: 0, z: 0.2943618, w: 0.9556941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_pointer03
+      parentName: standing_rig_final:cc_l_pointer02
+      position: {x: -0.0018042321, y: 0, z: -0.0000057831408}
+      rotation: {x: -0.000046899902, y: -0.0113049, z: 0.0093673095, w: 0.99989223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_pointer03
+      parentName: standing_rig_final:grp_l_pointer03
+      position: {x: -5.3290704e-17, y: -1.7763568e-17, z: 7.9936054e-17}
+      rotation: {x: 0, y: -0, z: -0.092976004, w: 0.99566835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_ring01
+      parentName: standing_rig_final:grp_l_fingers
+      position: {x: -0.070176154, y: 0.13471954, z: -0.0043979166}
+      rotation: {x: 0.99136746, y: 0.06203282, z: -0.040505026, w: 0.10817514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_ring01
+      parentName: standing_rig_final:grp_l_ring01
+      position: {x: 2.220446e-18, y: 0, z: 2.5535128e-17}
+      rotation: {x: 0, y: -0, z: -0.14205565, w: 0.9898587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_ring02
+      parentName: standing_rig_final:cc_l_ring01
+      position: {x: -0.0023633854, y: 0, z: 0}
+      rotation: {x: 0.0044132485, y: 0.04629448, z: 0.05848151, w: 0.9972047}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_ring02
+      parentName: standing_rig_final:grp_l_ring02
+      position: {x: 2.220446e-18, y: -3.5527136e-17, z: 4.3298696e-17}
+      rotation: {x: 0, y: 0, z: 0.2543121, w: 0.9671222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_ring03
+      parentName: standing_rig_final:cc_l_ring02
+      position: {x: -0.0018344376, y: 0, z: 0}
+      rotation: {x: -0.00023455662, y: 0.0014586204, z: -0.008535995, w: 0.9999625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_ring03
+      parentName: standing_rig_final:grp_l_ring03
+      position: {x: 1.9428903e-17, y: -5.3290704e-17, z: 9.992007e-18}
+      rotation: {x: 0, y: -0, z: -0.10333257, w: 0.99464685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_thumb01
+      parentName: standing_rig_final:grp_l_fingers
+      position: {x: -0.064076655, y: 0.13838601, z: -0.004063387}
+      rotation: {x: 0.87047297, y: -0.4858214, z: -0.078739315, w: -0.0073828804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_thumb01
+      parentName: standing_rig_final:grp_l_thumb01
+      position: {x: -0, y: -1.7763568e-17, z: 2.7755576e-17}
+      rotation: {x: 0, y: 0.06110707, z: -0, w: 0.9981312}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_thumb02
+      parentName: standing_rig_final:cc_l_thumb01
+      position: {x: -0.0026318072, y: 0, z: 0}
+      rotation: {x: -0.048658658, y: 0.17966013, z: -0.30558243, w: 0.93379545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_thumb02
+      parentName: standing_rig_final:grp_l_thumb02
+      position: {x: 6.871272e-10, y: 1.0028978e-10, z: 0.000000002478976}
+      rotation: {x: 0, y: 0.016662642, z: -0, w: 0.9998612}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_thumb03
+      parentName: standing_rig_final:cc_l_thumb02
+      position: {x: -0.0033438206, y: -5.9604643e-10, z: -0.0000000023841857}
+      rotation: {x: -0.000319604, y: -0.03626038, z: -0.07599972, w: 0.9964483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_thumb03
+      parentName: standing_rig_final:grp_l_thumb03
+      position: {x: 6.8712713e-10, y: 1.0028985e-10, z: 0.000000002478976}
+      rotation: {x: 0, y: 0.030046878, z: -0, w: 0.9995485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_foot
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.009412104, y: 0.008260096, z: -0.00574431}
+      rotation: {x: -1.8041124e-15, y: 5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_foot
+      parentName: standing_rig_final:grp_l_foot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_in_bank_ctrl
+      parentName: standing_rig_final:cc_l_foot
+      position: {x: 0.005152726, y: -0.007145397, z: 0.012579782}
+      rotation: {x: -0.7056097, y: -0.045988552, z: -0.2025864, w: 0.67746496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_out_bank_ctrl
+      parentName: standing_rig_final:jnt_l_in_bank_ctrl
+      position: {x: -0.010034103, y: 0.00014784263, z: -0.002244372}
+      rotation: {x: -0.7055138, y: 0.70841175, z: -0.008328136, w: 0.018270193}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_heel_ctrl
+      parentName: standing_rig_final:jnt_l_out_bank_ctrl
+      position: {x: -0.013432603, y: 0.00019499364, z: -0.0015817232}
+      rotation: {x: 0.16341704, y: 0.7349147, z: -0.6319091, w: -0.1840822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_toe_ctrl
+      parentName: standing_rig_final:jnt_l_heel_ctrl
+      position: {x: -0.021543315, y: -0.0013233421, z: 0.00019533762}
+      rotation: {x: -0.6358327, y: 0.77153605, z: 0.013824379, w: -0.016054587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_ball_ctrl
+      parentName: standing_rig_final:jnt_l_toe_ctrl
+      position: {x: -0.0056916135, y: -9.12923e-18, z: 3.0472163e-18}
+      rotation: {x: 0.95448977, y: -0.25987935, z: -0.043808352, w: -0.13961709}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_ankle_ctrl
+      parentName: standing_rig_final:jnt_l_ball_ctrl
+      position: {x: -0.0138914725, y: -0.0000015292985, z: 0.00023406293}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_leg_FK
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.009095966, y: 0.08821955, z: -0.00009677999}
+      rotation: {x: 0.5365504, y: 0.5544001, z: -0.4366458, w: -0.4627038}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_leg_FK
+      parentName: standing_rig_final:grp_l_leg_FK
+      position: {x: -0.000045818248, y: -0.000020164347, z: 0.00023688609}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_knee_FK
+      parentName: standing_rig_final:cc_l_leg_FK
+      position: {x: -0.039948437, y: 0.00002016306, z: -0.00023688613}
+      rotation: {x: -0.00034893796, y: 0.004944892, z: -0.025474098, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_knee_FK
+      parentName: standing_rig_final:grp_l_knee_FK
+      position: {x: -0.00004535699, y: -0.00004013399, z: 0.00023442043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_ankle_FK
+      parentName: standing_rig_final:cc_l_knee_FK
+      position: {x: -0.040146664, y: 0.000040130613, z: -0.0002344203}
+      rotation: {x: 0.064857006, y: -0.08275119, z: 0.5369921, w: 0.8370097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_ankle_FK
+      parentName: standing_rig_final:grp_l_ankle_FK
+      position: {x: -0.000002823646, y: -0.000007169, z: 0.000011532968}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_leg_switch_IKFK
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.0066292533, y: 0.047747243, z: -0.05179542}
+      rotation: {x: 0.6249902, y: -0.013181303, z: 0.008077119, w: 0.7804795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_leg_switch_IKFK
+      parentName: standing_rig_final:grp_l_leg_switch_IKFK
+      position: {x: 2.220446e-18, y: -1.9984014e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_PV
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.009254036, y: 0.048239827, z: -0.0029205466}
+      rotation: {x: -0.47777915, y: -0.5212745, z: 0.47311693, w: 0.5255096}
+      scale: {x: 0.9467209, y: 0.9467209, z: 0.9467209}
+    - name: standing_rig_final:cc_l_PV
+      parentName: standing_rig_final:grp_l_PV
+      position: {x: -0, y: -0.052233532, z: -3.0531133e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_switch_IKFK
+      parentName: standing_rig_final:controlCurves
+      position: {x: -0.018405657, y: 0.09409433, z: 0.03722724}
+      rotation: {x: -0.31270587, y: 0.6222678, z: 0.48626277, w: 0.52777493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_l_switch_IKFK
+      parentName: standing_rig_final:grp_l_switch_IKFK
+      position: {x: 0.00003148648, y: -0.005066163, z: -0.025876746}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_arm_IK
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.061272603, y: 0.135932, z: -0.0035832645}
+      rotation: {x: 0.70664203, y: 0.025633115, z: 0.025633115, w: 0.70664203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_arm_IK
+      parentName: standing_rig_final:grp_r_arm_IK
+      position: {x: -0.047660865, y: 0.07722004, z: 0.019895898}
+      rotation: {x: 0.16975078, y: 0.6604053, z: 0.24825394, w: 0.68805486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_ball_FK
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.008661404, y: 0.00826287, z: 0.04406337}
+      rotation: {x: -0.08230894, y: 0.66180116, z: -0.23350966, w: 0.7076142}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_ball_FK
+      parentName: standing_rig_final:grp_r_ball_FK
+      position: {x: -4.440892e-18, y: 5.551115e-19, z: -7.771561e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_elbow_PV
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.043753646, y: 0.13466913, z: -0.0036415898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_elbow_PV
+      parentName: standing_rig_final:grp_r_elbow_PV
+      position: {x: 9.7699626e-17, y: -0.06314458, z: 0.06735086}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_fingers
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.053135116, y: 0.22384228, z: -0.09459744}
+      rotation: {x: 0.2857936, y: 0.20683429, z: -0.6445722, w: 0.67828333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_middle01
+      parentName: standing_rig_final:grp_r_fingers
+      position: {x: 0.06634041, y: -0.027239187, z: 0.13630475}
+      rotation: {x: -1.7347235e-16, y: -0, z: 4.1633363e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_middle01
+      parentName: standing_rig_final:grp_r_middle01
+      position: {x: -3.5527136e-17, y: -1.0658141e-16, z: -4.440892e-18}
+      rotation: {x: 0, y: 0, z: 0.07343317, w: 0.99730015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_middle02
+      parentName: standing_rig_final:cc_r_middle01
+      position: {x: 0.0024857502, y: -0.00026609635, z: 0.000008086723}
+      rotation: {x: -2.7769128e-17, y: 1.517883e-18, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_middle02
+      parentName: standing_rig_final:grp_r_middle02
+      position: {x: 2.6645352e-17, y: 2.1316282e-16, z: -7.105427e-17}
+      rotation: {x: 0, y: 0, z: 0.05254428, w: 0.9986186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_middle03
+      parentName: standing_rig_final:cc_r_middle02
+      position: {x: 0.0019474728, y: -0.000097964345, z: -0.000010524645}
+      rotation: {x: -6.929407e-17, y: 6.938894e-18, z: -1.7347235e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_middle03
+      parentName: standing_rig_final:grp_r_middle03
+      position: {x: -0, y: 0, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0.101620086, w: 0.9948233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_pinky01
+      parentName: standing_rig_final:grp_r_fingers
+      position: {x: 0.0651382, y: -0.026348447, z: 0.1321076}
+      rotation: {x: 1.7347235e-17, y: -2.7755576e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_pinky01
+      parentName: standing_rig_final:grp_r_pinky01
+      position: {x: 3.5527136e-17, y: 3.5527136e-17, z: 7.3274716e-17}
+      rotation: {x: 0, y: 0, z: 0.07343317, w: 0.99730015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_pinky02
+      parentName: standing_rig_final:cc_r_pinky01
+      position: {x: 0.0019424941, y: -0.00013907661, z: -0.0002427467}
+      rotation: {x: 4.3368087e-19, y: 2.0816682e-17, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_pinky02
+      parentName: standing_rig_final:grp_r_pinky02
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.069567405, w: 0.9975773}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_pinky03
+      parentName: standing_rig_final:cc_r_pinky02
+      position: {x: 0.0015306276, y: -0.00010075512, z: -0.000090864625}
+      rotation: {x: 1.3975366e-16, y: 1.3877788e-17, z: 6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_pinky03
+      parentName: standing_rig_final:grp_r_pinky03
+      position: {x: 1.7763568e-17, y: 3.5527136e-17, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0.101620086, w: 0.9948233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_pointer01
+      parentName: standing_rig_final:grp_r_fingers
+      position: {x: 0.06604205, y: -0.027696533, z: 0.1381006}
+      rotation: {x: -2.5326963e-16, y: -0, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_pointer01
+      parentName: standing_rig_final:grp_r_pointer01
+      position: {x: 1.7763568e-17, y: 5.3290704e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: 0, z: 0.095247716, w: 0.9954536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_pointer02
+      parentName: standing_rig_final:cc_r_pointer01
+      position: {x: 0.0024920444, y: -0.00032893175, z: 0.00048470235}
+      rotation: {x: -1.5352303e-16, y: 0, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_pointer02
+      parentName: standing_rig_final:grp_r_pointer02
+      position: {x: -0.0000013820162, y: -0.0000011102061, z: 0.000005504851}
+      rotation: {x: 0, y: 0, z: 0.079174675, w: 0.9968608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_pointer03
+      parentName: standing_rig_final:cc_r_pointer02
+      position: {x: 0.0020036472, y: -0.00014737458, z: 0.00047330195}
+      rotation: {x: 3.0878078e-16, y: 2.7755576e-17, z: 1.7347235e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_pointer03
+      parentName: standing_rig_final:grp_r_pointer03
+      position: {x: 3.5527136e-17, y: -3.5527136e-17, z: 7.5495166e-17}
+      rotation: {x: 0, y: -0, z: -0.19345777, w: 0.9811086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_ring01
+      parentName: standing_rig_final:grp_r_fingers
+      position: {x: 0.06607024, y: -0.026778419, z: 0.13426365}
+      rotation: {x: -9.020562e-17, y: 0, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_ring01
+      parentName: standing_rig_final:grp_r_ring01
+      position: {x: 1.7763568e-17, y: -1.7763568e-17, z: 2.6645352e-17}
+      rotation: {x: 0, y: 0, z: 0.07343317, w: 0.99730015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_ring02
+      parentName: standing_rig_final:cc_r_ring01
+      position: {x: 0.0022324657, y: -0.00026664382, z: -0.0002115863}
+      rotation: {x: 0, y: 0, z: 0.047561247, w: 0.99886835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_ring02
+      parentName: standing_rig_final:grp_r_ring02
+      position: {x: -0, y: -3.5527136e-17, z: 3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 0.05254428, w: 0.9986186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_ring03
+      parentName: standing_rig_final:cc_r_ring02
+      position: {x: 0.0018307231, y: -0.00007650063, z: -0.000061450046}
+      rotation: {x: 2.7918206e-17, y: 5.2041704e-18, z: 3.469447e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_ring03
+      parentName: standing_rig_final:grp_r_ring03
+      position: {x: -1.7763568e-17, y: -3.5527136e-17, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0.101620086, w: 0.9948233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_thumb01
+      parentName: standing_rig_final:grp_r_fingers
+      position: {x: 0.060004614, y: -0.027402438, z: 0.13764514}
+      rotation: {x: -8.933826e-17, y: 1.0408341e-16, z: -1.0408341e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_thumb01
+      parentName: standing_rig_final:grp_r_thumb01
+      position: {x: -2.6645352e-17, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_thumb02
+      parentName: standing_rig_final:cc_r_thumb01
+      position: {x: 0.0013829316, y: -0.0013966535, z: 0.0014515865}
+      rotation: {x: -9.7144515e-17, y: 0, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_thumb02
+      parentName: standing_rig_final:grp_r_thumb02
+      position: {x: -0.0000000016515322, y: -1.8144304e-10, z: 0.0000000019664799}
+      rotation: {x: 0, y: 0, z: 0.05676094, w: 0.9983878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_thumb03
+      parentName: standing_rig_final:cc_r_thumb02
+      position: {x: 0.0026288256, y: -0.0006663407, z: 0.0011209428}
+      rotation: {x: 6.938894e-18, y: 1.110223e-16, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_thumb03
+      parentName: standing_rig_final:grp_r_thumb03
+      position: {x: -0.0000000014829065, y: -2.9898184e-10, z: 0.0000000020830555}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_foot
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.009412104, y: 0.008260096, z: -0.00574431}
+      rotation: {x: -8.3266727e-16, y: -1.110223e-16, z: 1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_foot
+      parentName: standing_rig_final:grp_r_foot
+      position: {x: 1.110223e-18, y: 0, z: -1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_in_bank_ctrl
+      parentName: standing_rig_final:cc_r_foot
+      position: {x: -0.005152726, y: -0.007145397, z: 0.012579782}
+      rotation: {x: 0.122036524, y: -0.6908826, z: 0.7002836, w: 0.13187616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_out_bank_ctrl
+      parentName: standing_rig_final:jnt_r_in_bank_ctrl
+      position: {x: -0.010283106, y: -3.330669e-18, z: 5.412337e-18}
+      rotation: {x: 0.70684254, y: -0.7032037, z: 0.031747505, w: -0.06978758}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_heel_ctrl
+      parentName: standing_rig_final:jnt_r_out_bank_ctrl
+      position: {x: -0.013746292, y: 0.00010794851, z: 0.0018083061}
+      rotation: {x: -0.04843624, y: 0.7399651, z: 0.6122491, w: 0.27432957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_toe_ctrl
+      parentName: standing_rig_final:jnt_r_heel_ctrl
+      position: {x: -0.021803608, y: -0.0020934215, z: -0.00008500254}
+      rotation: {x: -0.015396606, y: 0.9960201, z: -0.08775133, w: 0.002596981}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_ball_ctrl
+      parentName: standing_rig_final:jnt_r_toe_ctrl
+      position: {x: -0.0057002646, y: 0.0003424779, z: -0.000071706585}
+      rotation: {x: 0.9548357, y: -0.2610878, z: 0.035477307, w: 0.13734385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_ankle_ctrl
+      parentName: standing_rig_final:jnt_r_ball_ctrl
+      position: {x: -0.01405248, y: -0.000230687, z: -0.000021547197}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_leg_FK
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.00909597, y: 0.088219605, z: -0.00009677999}
+      rotation: {x: -0.48837435, y: -0.5113614, z: 0.48888895, w: 0.51086944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_leg_FK
+      parentName: standing_rig_final:grp_r_leg_FK
+      position: {x: -0.00001387, y: -0.00024172, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_knee_FK
+      parentName: standing_rig_final:cc_r_leg_FK
+      position: {x: -0.039980307, y: 0.00024172245, z: 0.00008045576}
+      rotation: {x: -0.00034893796, y: 0.004944892, z: -0.025474098, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_knee_FK
+      parentName: standing_rig_final:grp_r_knee_FK
+      position: {x: -0.00001387, y: -0.00024172, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_ankle_FK
+      parentName: standing_rig_final:cc_r_knee_FK
+      position: {x: -0.04017187, y: 0.00024232538, z: -0.0007126963}
+      rotation: {x: -0.014514655, y: -0.03236837, z: 0.53711367, w: 0.84276366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_ankle_FK
+      parentName: standing_rig_final:grp_r_ankle_FK
+      position: {x: -0.00001387, y: -4.7512532e-11, z: 4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_leg_switch_IKFK
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.009321319, y: 0.006979198, z: 0.0034600734}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_leg_switch_IKFK
+      parentName: standing_rig_final:grp_r_leg_switch_IKFK
+      position: {x: -0.0000048033075, y: -0.000005528194, z: 0.000008513444}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_PV
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.009254036, y: 0.04823985, z: -0.0029205417}
+      rotation: {x: -0.47777915, y: -0.5212745, z: 0.47311693, w: 0.5255096}
+      scale: {x: 0.9467209, y: 0.9467209, z: 0.9467209}
+    - name: standing_rig_final:cc_r_PV
+      parentName: standing_rig_final:grp_r_PV
+      position: {x: -1.7763568e-17, y: -0.04856892, z: 4.718448e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_switch_IKFK
+      parentName: standing_rig_final:controlCurves
+      position: {x: 0.018799525, y: 0.09216463, z: -0.0335319}
+      rotation: {x: -0.6631573, y: 0.68103427, z: 0.16402027, w: 0.26365143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:cc_r_switch_IKFK
+      parentName: standing_rig_final:grp_r_switch_IKFK
+      position: {x: 0.00059401, y: 0.0010478339, z: 0.025615994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:ikHandles
+      parentName: standing_rig_final:moveScaleRotate03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:ikrp_l_arm
+      parentName: standing_rig_final:ikHandles
+      position: {x: -0.061271705, y: 0.13594554, z: -0.0036417504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:ikrp_l_leg
+      parentName: standing_rig_final:ikHandles
+      position: {x: -0.0063855336, y: 0.020042887, z: -0.044258922}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:ikrp_r_arm
+      parentName: standing_rig_final:ikHandles
+      position: {x: 0.061272494, y: 0.135932, z: -0.003466614}
+      rotation: {x: 0.5955968, y: 0.31323174, z: 0.65538263, w: 0.34296367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:ikrp_r_leg
+      parentName: standing_rig_final:ikHandles
+      position: {x: 0.009363513, y: 0.009353971, z: 0.0300723}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:iksc_l_foot
+      parentName: standing_rig_final:ikHandles
+      position: {x: -0.0058615915, y: 0.006768553, z: -0.04832652}
+      rotation: {x: -0.4329576, y: -0.60177785, z: 0.40632161, w: 0.53414786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:iksc_r_foot
+      parentName: standing_rig_final:ikHandles
+      position: {x: 0.008661404, y: 0.00826287, z: 0.04406337}
+      rotation: {x: -0.7018211, y: -0.04979097, z: 0.71059155, w: 0.005263411}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:joints
+      parentName: standing_rig_final:moveScaleRotate03
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_l_eyebrow_jnts
+      parentName: standing_rig_final:joints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:grp_r_eyebrow_jnts
+      parentName: standing_rig_final:joints
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: standing_rig_final:rig_hips
+      parentName: standing_rig_final:joints
+      position: {x: -0.00013961566, y: 0.097379394, z: -0.000041724183}
+      rotation: {x: 0.5008339, y: -0.49916476, z: 0.50083387, w: -0.49916476}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000005}
+    - name: standing_rig_final:jnt_l_leg_FK
+      parentName: standing_rig_final:rig_hips
+      position: {x: 0.007812864, y: 0.00006840183, z: -0.009095966}
+      rotation: {x: 0.046502657, y: 0.99762183, z: 0.050840795, w: -0.0018508438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_knee_FK
+      parentName: standing_rig_final:jnt_l_leg_FK
+      position: {x: -0.039994255, y: -1.3877787e-18, z: 3.8745223e-18}
+      rotation: {x: -0.00034893796, y: 0.0049448926, z: -0.0254741, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_ankle_FK
+      parentName: standing_rig_final:jnt_l_knee_FK
+      position: {x: -0.040192023, y: -2.220446e-18, z: -1.110223e-18}
+      rotation: {x: 0.064857006, y: -0.08275119, z: 0.5369921, w: 0.8370098}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_leg_IK
+      parentName: standing_rig_final:rig_hips
+      position: {x: 0.007812864, y: 0.00006840183, z: -0.009095966}
+      rotation: {x: -0.0526304, y: 0.9973976, z: 0.048252184, w: 0.009991905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_knee_IK
+      parentName: standing_rig_final:jnt_l_leg_IK
+      position: {x: -0.039994255, y: -1.3877787e-18, z: 3.8745223e-18}
+      rotation: {x: 0.020224284, y: 0.06446322, z: -0.3461686, w: 0.9357365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_ankle_IK
+      parentName: standing_rig_final:jnt_l_knee_IK
+      position: {x: -0.040192023, y: -3.330669e-18, z: -4.1759003e-19}
+      rotation: {x: -0.017051961, y: -0.032947645, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_leg_FK
+      parentName: standing_rig_final:rig_hips
+      position: {x: 0.007812819, y: 0.00006840168, z: 0.00909597}
+      rotation: {x: 0.045761786, y: 0.9979233, z: -0.045169525, w: -0.0038333472}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_knee_FK
+      parentName: standing_rig_final:jnt_r_leg_FK
+      position: {x: -0.039994173, y: 0.000000002440172, z: 0.00008045576}
+      rotation: {x: -0.00034893796, y: 0.0049448926, z: -0.0254741, w: 0.99966323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_ankle_FK
+      parentName: standing_rig_final:jnt_r_knee_FK
+      position: {x: -0.040185742, y: 0.0000006053764, z: -0.0007126963}
+      rotation: {x: -0.017051958, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_leg_IK
+      parentName: standing_rig_final:rig_hips
+      position: {x: 0.007812819, y: 0.00006840168, z: 0.00909597}
+      rotation: {x: 0.35137126, y: 0.92001253, z: -0.17127979, w: -0.027900776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_knee_IK
+      parentName: standing_rig_final:jnt_r_leg_IK
+      position: {x: -0.039994173, y: 0.000000002440172, z: 0.00008045576}
+      rotation: {x: -0.0040146657, y: -0.025947494, z: -0.18393417, w: 0.9825878}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_ankle_IK
+      parentName: standing_rig_final:jnt_r_knee_IK
+      position: {x: -0.040185742, y: 0.0000006053764, z: -0.0007126963}
+      rotation: {x: -0.017051956, y: -0.03294764, z: 0.54221225, w: 0.83942217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_leg
+      parentName: standing_rig_final:rig_hips
+      position: {x: 0.007812864, y: 0.00006840183, z: -0.009095966}
+      rotation: {x: 0.035666224, y: -0.9947499, z: -0.09576641, w: 0.0054365993}
+      scale: {x: 1.0000007, y: 1, z: 1.0000008}
+    - name: standing_rig_final:rig_l_knee
+      parentName: standing_rig_final:rig_l_leg
+      position: {x: -0.039994255, y: -1.3877787e-18, z: 3.8745223e-18}
+      rotation: {x: -0.00022296609, y: -0.00000029802325, z: -0.000010162593, w: 1}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000006}
+    - name: standing_rig_final:rig_l_ankle
+      parentName: standing_rig_final:rig_l_knee
+      position: {x: -0.040192023, y: -2.220446e-18, z: -1.110223e-18}
+      rotation: {x: -0.06524297, y: 0.08142941, z: -0.524252, w: -0.8451464}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000002}
+    - name: standing_rig_final:rig_l_ball
+      parentName: standing_rig_final:rig_l_ankle
+      position: {x: -0.014051108, y: -9.992007e-18, z: -9.227759e-19}
+      rotation: {x: 0.9521401, y: 0.2706809, z: -0.034672353, w: -0.13769165}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000005}
+    - name: standing_rig_final:jnt_l_foot_end
+      parentName: standing_rig_final:rig_l_ball
+      position: {x: -0.007690759, y: -3.2959746e-18, z: -3.1102316e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_leg
+      parentName: standing_rig_final:rig_hips
+      position: {x: 0.007812819, y: 0.00006840168, z: 0.00909597}
+      rotation: {x: -0.023715943, y: 0.9951843, z: -0.09496626, w: 0.005223781}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000006}
+    - name: standing_rig_final:rig_r_knee
+      parentName: standing_rig_final:rig_r_leg
+      position: {x: -0.039994173, y: 0.000000002440172, z: 0.00008045576}
+      rotation: {x: -0.0003490299, y: 0.004944861, z: -0.025474042, w: 0.99966323}
+      scale: {x: 0.9999999, y: 0.9999995, z: 1}
+    - name: standing_rig_final:rig_r_ankle
+      parentName: standing_rig_final:rig_r_knee
+      position: {x: -0.040185742, y: 0.0000006053764, z: -0.0007126963}
+      rotation: {x: -0.09809901, y: 0.016724281, z: 0.5418223, w: 0.834581}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+    - name: standing_rig_final:rig_r_ball
+      parentName: standing_rig_final:rig_r_ankle
+      position: {x: -0.014021587, y: -0.00005158871, z: 0.00090882776}
+      rotation: {x: 0.9548289, y: 0.26108608, z: -0.03548956, w: -0.13739118}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: standing_rig_final:jnt_r_foot_end
+      parentName: standing_rig_final:rig_r_ball
+      position: {x: -0.007690602, y: -0.000010300961, z: -0.000046179466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_spine1
+      parentName: standing_rig_final:rig_hips
+      position: {x: -0.006617201, y: -1.0972126e-18, z: -1.7659911e-18}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: 0.00016984344, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999998}
+    - name: standing_rig_final:rig_spine2
+      parentName: standing_rig_final:rig_spine1
+      position: {x: -0.0072582313, y: -0.0000108212525, z: 6.2645196e-18}
+      rotation: {x: 0.00000002980739, y: 0.000000029797256, z: -0.00000008940697,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: standing_rig_final:rig_spine3
+      parentName: standing_rig_final:rig_spine2
+      position: {x: -0.0073839216, y: -0.0000110077735, z: 6.3737703e-18}
+      rotation: {x: 0.000000029985603, y: 0.000000029618443, z: -0.002995045, w: -0.9999955}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: standing_rig_final:rig_chest
+      parentName: standing_rig_final:rig_spine3
+      position: {x: -0.006655675, y: -0.0000021708029, z: -1.3322676e-17}
+      rotation: {x: -0, y: -0, z: 0.0014956595, w: -0.99999887}
+      scale: {x: 0.9999995, y: 0.99999964, z: 1.0000002}
+    - name: standing_rig_final:rig_l_clavical
+      parentName: standing_rig_final:rig_chest
+      position: {x: -0.0115289865, y: -0.0031178407, z: -0.002583014}
+      rotation: {x: -0.1304376, y: 0.74853724, z: 0.068193875, w: -0.6465507}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: standing_rig_final:jnt_l_shoulder_FK
+      parentName: standing_rig_final:rig_l_clavical
+      position: {x: -0.012320324, y: -4.805726e-19, z: -7.702172e-18}
+      rotation: {x: -0.081953846, y: -0.5072173, z: 0.46071076, w: 0.7237125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_elbow_FK
+      parentName: standing_rig_final:jnt_l_shoulder_FK
+      position: {x: -0.031386007, y: -5.3637704e-18, z: -4.3992403e-17}
+      rotation: {x: -0.00025301418, y: -0.0007094787, z: 0.33589935, w: 0.94189763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_wrist_FK
+      parentName: standing_rig_final:jnt_l_elbow_FK
+      position: {x: -0.017543577, y: 0.00000015921471, z: 0.000013216407}
+      rotation: {x: 0.7694435, y: 0.013437149, z: 0.16649647, w: 0.6164861}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_shoulder_IK
+      parentName: standing_rig_final:rig_l_clavical
+      position: {x: -0.012320324, y: -4.805726e-19, z: -7.702172e-18}
+      rotation: {x: -0.12719129, y: 0.23162441, z: 0.13521697, w: 0.95492876}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_elbow_IK
+      parentName: standing_rig_final:jnt_l_shoulder_IK
+      position: {x: -0.031386007, y: 0.0006934301, z: -5.3290704e-17}
+      rotation: {x: 0.000019897365, y: 0.00037601296, z: -0.030780356, w: 0.9995261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_wrist_IK
+      parentName: standing_rig_final:jnt_l_elbow_IK
+      position: {x: -0.017543564, y: -0.0006934301, z: -0.000013217357}
+      rotation: {x: 0.54838234, y: 0.68861085, z: -0.101742215, w: 0.46340105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_shoulder
+      parentName: standing_rig_final:rig_l_clavical
+      position: {x: -0.012320324, y: -4.805726e-19, z: -7.702172e-18}
+      rotation: {x: -0.056030087, y: 0.091164686, z: 0.1683314, w: 0.97990525}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.99999994}
+    - name: standing_rig_final:rig_l_elbow
+      parentName: standing_rig_final:rig_l_shoulder
+      position: {x: -0.031386007, y: -5.3637704e-18, z: -4.3992403e-17}
+      rotation: {x: -0.000000029802322, y: 0.00000021792948, z: -0.00001837872, w: 1}
+      scale: {x: 1.0000005, y: 1.0000015, z: 1.0000006}
+    - name: standing_rig_final:rig_l_wrist
+      parentName: standing_rig_final:rig_l_elbow
+      position: {x: -0.017543579, y: -1.6653345e-18, z: -1.1723955e-15}
+      rotation: {x: 0.77566487, y: -0.009416171, z: 0.08341191, w: 0.62553793}
+      scale: {x: 1.0000006, y: 1.0000002, z: 0.99999976}
+    - name: standing_rig_final:rig_l_palm
+      parentName: standing_rig_final:rig_l_wrist
+      position: {x: -0.004403923, y: 0.00049735646, z: -0.00065705844}
+      rotation: {x: -0.76834893, y: -0.062204376, z: -0.1218641, w: 0.6252358}
+      scale: {x: 1.0000002, y: 1.0000017, z: 1.0000007}
+    - name: standing_rig_final:rig_l_mid_a
+      parentName: standing_rig_final:rig_l_palm
+      position: {x: -0.004574994, y: -0.0020447143, z: -0.00031858432}
+      rotation: {x: -0.0023024676, y: -0.014869338, z: 0.08279365, w: 0.99645317}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: standing_rig_final:rig_l_middle_b
+      parentName: standing_rig_final:rig_l_mid_a
+      position: {x: -0.0022663155, y: 1.4137392e-18, z: -4.8282685e-18}
+      rotation: {x: -0.000022160586, y: -0.029781692, z: -0.0013093158, w: 0.9995556}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: standing_rig_final:rig_l_middle_c
+      parentName: standing_rig_final:rig_l_middle_b
+      position: {x: -0.002292476, y: 1.8608908e-19, z: 3.4241843e-17}
+      rotation: {x: 0.00029702552, y: 0.017800143, z: 0.010280269, w: 0.99978876}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000001}
+    - name: standing_rig_final:jnt_l_middle_d
+      parentName: standing_rig_final:rig_l_middle_c
+      position: {x: -0.0023100632, y: -9.461178e-19, z: -1.6093815e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_pinky_a
+      parentName: standing_rig_final:rig_l_palm
+      position: {x: -0.0041054226, y: 0.0023867975, z: -0.00044499538}
+      rotation: {x: -0.0014504488, y: -0.020423412, z: 0.060587205, w: 0.99795294}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: standing_rig_final:rig_l_pinky_b
+      parentName: standing_rig_final:rig_l_pinky_a
+      position: {x: -0.0018534969, y: 2.7988928e-18, z: 7.907743e-18}
+      rotation: {x: 0.00017893764, y: -0.008411783, z: 0.011521084, w: 0.99989825}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: standing_rig_final:rig_l_pinky_c
+      parentName: standing_rig_final:rig_l_pinky_b
+      position: {x: -0.0015093674, y: 3.1444492e-20, z: 1.3955971e-17}
+      rotation: {x: 0.000051931424, y: 0.017905682, z: 0.008596144, w: 0.9998027}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999994}
+    - name: standing_rig_final:jnt_l_pinky_d
+      parentName: standing_rig_final:rig_l_pinky_c
+      position: {x: -0.002033209, y: 1.05379e-18, z: -2.6741302e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_pointer_a
+      parentName: standing_rig_final:rig_l_palm
+      position: {x: -0.0033482048, y: -0.004161662, z: -0.00029364965}
+      rotation: {x: 0.00010219215, y: -0.04308374, z: 0.13381773, w: 0.99006903}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: standing_rig_final:rig_l_pointer_b
+      parentName: standing_rig_final:rig_l_pointer_a
+      position: {x: -0.003164297, y: 1.5352823e-18, z: -1.1080607e-17}
+      rotation: {x: -0.000039633316, y: 0.030277384, z: -0.002844456, w: 0.9995375}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000002}
+    - name: standing_rig_final:rig_l_pointer_c
+      parentName: standing_rig_final:rig_l_pointer_b
+      position: {x: -0.0018042322, y: -3.2234424e-20, z: -1.3877707e-17}
+      rotation: {x: -0.000046980327, y: -0.011304896, z: 0.009367333, w: 0.99989223}
+      scale: {x: 1.0000008, y: 1.0000007, z: 0.99999964}
+    - name: standing_rig_final:jnt_l_pointer_d
+      parentName: standing_rig_final:rig_l_pointer_c
+      position: {x: -0.002359414, y: 5.4680185e-19, z: 1.08392614e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_ring_a
+      parentName: standing_rig_final:rig_l_palm
+      position: {x: -0.004559511, y: 4.1633362e-19, z: 1.8488746e-18}
+      rotation: {x: -0.0037432294, y: -0.053149216, z: 0.07243068, w: 0.9959493}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: standing_rig_final:rig_l_ring_b
+      parentName: standing_rig_final:rig_l_ring_a
+      position: {x: -0.0023633854, y: 4.8517232e-18, z: 1.4334243e-17}
+      rotation: {x: 0.0044220793, y: 0.024759622, z: 0.031277183, w: 0.99919426}
+      scale: {x: 1.0000007, y: 1.000001, z: 0.9999999}
+    - name: standing_rig_final:rig_l_ring_c
+      parentName: standing_rig_final:rig_l_ring_b
+      position: {x: -0.0018344376, y: -4.9327665e-19, z: -1.24090625e-17}
+      rotation: {x: -0.00023447807, y: 0.0014586891, z: -0.008536012, w: 0.9999625}
+      scale: {x: 1.0000014, y: 1.0000014, z: 1}
+    - name: standing_rig_final:jnt_l_ring_d
+      parentName: standing_rig_final:rig_l_ring_c
+      position: {x: -0.0022288822, y: -2.936548e-18, z: -6.5610068e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_thumb_a
+      parentName: standing_rig_final:rig_l_wrist
+      position: {x: -0.0029737998, y: 0.00042180152, z: 0.0022316345}
+      rotation: {x: -0.66906685, y: 0.3051581, z: 0.28727046, w: 0.61376196}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.9999998}
+    - name: standing_rig_final:rig_l_thumb_b
+      parentName: standing_rig_final:rig_l_thumb_a
+      position: {x: -0.002631811, y: 2.081668e-18, z: 7.528699e-18}
+      rotation: {x: -0.052021038, y: 0.012928705, z: -0.021994196, w: 0.99832004}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000006}
+    - name: standing_rig_final:rig_l_thumb_c
+      parentName: standing_rig_final:rig_l_thumb_b
+      position: {x: -0.0033438187, y: 2.081668e-18, z: -1.2767564e-17}
+      rotation: {x: -0.0003203935, y: -0.016967598, z: -0.035563942, w: 0.9992233}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: standing_rig_final:jnt_l_thumb_d
+      parentName: standing_rig_final:rig_l_thumb_c
+      position: {x: -0.0032360055, y: -4.6490586e-18, z: 1.2143064e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_neck
+      parentName: standing_rig_final:rig_chest
+      position: {x: -0.023710443, y: 0.0006285369, z: -0.00003117095}
+      rotation: {x: -0.000000029757715, y: -0.000000029846863, z: -0.025078362, w: 0.9996855}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000002}
+    - name: standing_rig_final:rig_head
+      parentName: standing_rig_final:rig_neck
+      position: {x: -0.006556082, y: 2.0469737e-17, z: 1.4807979e-17}
+      rotation: {x: -0, y: -0.000000059604645, z: -0.030628324, w: -0.9995309}
+      scale: {x: 1.0000002, y: 0.9999998, z: 0.99999994}
+    - name: standing_rig_final:jnt_head_end
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.021290373, y: -2.428613e-19, z: 6.7755615e-17}
+      rotation: {x: 0.4964637, y: -0.5035115, z: 0.4964637, w: 0.5035115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_l_lo_eyelid
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.005617531, y: -0.008525332, z: -0.0051244013}
+      rotation: {x: 0.44143662, y: 0.8968558, z: 0.015845725, w: -0.023072401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_lo_eyelid
+      parentName: standing_rig_final:jnt_l_lo_eyelid
+      position: {x: -0.0042355335, y: 0.0006099479, z: 0.0004883462}
+      rotation: {x: -0.69041353, y: -0.21896827, z: 0.6518297, w: -0.2247225}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: standing_rig_final:jnt_l_up_eyelid
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.005617531, y: -0.008525332, z: -0.0051244013}
+      rotation: {x: 0.008334175, y: 0.0067243166, z: 0.60933983, w: 0.79283684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_up_eyelid
+      parentName: standing_rig_final:jnt_l_up_eyelid
+      position: {x: -0.004517477, y: 0.0013370183, z: -0.0000038961816}
+      rotation: {x: 0.08102044, y: -0.7007285, z: 0.09608613, w: 0.70226973}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.99999964}
+    - name: standing_rig_final:jnt_r_lo_eyelid
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.0056289327, y: -0.008539452, z: 0.0051334915}
+      rotation: {x: 0.45202368, y: 0.891523, z: -0.028773751, w: 0.0057868795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_lo_eyelid
+      parentName: standing_rig_final:jnt_r_lo_eyelid
+      position: {x: -0.0042053605, y: 0.0006394851, z: -0.00048126388}
+      rotation: {x: -0.65345746, y: -0.2113902, z: 0.6880556, w: -0.23427993}
+      scale: {x: 1.0000006, y: 0.9999999, z: 0.99999976}
+    - name: standing_rig_final:jnt_r_up_eyelid
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.0056289327, y: -0.008539452, z: 0.0051334915}
+      rotation: {x: 0.017237404, y: -0.000048666363, z: 0.60411036, w: 0.79671425}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_up_eyelid
+      parentName: standing_rig_final:jnt_r_up_eyelid
+      position: {x: -0.004528355, y: 0.0013298258, z: -0.0000075235957}
+      rotation: {x: 0.08068286, y: -0.7005989, z: 0.09596772, w: 0.70245415}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1.0000001}
+    - name: standing_rig_final:transform1
+      parentName: standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: standing_rig_final:rig_r_eyebrow5
+      parentName: standing_rig_final:transform1
+      position: {x: -0.008426784, y: 0.1637442, z: 0.009014577}
+      rotation: {x: 0.000000029802319, y: -0.000000119209275, z: 1, w: 0.000000014901159}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000005}
+    - name: standing_rig_final:transform2
+      parentName: standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: standing_rig_final:rig_r_eyebrow4
+      parentName: standing_rig_final:transform2
+      position: {x: -0.007644075, y: 0.1647551, z: 0.010064692}
+      rotation: {x: 0.000000029802319, y: -0.000000119209275, z: 1, w: 0.000000014901159}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000005}
+    - name: standing_rig_final:transform3
+      parentName: standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: standing_rig_final:rig_r_eyebrow3
+      parentName: standing_rig_final:transform3
+      position: {x: -0.0062653064, y: 0.16454683, z: 0.011314829}
+      rotation: {x: 0.000000029802319, y: -0.000000119209275, z: 1, w: 0.000000014901159}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000005}
+    - name: standing_rig_final:transform4
+      parentName: standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: standing_rig_final:rig_r_eyebrow2
+      parentName: standing_rig_final:transform4
+      position: {x: -0.0046366733, y: 0.16395517, z: 0.011864889}
+      rotation: {x: 0.000000029802319, y: -0.000000119209275, z: 1, w: 0.000000014901159}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000005}
+    - name: standing_rig_final:transform5
+      parentName: standing_rig_final:rig_head
+      position: {x: 0.15424415, y: -0.0020988737, z: -1.850081e-17}
+      rotation: {x: -0.49721622, y: 0.5027684, z: 0.49721622, w: 0.5027684}
+      scale: {x: 1, y: 1, z: -1}
+    - name: standing_rig_final:rig_r_eyebrow1
+      parentName: standing_rig_final:transform5
+      position: {x: -0.0029651138, y: 0.1630204, z: 0.012464955}
+      rotation: {x: 0.000000029802319, y: -0.000000119209275, z: 1, w: 0.000000014901159}
+      scale: {x: 1.0000006, y: 0.99999976, z: 1.0000005}
+    - name: standing_rig_final:rig_l_eyebrow1
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.008904812, y: -0.012752853, z: -0.0029650098}
+      rotation: {x: 0.49721625, y: -0.50276834, z: 0.49721628, w: 0.50276834}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: standing_rig_final:rig_l_eyebrow2
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.009832757, y: -0.012142447, z: -0.004636633}
+      rotation: {x: 0.49721625, y: -0.50276834, z: 0.49721628, w: 0.50276834}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: standing_rig_final:rig_l_eyebrow3
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.010418155, y: -0.011585851, z: -0.0062653064}
+      rotation: {x: 0.49721625, y: -0.50276834, z: 0.49721628, w: 0.50276834}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: standing_rig_final:rig_l_eyebrow4
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.010612456, y: -0.010333479, z: -0.0076440894}
+      rotation: {x: 0.49721625, y: -0.50276834, z: 0.49721628, w: 0.50276834}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: standing_rig_final:rig_l_eyebrow5
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.009589893, y: -0.009294655, z: -0.00842673}
+      rotation: {x: 0.49721625, y: -0.50276834, z: 0.49721628, w: 0.50276834}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: standing_rig_final:rig_lo_jaw
+      parentName: standing_rig_final:rig_head
+      position: {x: 0.001145067, y: -0.0032790536, z: 0.000012155656}
+      rotation: {x: 0.49157804, y: 0.8708335, z: 0.00000006789881, w: -0.00000004289232}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000006}
+    - name: standing_rig_final:jnt_lo_jaw_end
+      parentName: standing_rig_final:rig_lo_jaw
+      position: {x: -0.011384948, y: -3.330669e-18, z: -3.2049696e-18}
+      rotation: {x: 0.6798524, y: 0.19442403, z: -0.6798524, w: 0.19442403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_l_eyeball
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.0056175296, y: -0.008525332, z: -0.0051244013}
+      rotation: {x: 0.000000016136845, y: -0.000000072250664, z: 0.7039012, w: 0.71029794}
+      scale: {x: 1.0000014, y: 1.0000004, z: 1.0000015}
+    - name: standing_rig_final:jnt_l_eyeball_end
+      parentName: standing_rig_final:rig_l_eyeball
+      position: {x: -0.0060067303, y: -4.0354956e-17, z: -1.110223e-18}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_eyeball
+      parentName: standing_rig_final:rig_head
+      position: {x: -0.0056289304, y: -0.008539452, z: 0.0051334915}
+      rotation: {x: 0.000000016136774, y: -0.000000072250586, z: 0.7039024, w: 0.71029675}
+      scale: {x: 1.0000021, y: 1.0000005, z: 1.0000019}
+    - name: standing_rig_final:jnt_r_eyeball_end
+      parentName: standing_rig_final:rig_r_eyeball
+      position: {x: -0.0060067303, y: 1.5671703e-17, z: 1.110223e-18}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_clavical
+      parentName: standing_rig_final:rig_chest
+      position: {x: -0.011529439, y: -0.00311784, z: 0.00258301}
+      rotation: {x: -0.748537, y: -0.13043813, z: -0.64655083, w: -0.068194576}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000007}
+    - name: standing_rig_final:jnt_r_shoulder_FK
+      parentName: standing_rig_final:rig_r_clavical
+      position: {x: 0.012320368, y: 0.00000003118999, z: 0.00000002209353}
+      rotation: {x: 0.45927936, y: -0.3612967, z: 0.02776668, w: 0.8110217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_elbow_FK
+      parentName: standing_rig_final:jnt_r_shoulder_FK
+      position: {x: 0.031385984, y: 1.11022296e-17, z: 0.000000032407748}
+      rotation: {x: -0.0000970601, y: -0.0007469642, z: 0.12885614, w: 0.99166304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_wrist_FK
+      parentName: standing_rig_final:jnt_r_elbow_FK
+      position: {x: 0.017543461, y: 2.0539126e-17, z: 0.0000007303454}
+      rotation: {x: 0.707239, y: -0.040755212, z: 0.045819886, w: 0.70431006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_shoulder_IK
+      parentName: standing_rig_final:rig_r_clavical
+      position: {x: 0.012320368, y: 0.00000003118999, z: 0.00000002209353}
+      rotation: {x: -0.10915132, y: 0.2029207, z: 0.32862198, w: 0.915924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_elbow_IK
+      parentName: standing_rig_final:jnt_r_shoulder_IK
+      position: {x: 0.031385984, y: -0.00060078286, z: 0.000000032407748}
+      rotation: {x: 0.000036719543, y: 0.0007723485, z: -0.02833203, w: 0.99959826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:jnt_r_wrist_IK
+      parentName: standing_rig_final:jnt_r_elbow_IK
+      position: {x: 0.01754344, y: 0.0006008046, z: 0.00002556883}
+      rotation: {x: 0.64715, y: 0.62690187, z: -0.19734219, w: 0.38632503}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_shoulder
+      parentName: standing_rig_final:rig_r_clavical
+      position: {x: 0.012320368, y: 0.00000003118999, z: 0.00000002209353}
+      rotation: {x: -0.06324536, y: 0.089771405, z: 0.1690451, w: 0.97947174}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000004}
+    - name: standing_rig_final:rig_r_elbow
+      parentName: standing_rig_final:rig_r_shoulder
+      position: {x: 0.031385984, y: 1.11022296e-17, z: 0.000000032407748}
+      rotation: {x: 0.00000011920929, y: 0.000007564202, z: -0.00027694367, w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1}
+    - name: standing_rig_final:rig_r_wrist
+      parentName: standing_rig_final:rig_r_elbow
+      position: {x: 0.017543461, y: -5.551115e-19, z: 0.0000007303454}
+      rotation: {x: 0.7298823, y: -0.009239768, z: 0.08079955, w: 0.6787179}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000015}
+    - name: standing_rig_final:rig_r_palm
+      parentName: standing_rig_final:rig_r_wrist
+      position: {x: 0.0044065327, y: -0.000537336, z: 0.00060625945}
+      rotation: {x: 0.10078672, y: -0.24240823, z: -0.13335007, w: 0.95566636}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1.0000002}
+    - name: standing_rig_final:rig_r_middle_a
+      parentName: standing_rig_final:rig_r_palm
+      position: {x: 0.0039086095, y: 0.0006360393, z: -0.0030873036}
+      rotation: {x: -0.012792766, y: 0.20673874, z: 0.1573339, w: 0.9655784}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000008}
+    - name: standing_rig_final:rig_r_middle_b
+      parentName: standing_rig_final:rig_r_middle_a
+      position: {x: 0.0022455917, y: -0.00030499318, z: 0.000023632518}
+      rotation: {x: 0.00011820345, y: 0.0021901426, z: -0.045791626, w: 0.99894863}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000011}
+    - name: standing_rig_final:rig_r_middle_c
+      parentName: standing_rig_final:rig_r_middle_b
+      position: {x: 0.0022922105, y: 0.000035319128, z: 0.0000121953235}
+      rotation: {x: -0.000039938925, y: -0.011696033, z: -0.0046915445, w: 0.99992067}
+      scale: {x: 1.0000007, y: 1, z: 1.0000005}
+    - name: standing_rig_final:jnt_r_middle_d
+      parentName: standing_rig_final:rig_r_middle_c
+      position: {x: 0.0023086735, y: -0.000033489516, z: -0.000071454626}
+      rotation: {x: -0.000004737442, y: 0.007424109, z: 0.0006380973, w: 0.9999722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_pinky_a
+      parentName: standing_rig_final:rig_r_palm
+      position: {x: 0.004256497, y: 0.0017818297, z: 0.0012069693}
+      rotation: {x: -0.015795019, y: 0.18266955, z: 0.1334323, w: 0.9739498}
+      scale: {x: 1.0000005, y: 1.000001, z: 1.0000007}
+    - name: standing_rig_final:rig_r_pinky_b
+      parentName: standing_rig_final:rig_r_pinky_a
+      position: {x: 0.001849593, y: -0.00011961718, z: 0.000006261007}
+      rotation: {x: 0.002002752, y: 0.0312066, z: -0.009221476, w: 0.9994684}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.000001}
+    - name: standing_rig_final:rig_r_pinky_c
+      parentName: standing_rig_final:rig_r_pinky_b
+      position: {x: 0.0015074002, y: -0.000050789036, z: 0.000060044204}
+      rotation: {x: -0.0008293028, y: -0.019113505, z: -0.011498778, w: 0.9997509}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000007}
+    - name: standing_rig_final:jnt_r_pinky_d
+      parentName: standing_rig_final:rig_r_pinky_c
+      position: {x: 0.0020306197, y: -0.00010210143, z: -0.00001584422}
+      rotation: {x: 0.0007398983, y: 0.0464408, z: -0.015912862, w: 0.998794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_pointer_a
+      parentName: standing_rig_final:rig_r_palm
+      position: {x: 0.0023500125, y: -0.00014680726, z: -0.0048033795}
+      rotation: {x: -0.023845429, y: 0.3036355, z: 0.13758127, w: 0.94250107}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999946}
+    - name: standing_rig_final:rig_r_pointer_b
+      parentName: standing_rig_final:rig_r_pointer_a
+      position: {x: 0.003141438, y: -0.00020951779, z: 0.00031634007}
+      rotation: {x: 0.00044153258, y: 0.012761593, z: -0.031987425, w: 0.99940675}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: standing_rig_final:rig_r_pointer_c
+      parentName: standing_rig_final:rig_r_pointer_b
+      position: {x: 0.0017824833, y: -0.00010920341, z: 0.00025723732}
+      rotation: {x: -0.00006502124, y: -0.032065246, z: -0.0005601079, w: 0.9994857}
+      scale: {x: 1, y: 1, z: 1.0000007}
+    - name: standing_rig_final:jnt_r_pointer_d
+      parentName: standing_rig_final:rig_r_pointer_c
+      position: {x: 0.0023536661, y: -0.000097227356, z: 0.0001326616}
+      rotation: {x: -0.00006125694, y: -0.083522804, z: -0.0007308529, w: 0.9965056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_ring_a
+      parentName: standing_rig_final:rig_r_palm
+      position: {x: 0.0043496783, y: 0.0008436471, z: -0.0010760396}
+      rotation: {x: -0.023573361, y: 0.1925331, z: 0.11918627, w: 0.9737402}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000005}
+    - name: standing_rig_final:rig_r_ring_b
+      parentName: standing_rig_final:rig_r_ring_a
+      position: {x: 0.0023625616, y: 0.000058300982, z: -0.000027596387}
+      rotation: {x: 0.0028686866, y: 0.013422624, z: -0.008059022, w: 0.99987334}
+      scale: {x: 1, y: 0.9999998, z: 1.0000004}
+    - name: standing_rig_final:rig_r_ring_c
+      parentName: standing_rig_final:rig_r_ring_b
+      position: {x: 0.0018328197, y: -0.000037731246, z: -0.00006606}
+      rotation: {x: 0.00019610787, y: 0.009405064, z: -0.0054019047, w: 0.99994123}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000006}
+    - name: standing_rig_final:jnt_r_ring_d
+      parentName: standing_rig_final:rig_r_ring_c
+      position: {x: 0.0022288004, y: -0.000020353971, z: 0.00000020183748}
+      rotation: {x: 0.000059970876, y: 0.007764975, z: -0.0077227913, w: 0.99994004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: standing_rig_final:rig_r_thumb_a
+      parentName: standing_rig_final:rig_r_wrist
+      position: {x: 0.0029917648, y: -0.000035229736, z: -0.0022471484}
+      rotation: {x: 0.101782754, y: 0.3245279, z: 0.1390316, w: 0.93004954}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+    - name: standing_rig_final:rig_r_thumb_b
+      parentName: standing_rig_final:rig_r_thumb_a
+      position: {x: 0.0024921848, y: -0.000712329, z: -0.00045539983}
+      rotation: {x: 0.02804294, y: 0.08158565, z: -0.021203985, w: 0.9960461}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999964}
+    - name: standing_rig_final:rig_r_thumb_c
+      parentName: standing_rig_final:rig_r_thumb_b
+      position: {x: 0.0032304602, y: -0.00084976736, z: 0.00015112905}
+      rotation: {x: 0.0041142693, y: -0.010334656, z: -0.09073312, w: 0.9958132}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000005}
+    - name: standing_rig_final:jnt_r_thumb_d
+      parentName: standing_rig_final:rig_r_thumb_c
+      position: {x: 0.0032215908, y: -0.00009171509, z: 0.00029028786}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
