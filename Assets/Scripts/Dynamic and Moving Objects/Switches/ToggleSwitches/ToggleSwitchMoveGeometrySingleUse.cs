@@ -38,6 +38,10 @@ public class ToggleSwitchMoveGeometrySingleUse : ToggleSwitch
 	                currentTargetGeometry.geometryGameObject.transform.position = Vector3.MoveTowards(currentTargetGeometry.geometryGameObject.transform.position,
 	                    currentTargetGeometry.geometryEndPosition, currentTargetGeometry.geometryMoveSpeed * Time.fixedDeltaTime);
 	            }
+				if (SingleUse) //BB following JSM 12.3.17 - Only if Switch set to Single Use, flip the Triggered flag to True
+				{
+					Triggered = true;
+				}
 	        }
 	        else
 	        {
@@ -46,10 +50,6 @@ public class ToggleSwitchMoveGeometrySingleUse : ToggleSwitch
 	                currentTargetGeometry.geometryGameObject.transform.position = Vector3.MoveTowards(currentTargetGeometry.geometryGameObject.transform.position,
 	                    currentTargetGeometry.geometryStartPosition, currentTargetGeometry.geometryMoveSpeed * Time.fixedDeltaTime);
 	            }
-				if (SingleUse) //BB following JSM 12.3.17 - Only if Switch set to Single Use, flip the Triggered flag to True
-				{
-					Triggered = true;
-				}
 	        }
 		}	
     }
