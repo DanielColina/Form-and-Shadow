@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerController : MonoBehaviour
 {
@@ -104,11 +103,11 @@ public class PlayerController : MonoBehaviour
 
 		PlayerMotor.m_Instance.m_MoveVector = Vector3.zero;
 
-		if (CrossPlatformInputManager.GetAxis("Vertical") > deadZone || CrossPlatformInputManager.GetAxis("Vertical") < -deadZone)
-			PlayerMotor.m_Instance.m_MoveVector += CrossPlatformInputManager.GetAxis("Vertical") * (Vector3.Scale(new Vector3(1, 0, 1), Camera.main.transform.forward).normalized);
+		if (Input.GetAxis("Vertical") > deadZone || Input.GetAxis("Vertical") < -deadZone)
+			PlayerMotor.m_Instance.m_MoveVector += Input.GetAxis("Vertical") * (Vector3.Scale(new Vector3(1, 0, 1), Camera.main.transform.forward).normalized);
 
-		if (CrossPlatformInputManager.GetAxis("Horizontal") > deadZone || CrossPlatformInputManager.GetAxis("Horizontal") < -deadZone)
-			PlayerMotor.m_Instance.m_MoveVector += CrossPlatformInputManager.GetAxis("Horizontal") * Camera.main.transform.right;
+		if (Input.GetAxis("Horizontal") > deadZone || Input.GetAxis("Horizontal") < -deadZone)
+			PlayerMotor.m_Instance.m_MoveVector += Input.GetAxis("Horizontal") * Camera.main.transform.right;
         Debug.DrawRay(transform.position, PlayerMotor.m_Instance.m_MoveVector, Color.red);
 	}
 
@@ -118,8 +117,8 @@ public class PlayerController : MonoBehaviour
 
 		PlayerMotor.m_Instance.m_MoveVector = Vector3.zero;
 
-		if (CrossPlatformInputManager.GetAxis("Horizontal") > deadZone || CrossPlatformInputManager.GetAxis("Horizontal") < -deadZone)
-			PlayerMotor.m_Instance.m_MoveVector += CrossPlatformInputManager.GetAxis("Horizontal") * Camera.main.transform.right;
+		if (Input.GetAxis("Horizontal") > deadZone || Input.GetAxis("Horizontal") < -deadZone)
+			PlayerMotor.m_Instance.m_MoveVector += Input.GetAxis("Horizontal") * Camera.main.transform.right;
 	}
 
 	void GetGrabbingLocomotionInput()
@@ -128,13 +127,13 @@ public class PlayerController : MonoBehaviour
 
 		PlayerMotor.m_Instance.m_MoveVector = Vector3.zero;
 
-		if (CrossPlatformInputManager.GetAxis("Vertical") > deadZone || CrossPlatformInputManager.GetAxis("Vertical") < deadZone)
-			PlayerMotor.m_Instance.m_MoveVector += CrossPlatformInputManager.GetAxis("Vertical") * transform.forward;
+		if (Input.GetAxis("Vertical") > deadZone || Input.GetAxis("Vertical") < deadZone)
+			PlayerMotor.m_Instance.m_MoveVector += Input.GetAxis("Vertical") * transform.forward;
 	}
 
 	void GetJumpInput()
 	{
-		if (CrossPlatformInputManager.GetButtonDown ("Jump"))
+		if (Input.GetButtonDown ("Jump"))
 			isJumping = true;
 	}
 

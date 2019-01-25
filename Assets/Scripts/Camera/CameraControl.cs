@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityStandardAssets.CrossPlatformInput;
 
 [RequireComponent(typeof(Camera))]
 
@@ -94,7 +93,7 @@ public class CameraControl : MonoBehaviour
 		}
 
 		//DRF 11/27/2017 Debugger to raise/lower camera rotation speed
-		if (CrossPlatformInputManager.GetButton("Checkpoint Control") && allowSpeedAdjustment)
+		if (Input.GetButton("Checkpoint Control") && allowSpeedAdjustment)
 		{
 			switch (Input.inputString)
 			{
@@ -172,8 +171,8 @@ public class CameraControl : MonoBehaviour
 	void HandlePlayerInput()
 	{
 		// If the RMB is down, get mouse axis input to rotate camera
-		mouseX += CrossPlatformInputManager.GetAxis("Mouse X") * m_XMouseRotationSpeed;
-		mouseY -= CrossPlatformInputManager.GetAxis("Mouse Y") * m_YMouseRotationSpeed;
+		mouseX += Input.GetAxis("Mouse X") * m_XMouseRotationSpeed;
+		mouseY -= Input.GetAxis("Mouse Y") * m_YMouseRotationSpeed;
 		// Limit mouse Y
 		mouseY = ClampAngle(mouseY, m_YMinPanLimit, m_YMaxPanLimit);
 	}

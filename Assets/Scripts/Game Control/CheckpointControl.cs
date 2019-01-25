@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 
 public class CheckpointControl : MonoBehaviour {
@@ -14,7 +13,7 @@ public class CheckpointControl : MonoBehaviour {
     private bool allowCheckpointTransfer = true;
 
     void Update() {
-        if (CrossPlatformInputManager.GetButton("Checkpoint Control") && allowCheckpointTransfer)
+        if (Input.GetButton("Checkpoint Control") && allowCheckpointTransfer)
         {
             switch (Input.inputString)
             {
