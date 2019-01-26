@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Caps
-  m_Shader: {fileID: 4800000, guid: 48fa14e5ef4b7a747abd9e039ca18f19, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _NODE_6596_ON _ROTDIRECTION_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
