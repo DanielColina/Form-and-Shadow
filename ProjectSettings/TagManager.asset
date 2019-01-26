@@ -3,18 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Shadow Wall
-  - Push Cube
-  - Conveyor Cube
-  - GoalA
-  - SwitchA
-  - SwitchB
-  - GoalB
-  - SwitchC
-  - GoalC
-  - Solid_Mesh
-  - Transparent_Mesh
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -24,30 +13,30 @@ TagManager:
   - UI
   - 
   - 
-  - Player
-  - Climb Volume
-  - Shadow Wall
-  - Shadow
-  - Form
-  - 
-  - Shadowmeld Collide
-  - Shadowmeld Ignore
-  - Shadowmeld Death
-  - Ignore Shadowmeld Collision
-  - 
-  - 
-  - 
-  - Lava
   - 
   - 
   - 
   - 
   - 
   - 
-  - PlayerRigCollision
-  - Player Collision Only
-  - Player Collision Ignore
-  - Light Ignore
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0

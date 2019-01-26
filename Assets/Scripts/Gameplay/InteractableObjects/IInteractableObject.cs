@@ -2,5 +2,5 @@
 
 public interface IInteractableObject
 {
-    void HandlePlayerInteract();
+    void HandleInteract();
 }
