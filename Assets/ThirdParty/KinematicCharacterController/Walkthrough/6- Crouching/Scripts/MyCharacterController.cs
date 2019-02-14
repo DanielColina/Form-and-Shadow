@@ -274,6 +274,10 @@ namespace KinematicCharacterController.Walkthrough.Crouching
                     Motor.CollidableLayers,
                     QueryTriggerInteraction.Ignore) > 0)
                 {
+                    foreach (Collider collider in _probedColliders)
+                    {
+                        Debug.Log(collider);
+                    }
                     // If obstructions, just stick to crouching dimensions
                     Motor.SetCapsuleDimensions(0.5f, 1f, 0.5f);
                 }

@@ -47,6 +47,8 @@ namespace FormAndShadow
             input.moveVector.z = Input.GetAxisRaw(verticalInput);
             input.cameraRotation = playerCamera.transform.rotation;
             input.jumpDown = Input.GetKeyDown(KeyCode.Space);
+            input.crouchDown = Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl);
+            input.crouchUp = Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.RightControl);
 
             // Apply input values to target character
             character.SetInput(ref input);

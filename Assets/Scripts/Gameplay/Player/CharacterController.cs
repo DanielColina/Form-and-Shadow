@@ -14,6 +14,8 @@ namespace FormAndShadow
         public Vector3 moveVector;
         public Quaternion cameraRotation;
         public bool jumpDown;
+        public bool crouchDown;
+        public bool crouchUp;
     }
 
     /// <summary>
@@ -21,6 +23,9 @@ namespace FormAndShadow
     /// </summary>
     public class CharacterController : BaseCharacterController
     {
+        [Header("Object References")]
+        [SerializeField] private Animator animator;
+
         [Header("Stable Movement")]
         [SerializeField] private float maxMoveSpeed = 10.0f;
         [SerializeField] private float moveSharpness = 15.0f;
@@ -37,6 +42,12 @@ namespace FormAndShadow
         [SerializeField] private float jumpPreGroundingGraceTime = 0.0f;
         [SerializeField] private float jumpPostGroundingGraceTime = 0.0f;
 
+        [Header("Crouching")]
+        [SerializeField] private float standingCapsuleHeight;
+        [SerializeField] private float standingCapsuleYOffset;
+        [SerializeField] private float crouchCapsuleHeight;
+        [SerializeField] private float crouchCapsuleYOffset;
+
         [Header("Misc")]
         [SerializeField] private Vector3 gravity = new Vector3(0.0f, -30.0f, 0.0f);
 
@@ -47,7 +58,10 @@ namespace FormAndShadow
         private bool jumpedThisFrame = false;
         private float timeSinceJumpRequested = Mathf.Infinity;
         private float timeSinceLastAbleToJump = 0.0f;
-        private Vector3 wallJumpNormal;
+        private bool shouldBeCrouching;
+        private bool isCrouching;
+        private Collider[] probedColliders = new Collider[8];
+        private Vector3 internalVelocityAdd = Vector3.zero;
 
         /// <summary>
         /// Called by PlayerInput each frame to tell this character what its input is
@@ -78,6 +92,23 @@ namespace FormAndShadow
                 timeSinceJumpRequested = 0.0f;
                 jumpRequested = true;
             }
+
+            // Process crouching input
+            if (input.crouchDown)
+            {
+                shouldBeCrouching = true;
+
+                if (!isCrouching)
+                {
+                    isCrouching = true;
+                    Motor.SetCapsuleDimensions(Motor.Capsule.radius, crouchCapsuleHeight, crouchCapsuleYOffset);
+                    animator.SetBool("IsCrouching", true);
+                }
+            }
+            else if (input.crouchUp)
+            {
+                shouldBeCrouching = false;
+            }
         }
 
         public override void BeforeCharacterUpdate(float deltaTime)
@@ -87,10 +118,6 @@ namespace FormAndShadow
         public override bool IsColliderValidForCollisions(Collider coll)
         {
             return true;
-        }
-
-        public override void PostGroundingUpdate(float deltaTime)
-        {
         }
 
         public override void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport)
@@ -176,6 +203,12 @@ namespace FormAndShadow
                     jumpedThisFrame = true;
                 }
             }
+
+            if (internalVelocityAdd.sqrMagnitude > 0.0f)
+            {
+                currentVelocity += internalVelocityAdd;
+                internalVelocityAdd = Vector3.zero;
+            }
         }
 
         public override void AfterCharacterUpdate(float deltaTime)
@@ -198,6 +231,39 @@ namespace FormAndShadow
                 // Keep track of the time since we were last able to jump for grace period
                 timeSinceLastAbleToJump += deltaTime;
             }
+
+            // Handle uncrouching
+            if (isCrouching && !shouldBeCrouching)
+            {
+                // Do an overlap test what the character's standing height to see if there are any obstructions
+                Motor.SetCapsuleDimensions(Motor.Capsule.radius, standingCapsuleHeight, standingCapsuleYOffset);
+                if (Motor.CharacterOverlap(Motor.TransientPosition, Motor.TransientRotation, probedColliders, Motor.CollidableLayers, QueryTriggerInteraction.Ignore) > 0)
+                {
+                    Motor.SetCapsuleDimensions(Motor.Capsule.radius, crouchCapsuleHeight, crouchCapsuleYOffset);
+                }
+                else
+                {
+                    // If there are no obstructions, uncrouch
+                    animator.SetBool("IsCrouching", false);
+                    isCrouching = false;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Overridden from the BaseCharacterController class, called after the controller updates the current grounding state
+        /// </summary>
+        /// <param name="deltaTime">The delta time of the last frame</param>
+        public override void PostGroundingUpdate(float deltaTime)
+        {
+            if (Motor.GroundingStatus.IsStableOnGround && !Motor.LastGroundingStatus.IsStableOnGround)
+            {
+                OnLanded();
+            }
+            else if (!Motor.GroundingStatus.IsStableOnGround && Motor.LastGroundingStatus.IsStableOnGround)
+            {
+                OnLeaveStableGround();
+            }
         }
 
         public override void OnGroundHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
@@ -205,6 +271,20 @@ namespace FormAndShadow
         }
 
         public override void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
+        {
+        }
+
+        public void AddVelocity(Vector3 velocity)
+        {
+            internalVelocityAdd = velocity;
+        }
+
+        protected void OnLanded()
+        {
+
+        }
+
+        protected void OnLeaveStableGround()
         {
         }
     }

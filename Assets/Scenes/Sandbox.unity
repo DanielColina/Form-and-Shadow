@@ -173,34 +173,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 154591258, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: DetectDiscreteCollisions
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 154591258, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: RigidbodyInteractionType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 154591258, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: PreserveAttachedRigidbodyMomentum
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 154591261, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: maxMoveSpeed
-      value: 7.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 154591261, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: moveSharpness
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 154591261, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: orientationSharpness
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 94041391, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
-      propertyPath: m_Name
-      value: CameraFollowPoint
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10fb7da4d3d36c14cab986edf7f2f82f, type: 3}
 --- !u!114 &154591256 stripped
@@ -1206,7 +1178,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471210300}
-  m_LocalRotation: {x: -0.036324956, y: -0.00000001719502, z: -6.25024e-10, w: 0.99934006}
+  m_LocalRotation: {x: -0.036324956, y: 0.000000017195033, z: 6.2501815e-10, w: 0.99934006}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
