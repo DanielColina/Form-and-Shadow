@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using RootMotion.FinalIK;
 
+[RequireComponent(typeof(InteractionObject))]
 public class ToggleSwitch : Switch
 {
     private Animator anim;
@@ -12,6 +14,6 @@ public class ToggleSwitch : Switch
     public override void HandleInteract()
     {
         base.HandleInteract();
-        anim.SetBool("Toggled", isSwitched);
+        anim.SetTrigger("Toggle");
     }
 }

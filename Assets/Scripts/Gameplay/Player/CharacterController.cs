@@ -6,12 +6,18 @@ using KinematicCharacterController;
 
 namespace FormAndShadow
 {
+    public enum CharacterState
+    {
+        Default,
+    }
+
     /// <summary>
     /// Character input structure
     /// </summary>
     public struct PlayerInputSet
     {
-        public Vector3 moveVector;
+        public float moveAxisForward;
+        public float moveAxisRight;
         public Quaternion cameraRotation;
         public bool jumpDown;
         public bool crouchDown;
@@ -27,9 +33,9 @@ namespace FormAndShadow
         [SerializeField] private Animator animator;
 
         [Header("Stable Movement")]
-        [SerializeField] private float maxMoveSpeed = 10.0f;
-        [SerializeField] private float moveSharpness = 15.0f;
-        [SerializeField] private float orientationSharpness = 10.0f;
+        [SerializeField] private float stableMaxMoveSpeed = 10.0f;
+        [SerializeField] private float stableMoveSharpness = 15.0f;
+        [SerializeField] private float stableOrientationSharpness = 10.0f;
 
         [Header("Air Movement")]
         [SerializeField] private float maxAirMoveSpeed = 10.0f;
@@ -43,6 +49,7 @@ namespace FormAndShadow
         [SerializeField] private float jumpPostGroundingGraceTime = 0.0f;
 
         [Header("Crouching")]
+        [SerializeField] private float crouchMaxMovementSpeed;
         [SerializeField] private float standingCapsuleHeight;
         [SerializeField] private float standingCapsuleYOffset;
         [SerializeField] private float crouchCapsuleHeight;
@@ -50,6 +57,9 @@ namespace FormAndShadow
 
         [Header("Misc")]
         [SerializeField] private Vector3 gravity = new Vector3(0.0f, -30.0f, 0.0f);
+        [SerializeField] private List<Collider> ignoredColliders = new List<Collider>();
+
+        public CharacterState currentCharacterState = CharacterState.Default;
 
         private Vector3 moveInputVector;
         private Vector3 lookInputVector;
@@ -63,12 +73,35 @@ namespace FormAndShadow
         private Collider[] probedColliders = new Collider[8];
         private Vector3 internalVelocityAdd = Vector3.zero;
 
+        private void Start()
+        {
+            TransitionToState(CharacterState.Default);
+        }
+
+        public void TransitionToState(CharacterState newState)
+        {
+            CharacterState tmpInitialState = currentCharacterState;
+
+        }
+
+        public void OnStateEnter(CharacterState state, CharacterState fromState)
+        {
+
+        }
+
+        public void OnStateExit(CharacterState state, CharacterState toState)
+        {
+
+        }
+
         /// <summary>
         /// Called by PlayerInput each frame to tell this character what its input is
         /// </summary>
         /// <param name="input">Input values</param>
         public void SetInput(ref PlayerInputSet input)
         {
+            Vector3 rawInputVector = Vector3.ClampMagnitude(new Vector3(input.moveAxisRight, 0f, input.moveAxisForward), 1f);
+
             // Project a forward vector that's been rotated to the camera's rotation along the character's plane
             Vector3 cameraPlanarDirection = Vector3.ProjectOnPlane(input.cameraRotation * Vector3.forward, Motor.CharacterUp).normalized;
 
@@ -81,10 +114,10 @@ namespace FormAndShadow
             Quaternion cameraPlanarRotation = Quaternion.LookRotation(cameraPlanarDirection, Motor.CharacterUp);
 
             // Rotate my input vector to the camera's planar rotation
-            moveInputVector = cameraPlanarRotation * input.moveVector.normalized;
+            moveInputVector = cameraPlanarRotation * rawInputVector.normalized;
 
             // Set my look input vector to the camera's planar projected direction
-            lookInputVector = cameraPlanarDirection;
+            lookInputVector = moveInputVector.normalized;
 
             // Process jumping input
             if (input.jumpDown)
@@ -115,21 +148,16 @@ namespace FormAndShadow
         {
         }
 
-        public override bool IsColliderValidForCollisions(Collider coll)
-        {
-            return true;
-        }
-
         public override void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport)
         {
         }
 
         public override void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
         {
-            if (lookInputVector != Vector3.zero && orientationSharpness > 0.0f)
+            if (lookInputVector != Vector3.zero && stableOrientationSharpness > 0.0f)
             {
                 // Smoothly interpolate from current look direction to target look direction
-                Vector3 smoothedLookInputDirection = Vector3.Slerp(Motor.CharacterForward, lookInputVector, 1 - Mathf.Exp(-orientationSharpness * deltaTime)).normalized;
+                Vector3 smoothedLookInputDirection = Vector3.Slerp(Motor.CharacterForward, lookInputVector, 1 - Mathf.Exp(-stableOrientationSharpness * deltaTime)).normalized;
 
                 // Apply the current rotation
                 currentRotation = Quaternion.LookRotation(smoothedLookInputDirection, Motor.CharacterUp);
@@ -150,10 +178,10 @@ namespace FormAndShadow
                 Vector3 inputRight = Vector3.Cross(moveInputVector, Motor.CharacterUp);
                 Vector3 reorientedInput = Vector3.Cross(Motor.GroundingStatus.GroundNormal, inputRight).normalized * moveInputVector.magnitude;
 
-                targetMovementVelocity = reorientedInput * maxMoveSpeed;
+                targetMovementVelocity = reorientedInput * (isCrouching ? crouchMaxMovementSpeed : stableMaxMoveSpeed);
 
                 // Smooth movement velocity
-                currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1 - Mathf.Exp(-moveSharpness * deltaTime));
+                currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1 - Mathf.Exp(-stableMoveSharpness * deltaTime));
             }
 
             else
@@ -272,6 +300,14 @@ namespace FormAndShadow
 
         public override void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
         {
+        }
+
+        public override bool IsColliderValidForCollisions(Collider coll)
+        {
+            if (ignoredColliders.Contains(coll))
+                return false;
+            else
+                return true;
         }
 
         public void AddVelocity(Vector3 velocity)

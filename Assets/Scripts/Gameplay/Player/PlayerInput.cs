@@ -8,6 +8,7 @@ namespace FormAndShadow
     /// </summary>
     public class PlayerInput : MonoBehaviour
     {
+        [SerializeField] private bool lockAndHideCursor;
         [SerializeField] private PlayerCamera playerCamera;
         [SerializeField] private CharacterController character;
         [SerializeField] private Transform cameraFollowTransform;
@@ -17,9 +18,12 @@ namespace FormAndShadow
 
         private void Start()
         {
-            // Lock and hide the cursor
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            if (lockAndHideCursor)
+            {
+                // Lock and hide the cursor
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
 
             // Give our player camera its respective follow transform
             playerCamera.SetFollowTransform(cameraFollowTransform);
@@ -43,8 +47,8 @@ namespace FormAndShadow
             PlayerInputSet input = new PlayerInputSet();
 
             // Update input struct with current values
-            input.moveVector.x = Input.GetAxisRaw(horizontalInput);
-            input.moveVector.z = Input.GetAxisRaw(verticalInput);
+            input.moveAxisRight = Input.GetAxisRaw(horizontalInput);
+            input.moveAxisForward = Input.GetAxisRaw(verticalInput);
             input.cameraRotation = playerCamera.transform.rotation;
             input.jumpDown = Input.GetKeyDown(KeyCode.Space);
             input.crouchDown = Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl);
