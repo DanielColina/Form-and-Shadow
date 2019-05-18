@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace FormAndShadow
+namespace FormandShadow
 {
     /// <summary>
     /// Class that handles catching player input from any source (camera, keyboard, mouse)

@@ -25,7 +25,6 @@ public abstract class Switch : MonoBehaviour, IInteractableObject
         }
     }
 
-    [EasyButtons.Button("Flip switch")]
     public virtual void HandleInteract()
     {
         IsSwitched = !IsSwitched;

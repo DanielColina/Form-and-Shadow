@@ -4,11 +4,10 @@ using UnityEngine;
 
 using Cinemachine;
 
-namespace FormAndShadow
+namespace FormandShadow
 {
     public class PlayerCamera : MonoBehaviour
     {
-
         /// <summary>
         /// Sets the follow transform for the attached CinemachineCamera
         /// </summary>

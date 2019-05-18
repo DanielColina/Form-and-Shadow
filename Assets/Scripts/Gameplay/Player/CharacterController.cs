@@ -4,7 +4,7 @@ using UnityEngine;
 
 using KinematicCharacterController;
 
-namespace FormAndShadow
+namespace FormandShadow
 {
     public enum CharacterState
     {
