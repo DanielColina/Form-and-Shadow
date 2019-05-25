@@ -44,7 +44,7 @@ namespace FormandShadow
         private void HandleCharacterInput()
         {
             // Create a new input struct value
-            PlayerInputSet input = new PlayerInputSet();
+            PlayerInputs input = new PlayerInputs();
 
             // Update input struct with current values
             input.moveAxisRight = Input.GetAxisRaw(horizontalInput);
