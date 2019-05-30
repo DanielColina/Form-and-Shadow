@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using KinematicCharacterController;
 using KinematicCharacterController.Examples;
+using System.Linq;
 
 namespace KinematicCharacterController.Walkthrough.PlayerCameraCharacterSetup
 {
     public class MyPlayer : MonoBehaviour
     {
-        public OrbitCamera OrbitCamera;
+        public ExampleCharacterCamera OrbitCamera;
         public Transform CameraFollowPoint;
         public MyCharacterController Character;
-        public float MouseSensitivity = 0.01f;
 
         private Vector3 _lookInputVector = Vector3.zero;
 
@@ -23,7 +23,7 @@ namespace KinematicCharacterController.Walkthrough.PlayerCameraCharacterSetup
             OrbitCamera.SetFollowTransform(CameraFollowPoint);
 
             // Ignore the character's collider(s) for camera obstruction checks
-            OrbitCamera.IgnoredColliders = Character.GetComponentsInChildren<Collider>();
+            OrbitCamera.IgnoredColliders = Character.GetComponentsInChildren<Collider>().ToList();
         }
 
         private void Update()
@@ -41,7 +41,7 @@ namespace KinematicCharacterController.Walkthrough.PlayerCameraCharacterSetup
             // Create the look input vector for the camera
             float mouseLookAxisUp = Input.GetAxisRaw("Mouse Y");
             float mouseLookAxisRight = Input.GetAxisRaw("Mouse X");
-            _lookInputVector = new Vector3(mouseLookAxisRight * MouseSensitivity, mouseLookAxisUp * MouseSensitivity, 0f);
+            _lookInputVector = new Vector3(mouseLookAxisRight, mouseLookAxisUp, 0f);
 
             // Prevent moving the camera while the cursor isn't locked
             if (Cursor.lockState != CursorLockMode.Locked)

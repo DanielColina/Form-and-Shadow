@@ -13,8 +13,10 @@ namespace KinematicCharacterController.Walkthrough.MovingPlatform
         public float DirectorTime;
     }
 
-    public class MyMovingPlatform : BaseMoverController
+    public class MyMovingPlatform : MonoBehaviour, IMoverController
     {
+        public PhysicsMover Mover;
+
         public PlayableDirector Director;
 
         private Transform _transform;
@@ -22,10 +24,12 @@ namespace KinematicCharacterController.Walkthrough.MovingPlatform
         private void Start()
         {
             _transform = this.transform;
+
+            Mover.MoverController = this;
         }
 
         // This is called every FixedUpdate by our PhysicsMover in order to tell it what pose it should go to
-        public override void UpdateMovement(out Vector3 goalPosition, out Quaternion goalRotation, float deltaTime)
+        public void UpdateMovement(out Vector3 goalPosition, out Quaternion goalRotation, float deltaTime)
         {
             // Remember pose before animation
             Vector3 _positionBeforeAnim = _transform.position;

@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 using KinematicCharacterController;
 
-namespace FormAndShadow
+namespace FormandShadow
 {
     public enum CharacterState
     {
@@ -14,7 +13,7 @@ namespace FormAndShadow
     /// <summary>
     /// Character input structure
     /// </summary>
-    public struct PlayerInputSet
+    public struct PlayerInputs
     {
         public float moveAxisForward;
         public float moveAxisRight;
@@ -27,10 +26,12 @@ namespace FormAndShadow
     /// <summary>
     /// Default character controller for Form and Shadow.
     /// </summary>
-    public class CharacterController : BaseCharacterController
+    public class CharacterController : MonoBehaviour, ICharacterController
     {
         [Header("Object References")]
+        [SerializeField] private KinematicCharacterMotor Motor;
         [SerializeField] private Animator animator;
+
 
         [Header("Stable Movement")]
         [SerializeField] private float stableMaxMoveSpeed = 10.0f;
@@ -59,8 +60,6 @@ namespace FormAndShadow
         [SerializeField] private Vector3 gravity = new Vector3(0.0f, -30.0f, 0.0f);
         [SerializeField] private List<Collider> ignoredColliders = new List<Collider>();
 
-        public CharacterState currentCharacterState = CharacterState.Default;
-
         private Vector3 moveInputVector;
         private Vector3 lookInputVector;
         private bool jumpRequested = false;
@@ -75,30 +74,14 @@ namespace FormAndShadow
 
         private void Start()
         {
-            TransitionToState(CharacterState.Default);
-        }
-
-        public void TransitionToState(CharacterState newState)
-        {
-            CharacterState tmpInitialState = currentCharacterState;
-
-        }
-
-        public void OnStateEnter(CharacterState state, CharacterState fromState)
-        {
-
-        }
-
-        public void OnStateExit(CharacterState state, CharacterState toState)
-        {
-
+            Motor.CharacterController = this;
         }
 
         /// <summary>
         /// Called by PlayerInput each frame to tell this character what its input is
         /// </summary>
         /// <param name="input">Input values</param>
-        public void SetInput(ref PlayerInputSet input)
+        public void SetInput(ref PlayerInputs input)
         {
             Vector3 rawInputVector = Vector3.ClampMagnitude(new Vector3(input.moveAxisRight, 0f, input.moveAxisForward), 1f);
 
@@ -144,15 +127,15 @@ namespace FormAndShadow
             }
         }
 
-        public override void BeforeCharacterUpdate(float deltaTime)
+        public void BeforeCharacterUpdate(float deltaTime)
         {
         }
 
-        public override void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport)
+        public void ProcessHitStabilityReport(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, Vector3 atCharacterPosition, Quaternion atCharacterRotation, ref HitStabilityReport hitStabilityReport)
         {
         }
 
-        public override void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
+        public void UpdateRotation(ref Quaternion currentRotation, float deltaTime)
         {
             if (lookInputVector != Vector3.zero && stableOrientationSharpness > 0.0f)
             {
@@ -164,7 +147,7 @@ namespace FormAndShadow
             }
         }
 
-        public override void UpdateVelocity(ref Vector3 currentVelocity, float deltaTime)
+        public void UpdateVelocity(ref Vector3 currentVelocity, float deltaTime)
         {
             Vector3 targetMovementVelocity = Vector3.zero;
             
@@ -239,7 +222,7 @@ namespace FormAndShadow
             }
         }
 
-        public override void AfterCharacterUpdate(float deltaTime)
+        public void AfterCharacterUpdate(float deltaTime)
         {
             // Handle resetting based on pre-ground grace period
             if (jumpRequested && timeSinceJumpRequested > jumpPreGroundingGraceTime)
@@ -282,7 +265,7 @@ namespace FormAndShadow
         /// Overridden from the BaseCharacterController class, called after the controller updates the current grounding state
         /// </summary>
         /// <param name="deltaTime">The delta time of the last frame</param>
-        public override void PostGroundingUpdate(float deltaTime)
+        public void PostGroundingUpdate(float deltaTime)
         {
             if (Motor.GroundingStatus.IsStableOnGround && !Motor.LastGroundingStatus.IsStableOnGround)
             {
@@ -294,15 +277,15 @@ namespace FormAndShadow
             }
         }
 
-        public override void OnGroundHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
+        public void OnGroundHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
         {
         }
 
-        public override void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
+        public void OnMovementHit(Collider hitCollider, Vector3 hitNormal, Vector3 hitPoint, ref HitStabilityReport hitStabilityReport)
         {
         }
 
-        public override bool IsColliderValidForCollisions(Collider coll)
+        public bool IsColliderValidForCollisions(Collider coll)
         {
             if (ignoredColliders.Contains(coll))
                 return false;
@@ -315,12 +298,16 @@ namespace FormAndShadow
             internalVelocityAdd = velocity;
         }
 
-        protected void OnLanded()
+        private void OnLanded()
         {
 
         }
 
-        protected void OnLeaveStableGround()
+        private void OnLeaveStableGround()
+        {
+        }
+
+        public void OnDiscreteCollisionDetected(Collider hitCollider)
         {
         }
     }
