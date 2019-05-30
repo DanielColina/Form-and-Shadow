@@ -6,7 +6,7 @@ public abstract class ALocomotionController<T> : ScriptableObject, ICharacterCon
 {
     public abstract T GetInputSet();
 
-    public abstract void UpdateInputSet(ref T inputs);
+    public abstract void ProcessInputSet(ref T inputSet);
 
     public abstract void AfterCharacterUpdate(float deltaTime);
 

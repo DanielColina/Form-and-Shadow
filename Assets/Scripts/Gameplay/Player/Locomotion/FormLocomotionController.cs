@@ -29,7 +29,7 @@ public class FormLocomotionController : ALocomotionController<FormInputSet>
         return new FormInputSet();
     }
 
-    public override void UpdateInputSet(ref FormInputSet inputs)
+    public override void ProcessInputSet(ref FormInputSet inputs)
     {
     }
 
